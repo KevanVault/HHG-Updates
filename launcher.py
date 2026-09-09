@@ -4,6 +4,8 @@ import threading
 import requests
 import hashlib
 import os
+import subprocess
+import shutil
 
 # Configuración básica
 SCREEN_WIDTH = 800
@@ -11,7 +13,7 @@ SCREEN_HEIGHT = 600
 FPS = 60
 BG_COLOR = (30, 30, 30)
 TEXT_COLOR = (255, 255, 255)
-VERSION_LOCAL = "1.3"
+VERSION_LOCAL = "1.2"
 
 class Button:
     def __init__(self, text, x, y, width, height, color, callback):
@@ -50,9 +52,14 @@ class Launcher:
 
     def play_game(self):
         print("Lanzando el juego...")
-        # Aquí llamaríamos a subprocess.Popen(["Holo Hunger Games.exe"])
-        pygame.quit()
-        sys.exit()
+        # Lanza el juego principal y cierra el launcher
+        try:
+            subprocess.Popen(["Holo Hunger Games.exe"])
+            pygame.quit()
+            sys.exit()
+        except Exception as e:
+            print(f"Error al lanzar el juego: {e}")
+            self.status = "Error al lanzar el juego"
 
     def update_game(self):
         if not self.is_online or not self.manifest:
@@ -61,19 +68,44 @@ class Launcher:
         print("Iniciando actualización...")
         self.status = "Descargando actualización..."
         
-        # Iterar sobre los archivos definidos en el manifiesto
-        for file_name, file_info in self.manifest.get('files', {}).items():
-            file_url = file_info.get('url')
-            expected_hash = file_info.get('hash')
+        # Crear directorio temporal si no existe
+        temp_dir = "temp_updates"
+        os.makedirs(temp_dir, exist_ok=True)
+        
+        try:
+            # Iterar sobre los archivos definidos en el manifiesto
+            for file_name, file_info in self.manifest.get('files', {}).items():
+                file_url = file_info.get('url')
+                expected_hash = file_info.get('hash')
+                
+                print(f"Descargando {file_name}...")
+                response = requests.get(file_url, stream=True)
+                if response.status_code == 200:
+                    temp_file_path = os.path.join(temp_dir, file_name)
+                    os.makedirs(os.path.dirname(temp_file_path), exist_ok=True)
+                    
+                    with open(temp_file_path, 'wb') as f:
+                        for chunk in response.iter_content(chunk_size=8192):
+                            f.write(chunk)
+                    
+                    # Verificar integridad
+                    if self.calculate_hash(temp_file_path) == expected_hash:
+                        print(f"Hash verificado para {file_name}")
+                        # Mover archivo a destino final
+                        os.makedirs(os.path.dirname(file_name), exist_ok=True)
+                        os.replace(temp_file_path, file_name)
+                    else:
+                        raise Exception(f"Error de integridad en {file_name}")
             
-            print(f"Descargando {file_name} desde {file_url}...")
-            # Aquí implementaremos la lógica de descarga real
-            # response = requests.get(file_url)
-            # ...
+            # Limpieza
+            shutil.rmtree(temp_dir)
+            self.status = "Actualización completada. Reinicie el launcher."
+            self.needs_update = False
+            self.create_buttons()
             
-        self.status = "Actualización completada. Reinicie el launcher."
-        # self.needs_update = False
-        # self.create_buttons()
+        except Exception as e:
+            print(f"Error durante la actualización: {e}")
+            self.status = "Error en actualización"
 
     def create_buttons(self):
         self.buttons = []
