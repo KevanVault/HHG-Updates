@@ -13,8 +13,8 @@ SCREEN_HEIGHT = 600
 FPS = 60
 BG_COLOR = (30, 30, 30)
 TEXT_COLOR = (255, 255, 255)
-VERSION_LOCAL = "1.2"
-
+VERSION_LOCAL = "1.3"
+# actualizado
 class Button:
     def __init__(self, text, x, y, width, height, color, callback):
         self.rect = pygame.Rect(x, y, width, height)
