@@ -1,6 +1,9 @@
 {
   "version": "1.3",
-  "file": {
-    "launcher.py": "2a68fa8a66bae59d57811af2a742cec668a46517ef2d202a898139f6ad7be897"
+  "files": {
+    "launcher.py": {
+      "hash": "2a68fa8a66bae59d57811af2a742cec668a46517ef2d202a898139f6ad7be897",
+      "url": "https://raw.githubusercontent.com/KevanVault/HHG-Updates/main/launcher.py"
+    }
   }
 }
