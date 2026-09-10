@@ -2,3 +2,16 @@ prueba
 de noticas
 para
 el juego contando con las futuras actualizaciones del mismo e informacion impotante
+texto
+para
+probar
+que
+el 
+scroll
+funcione
+correctamente
+sin errores
+y sin fallo
+valga
+la
+redundancia
