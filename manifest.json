@@ -1,9 +1,9 @@
 {
-  "version": "1.3.1",
+  "version": "1.3.2",
   "files": {
-    "_internal/assets/sprites/Sin título-1.png": {
-      "hash": "91cad37514f93b6ddfc9bb248b8fcd8d8617c874ceb93a98cb04581f09f0cb2c",
-      "url": "https://raw.githubusercontent.com/KevanVault/HHG-Updates/refs/heads/main/Sin%20t%C3%ADtulo-1.png"
+    "_internal/game_data/locales/en/biomes.json": {
+      "hash": "70a4f92e03b4deaae307ea39cc9a666c6f55c84d74d081202b50326e5ef2b47c",
+      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/biomes.json"
     }
   }
 }
