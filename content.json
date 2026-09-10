@@ -1,6 +1,6 @@
 {
   "dlcs": [
-    {"name": "Realms Beyond", "desc": "Descripción del DLC..."},
-    {"name": "Cyber Corrupt", "desc": "Más contenido..."}
+    {"name": "Realms Beyond", "desc": "Cruza el velo entre lo sagrado y lo olvidado. El destino es una moneda que se lanza en el Inframundo. Realms Beyond abre las puertas a lo místico y lo prohibido. Es un viaje desde las profundidades del olvido hasta las cumbres de la iluminación. En este pack, la arena se convierte en un escenario mitológico donde el tiempo parece haberse detenido.."}, "url": "https://kevanvault.itch.io/dlc-hhg-realms-beyond",
+    {"name": "Cyber Corrupt", "desc": "Donde la tecnología encuentra su fin, comienza tu ventaja táctica. Este pack de expansión no solo cambia la visual; introduce mecánicas de Interferencia y Desgaste diseñadas para jugadores que prefieren tácticas de control y confusión.", "url": "https://kevanvault.itch.io/dlc-hhg-cyber-corrupt"}
   ]
 }
