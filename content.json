@@ -1,0 +1,6 @@
+{
+  "dlcs": [
+    {"name": "Realms Beyond", "desc": "Descripción del DLC..."},
+    {"name": "Cyber Corrupt", "desc": "Más contenido..."}
+  ]
+}
