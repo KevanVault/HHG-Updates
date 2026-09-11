@@ -9,16 +9,16 @@
       "hash": "8ebbae25926d7f224fef09d2be2627dad80307b5d5702b087a7edee3c8a89565",
       "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/Holo%20Hunger%20Games.exe"
     },
-    "en.json": {
-      "hash": "",
+    "_internal/game_data/locales/en.json": {
+      "hash": "cedf3ea6756c95c2b0bfc81fabcb97d16ad120a8aa1219ba3086c6e6e50a1b16",
       "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/en.json"
     },
-    "es.json": {
-      "hash": "",
+    "_internal/game_data/locales/es.json": {
+      "hash": "1fd54e5b3239425846021262cce53d11c8e5e3754505cb527018b628a8143d57",
       "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/es.json"
     },
-    "jp.json": {
-      "hash": "",
+    "_internal/game_data/locales/jp.json": {
+      "hash": "bbef8de754838f4893abfc0799422b4544c1746d22508eb7429c2b3b9ed75955",
       "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/jp.json"
     }
   },
