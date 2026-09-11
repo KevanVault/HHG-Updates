@@ -1,0 +1,924 @@
+{
+  "ui": {
+    "launcher": {
+      "title": "ホロ・ハンガー・ゲーム",
+      "play": "プレイ",
+      "update": "アップデート",
+      "news": "ニュース",
+      "store": "ストアで見る",
+      "lang": "言語",
+      "verifying": "接続を確認中...",
+      "new_version": "新しいバージョン: {v}",
+      "no_news": "ニュースはありません。",
+      "download": "ダウンロード中...",
+      "completed": "完了。",
+      "offline": "オフラインモード",
+      "updated": "ゲームがバージョン {v} に更新されました！"
+    },
+    "ui_stats":{
+      "class_role": "クラス: {role}",
+      "role_skill_label": "{name} ({role})",
+      "unique_skill_label": "{name} (固有スキル)"
+    },
+    "relic_management": {
+        "title": "レリック管理",
+        "equip_relic": "装備中のレリック",
+        "actives_availables": "利用可能なアクティブ・レリック",
+        "passives_availables": "利用可能なパッシブ・レリック",
+        "actives": "アクティブ・レリック",
+        "passives": "パッシブ・レリック",
+        "equip": "装備する",
+        "unequip": "外す",
+        "back": "戻る"
+      },
+    "combo_guide": {
+      "title": "絆とコンボガイド",
+      "title_generations": "期生ボーナス（ジェネレーション絆）",
+      "title_special": "スペシャル絆（グループ - 最低2人）",
+      "title_affinity": "相性ボーナス（アフィニティ）",
+      "tip": "ヒント: ボーナスは重複します。色々な組み合わせを試してみよう！",
+      "affinity_lvl2": "• Lv 2: 攻撃力 +5%",
+      "affinity_lvl3": "• Lv 3: HP +5%",
+      "affinity_lvl4": "• Lv 4: 運 (LCK) +10%",
+      "affinity_lvl5": "• Lv 5: 全ステータス +5%",
+      "combos": {
+        "duo": "• デュオ（同期的生から2人）: 攻撃力 +5% / HP +5%",
+        "trio": "• トリオ（同期的生から3人）: 攻撃力 +15% / HP +15% / 経験値 +15%",
+        "micomet": "• みこめっと: 攻撃力 +10% | エリート: 経験値 +5%",
+        "gamers": "• ゲーマーズ: スピード +10% / 攻撃力 +5%",
+        "myth": "• Myth（一期生EN）: 全ステータス +10%",
+        "council": "• Council / Promise: 魔力（アビリティ） +15%",
+        "advent": "• Advent: HP +10% / 運 +5% | Justice: 攻撃力 +10% / 防御力 +5%",
+        "divas": "• ディーヴァ（歌姫）: 経験値 +20%"
+      }
+    },
+    "crash": {
+      "title": "ゲームがクラッシュしました（すみません！）",
+      "log_saved": "ログの保存先: {path}",
+      "close": "ESCキーを押すか、ウィンドウを閉じて終了してください"
+    },
+    "achievements": {
+    "elite_assassin": { "name": "エリート・アサシン", "desc": "1回の試合で最も多くのキル数を獲得する（最低2キル）。" },
+    "war_tank": { "name": "ウォー・タンク", "desc": "甚大なダメージを受けながらも生き残り続けた者に与えられる。" },
+    "iron_fist": { "name": "アイアン・フィスト", "desc": "他の参加者に対して合計で最も多くのダメージを与えた。" },
+    "scavenger": { "name": "スカベンジャー", "desc": "アリーナから大量の補給物資や武器をかき集めた。" },
+    "pacifist": { "name": "平和主義者（パシフィスト）", "desc": "誰も脱落させずに試合に勝利するという伝説の実績。" }
+    },
+    "chat": {
+      "user_prefix": "{user}: "
+    },
+    "messages": {
+      "milestone": "🏆 マイルストーン達成: {name}！{reward}",
+      "reward_xp": " (+{val} XP)",
+      "reward_hc": " (+{val} HC)",
+      "achievement_reason_kills": "試合で {val} キルを達成。",
+      "achievement_reason_tank": "総被ダメージ {val} を耐え抜いた。",
+      "achievement_reason_damage": "総ダメージ {val} を与えた。",
+      "achievement_reason_items": "補給物資を {val} 個回収した。",
+      "error_no_idols": "エラー: アリーナにアイドルがいません。（データ: {count} 人）"
+    },
+    "items": {
+      "medkit": { "name": "[HP] メディキット" },
+      "food": { "name": "[F] 食料" },
+      "iron_sword": { "name": "[W] 鉄の剣" },
+      "messages": {
+        "cleanse": "{name} を使用した（HP +{h}、状態異常解除）",
+        "hybrid_xp": "{name} を使用した（HP +{h}、XP +{xp}）",
+        "default": "{name} を使用した（HP +{h}）",
+        "active": "{name} 発動！",
+        "smoke_escape": "煙幕を使って逃走に成功！",
+        "cooldown": "{name} を使用！（クールダウン -{red}）！",
+        "status": "{name} を放った（効果: {status}）",
+        "xp_used": "{name} を使用！（XP +{val}）"
+      }
+    },
+    "features": {
+      "ruins": {"name": "遺跡", "description": "忘れ去られた秘密を秘めた古代の遺跡。"},
+      "cave": {"name": "洞窟", "description": "暗く、危険の匂いが漂う洞窟。"},
+      "altar": {"name": "祭壇", "description": "神秘的なエネルギーで怪しく輝く祭壇。"},
+      "well": {"name": "井戸", "description": "古びた、一見すると放置されている井戸。"},
+      "abandoned_camp": {"name": "放棄されたキャンプ地", "description": "かつて誰かが野営していた痕跡が残っている。"},
+      "ancient_tree": {"name": "神木", "description": "天高くそびえ立つ、古の巨大な神木。"}
+    },
+    "packs": {
+      "gamers": "ゲーマーズ",
+      "holox": "秘密結社holoX",
+      "council": "Council",
+      "promise": "Promise",
+      "advent": "Advent",
+      "justice": "Justice",
+      "regloss": "ReGloss",
+      "flowglow": "FLOW GLOW",
+      "legendaries": "レジェンダリー（伝説）"
+    },
+    "options": {
+      "title": "テクニカル設定",
+      "language": "言語設定",
+      "change": "変更",
+      "resolution": "画面解像度",
+      "fullscreen": "フルスクリーンモード",
+      "volume_music": "BGM音量",
+      "volume_sfx": "効果音・ボイス音量",
+      "volume_hint": "音量の変更はリアルタイムで適用されます。",
+      "languages": {
+        "es": "スペイン語",
+        "en": "英語",
+        "jp": "日本語"
+      },
+      "resolutions": {
+        "windowed": "ウインドウモード",
+        "1080p": "1080p",
+        "2k": "2K",
+        "native": "ネイティブ（推奨）"
+      }
+    },
+    "menu": {
+      "play": "アリーナモード",
+      "tournament": "トーナメントモード",
+      "rpg": "アイドルの道",
+      "shop": "--- ホロショップ ---",
+      "minigames": "アーケードゾーン",
+      "chars": "ホロペディア",
+      "options": "設定",
+      "hof": "殿堂入り",
+      "exit": "終了",
+      "start_match": "試合開始",
+      "skip_bet": "賭けをスキップ"
+    },
+    "betting_panel": {
+      "init_bet": "初期ベット（0日目）",
+      "bet_details": "ベット詳細",
+      "bet_prompt": "賭け金を置いてください",
+      "skip_bet": "賭けをスキップ",
+      "oshimark": "推しマーク: ",
+      "oshi_display": "推しマーク: {name}",
+      "bet_info": "ベット: {amount} HC (配当: x2)",
+      "no_oshi": "前の画面で推し（Oshi）を選択してください",
+      "duel_detected": "[デュエル] デュエル発生！",
+      "title": "推しを選んでベットしよう",
+      "bet_summary": "ベット: {amount} HC (配当: x{payout})",
+      "title_long": "推しを選んでベットを置こう"
+    },
+    "system": {
+      "weapon_broken": "⚔️ {actor} の {weapon} が壊れてしまった！",
+      "shield_broken": "🛡️ {defender} のシールドが破壊された！"
+    },
+    "battle": {
+      "balance": "所持残高: {amount} HC",
+      "templates": {
+        "clumsy": {
+          "trip": [
+            "💀 {p} が自分の靴紐につまずいて転んだ。",
+            "💀 {p} が思い切り壁に激突した。"
+          ]
+        },
+        "logs": {
+          "climax": [
+            "🏆 アリーナの中心が黄金色のエネルギーで激しく震え始める！",
+            "🏆 逃げ場なし！ すべての運命がここで決する。"
+          ],
+          "weather": {
+            "clear": "☀️ {d}日目: 快晴。",
+            "rain": "🌧️ {d}日目: 雨。",
+            "wind": "🌬️ {d}日目: 強風。",
+            "fog": "🌫️ {d}日目: 濃霧。",
+            "storm": "⚡ {d}日目: 雷雨。",
+            "cold": "❄️ {d}日目: 寒波。",
+            "meteor": "☄️ {d}日目: 流星群。",
+            "dust": "🌪️ {d}日目: 砂嵐。",
+            "eclipse": "🌑 {d}日目: 日食。",
+            "rainbow": "🌈 {d}日目: 虹。",
+            "strike": "⚡ 落雷！ {p} に高圧電流が直撃した。",
+            "meteor_burn": "☄️ 隕石の炎が {p} を焼き焦がす。"
+          },
+          "environment": {
+            "mountain_landslide": "🏔️ 土砂崩れ！ {p} の頭上に岩が降り注ぐ。",
+            "forest_cold": "❄️ 凍てつく寒さに {p} が震え上がっている。",
+            "forest_berries": "🌿 {p} が美味しい木の実を見つけた（HP +{heal}）。",
+            "mud_drain": "💀 {bioma} の泥が {p} の体力を奪っていく。",
+            "water_current": "🌊 激しい水流が {p} を押し流していく。",
+            "glitch": "👾 エラー発生！ {p} のデータが一時的に破損した。",
+            "glitch_unstable": "   （システム不安定: HP -2）",
+            "electric": "⚡ 放電現象！ 地面から {p} に電撃が走った。",
+            "holy_blessing": "✨ {bioma} の光が {p} を優しく包み込み、祝福を与える（HP +{heal}）。",
+            "star_energy": "🌟 {bioma} に満ちる星のエネルギーが、{p} の身体に漲っていく。",
+            "hell_burn": "🔥 灼熱！ 溶岩の川を踏み抜いた {p} が大やけどを負った。",
+            "crystal_aura": "💎 水晶が神秘的なオーラを反射し、{p} を包み込む。"
+          },
+          "idle": {
+            "generic": [
+              "晩ご飯のことについて考えている。",
+              "あてもなくのんびり歩き回っている。",
+              "周囲の景色を眺めて楽しんでいる。"
+            ],
+            "forest": ["木々の様子をチェックしている。", "小鳥のさえずりに耳を澄ませている。"],
+            "water": ["流れる水をじっと見つめている。", "水面に石をポイッと投げ入れて遊んでいる。"],
+            "mountain": ["さらに高い場所を目指して登っている。", "澄んだ新鮮な空気を胸いっぱいに吸い込んでいる。"],
+            "sand": ["砂浜に絵を描いて遊んでいる。", "きれいな貝殻を探している。"]
+          },
+          "stupid_deaths": [
+            "💀 {p} が自分の靴紐につまずいて盛大に転んだ。",
+            "💀 {p} が上から落ちてきた金床を素手でキャッチしようとして潰された。",
+            "💀 {p} が目の前の壁に気づかず、そのまま直撃した。"
+          ],
+          "gas": {
+            "cough": [
+               "☢️ 有毒ガスが迫ってきた！",
+               "☢️ 有毒ガスを吸い込んでしまい、{p} が激しく咳き込んでいる。",
+               "☢️ アリーナ全体にガスが充満し始めている！"
+            ]
+          },
+          "death": [
+            "💀 {p} が力尽きて倒れた。",
+            "💀 {p} は生き残ることができなかった。",
+            "💀 RIP: {p}"
+          ],
+          "betrayal": [
+            "💢 {p} が {f} を裏切った。",
+            "💢 {p} が {f} に牙を剥き、襲いかかった。"
+          ],
+          "stalk": "👀 {p} が影からじっと {o} の様子を窺っている。",
+          "loot": "📦 {p} が {item} を発見した。",
+          "inventory_full": "持ち物がいっぱいです！",
+          "day_prefix": "{day}日目:",
+          "new_event": ["📢 アリーナで新たなイベントが発生！"],
+          "final_duel_start": ["⚔️ ついに最終決戦（ファイナル・デュエル）の幕が上がる！"],
+          "fatigue": "{p} は疲労困憊により {damage} のダメージを受けた。"
+        },
+        "progression": {
+          "skill_learned": [
+            "📜 {p} が新しいスキル「{s}」を習得した！",
+            "📜 {p} が「{s}」の扱い方を完全にマスターした。これは試合のルールを覆す一手になるか！？"
+          ],
+          "level_up": [
+            "🆙 {p} がレベル {l} にアップした！（最大HP +{hp}、{stat} +1）"
+          ],
+          "level_up_milestone": [
+            "🌟 {p} が重要なレベルの節目（マイルストーン）に到達した！"
+          ],
+          "talent_unlocked": [
+            "🌟 タレント解放！ {p} が {i} {t} を獲得した: {d}"
+          ],
+          "item_picked": "📦 {p} が {i} を拾い上げた。",
+          "equip_weapon": "⚔️ {p} が {w} を装備した。",
+          "equip_shield": "🛡️ {p} が {s} を装備した。",
+          "expand_inventory": "🎒 {p} がリュックサックを使って所持枠（インベントリ）を拡張した。"
+        },
+        "funny": [
+          "😂 {p} が渾身のギャグを披露し、{o} が大笑いしている。",
+          "🤡 {p} が見事にバナナの皮で盛大にすっこんだ。"
+        ],
+        "hostile_minor": {
+          "taunt": ["👿 {p} が {o} をおちょくっている。", "💢 {p} が {o} に向かって怒鳴り散らしている。"]
+        },
+        "social": {
+          "share": ["🤝 {p} が {o} に持っていた食料を分け与えた。"],
+          "chat": ["💬 {p} が {o} と楽しそうにおしゃべりをしている。"],
+          "guard": ["🛡️ {p} が身を挺して {o} を守った。"],
+          "romance": ["💖 {p} が {o} にあまーいセリフでアプローチしている。"]
+        },
+        "romance": ["💖 {p} は {o} のことが大好きでたまらない。"],
+        "context": {
+          "festival": [
+            "🏮 {p} がお祭りの雰囲気漂うアリーナを歩きながら、楽しげに鼻歌を歌っている。"
+          ]
+        },
+        "combat": {
+          "vampirism": "🧛 {actor} が {target} から HP を {heal} 吸い取った。",
+          "attack_variants": {
+              "attack1": "⚔️ {attacker} が {weapon} で {target} に攻撃した",
+              "attack2": "⚔️ {attacker} が {weapon} で {target} を激しく切りつけた"
+          },
+          "normal_hit": "{msg}。{dmg} のダメージを与えた（防御力: {def_pct}%）。",
+          "critical_hit": "💥 クリティカルヒット！ {msg}、{dmg} の大ダメージを与えた！",
+          "miss": "💨 {actor} の {target} に対する攻撃は外れてしまった！",
+          "dodge": "💨 神業的な回避（マスター・ドッジ）により、{target} が攻撃をヒラリと かわした！",
+          "fists": "素手"
+        },
+        "boss": {
+            "fubuzilla_breath": "フブジラの熱線ブレス！",
+            "fubuzilla_hit": "{target} に直撃！",
+            "mikodanye_lava": "みこだにぇーの溶 lava（マグマ）地獄！",
+            "smol_ame_pound": "スモール・アメの重圧プレス！",
+            "smol_ame_hit": "{target} が押し潰された！",
+            "taran_chama": "タラン＝ちゃまのスペシャルクッキング！"
+        },
+        "effects": {
+            "damage_over_time": "{name} は継続ダメージ {dmg} を受け続けている（スタック: {stacks}）。",
+            "heal_over_time": "{name} は徐々に HP を {heal} 回復している（スタック: {stacks}）。",
+            "burn": "{name} は火傷により {dmg} のダメージを受けた（HP の {pct}%）。"
+        },
+        "climax": [
+            "🏆 アリーナの中心が黄金色のエネルギーで激しく震え始める！",
+            "🏆 逃げ場なし！ すべての運命がここで決する。"
+        ],
+        "status_msgs": {
+          "yandere": "🔪 ヤンデレモード発動！ {p} が狂気に満ちた殺人衝動に包まれる。",
+          "fists": "素手",
+          "burn_dmg": "{name} は火傷により {dmg} のダメージを受けた（HP の {pct}%）。"
+        }
+      },
+      "finished": "試合終了",
+      "final_duel": "ファイナル・デュエル（最終決戦）",
+      "welcome_msg": "ホロ・ハンガー・ゲームへようこそ！",
+      "betting_msg": "試合開始前に推しを応援してブーストしよう！",
+      "shop_closed": "ショップは閉店しました。戦闘が開始されます！",
+      "save_data": "セーブデータ (.txt)",
+      "data_saved": "データ保存完了",
+      "oshi_lost": "💀 あなたの推しは栄冠を手にすることができなかった。",
+      "oshi_won": "🏆 あなたの推しが優勝しました！ ジャックポット: {premio} HC（実績ボーナス x{hc_mult}）",
+      "oshi_eliminated": "💀 あなたの推しが脱落してしまった。",
+      "bet_won": "💰 ベット的中！ {premio} HC を獲得しました（x{hc_mult}）",
+      "bet_lost": "💀 デュエルでのベットは外れてしまった。",
+      "fight_start": "⚔️ 戦闘開始！",
+      "coliseum": "コロシアム",
+      "duel_stats": "デュエル統計",
+      "night": "🌙 夜",
+      "no_other_groups": "アリーナに他のグループは残っていない。",
+      "game_over": "力尽きました！（ゲームオーバー）",
+      "victory": "勝利！",
+      "event": "イベント",
+      "challenge": "チャレンジ！",
+      "day": "日目",
+      "alive": "生存",
+      "day_log": "--- 第 {day} 日目 ---",
+      "new_match_log": "--- 新しい試合 ({biome}) ---",
+      "controls": {
+        "play_pause": "再生 / 一時停止",
+        "events_today": "今日のイベント",
+        "history": "履歴",
+        "next_turn": "次のターン",
+        "view_bonds": "絆を確認",
+        "main_menu": "メインメニュー"
+      }
+    },
+    "mission_board": {
+      "arena_title": "[ミッション] アリーナ契約",
+      "no_arena_missions": "アクティブなアリーナミッションはありません。",
+      "waiting_duel": "デュエル待機中...",
+      "bet_placed": "ベット完了 ✓",
+      "board_title": "📋 ミッションボード",
+      "no_today": "本日のミッションはありません。",
+      "reward": "+{xp} XP | +{hc} HC",
+      "contract_progress": "{name} ({prog}/{goal})"
+    },
+    "common": {
+      "system": "システム",
+      "play": "プレイ",
+      "back": "戻る",
+      "close": "閉じる",
+      "finish": "完了",
+      "claim": "受け取る",
+      "menu": "メニュー",
+      "reset": "リセット",
+      "back_to_menu": "メニューに戻る",
+      "full": "満杯",
+      "remove": "外す",
+      "confirm_exit": "本当に終了しますか？",
+      "exit_warning": "現在のゲーム進行状況は失われます。",
+      "yes_exit": "はい、終了します",
+      "no_back": "いいえ、戻ります",
+      "view_more": "もっと見る",
+      "idols": "アイドル",
+      "completed": "達成！",
+      "assign": "割り当てる",
+      "continue": "続ける",
+      "claim_item": "受け取る"
+    },
+    "main_menu": {
+      "title": "ホロ・ハンガー・ゲーム",
+      "title_with_lang": "{title}{lang}",
+      "rank": {
+        "ceo": "ホロライブCEO",
+        "legendary_producer": "レジェンダリープロデューサー",
+        "elite_manager": "エリートマネージャー",
+        "senior_producer": "シニアプロデューサー",
+        "assistant_manager": "アシスタントマネージャー",
+        "rookie": "ルーキー"
+      },
+      "hc_suffix": " HC",
+      "locked": " [ロック中]"
+    },
+    "dlc": {
+      "back": "戻る",
+      "title": "DLC管理",
+      "title_short": "DLC",
+      "installed": "インストール済みコンテンツ",
+      "none_installed": "インストールされているDLCはありません。",
+      "available": "ストアで配信中",
+      "active": "有効",
+      "inactive": "無効",
+      "turn_off": "オフにする",
+      "turn_on": "オンにする",
+      "price": "価格",
+      "catalog": {
+        "realms_beyond": {
+          "name": "レルムズ・オブ・ビヨンド・パック",
+          "desc": "冥界（アンダーワールド）やエリュシオンの原野を探索しよう。"
+        },
+        "cyber_corrupt": {
+          "name": "サイバー・コラプト・パック",
+          "desc": "エラーヴォイド、エレクトリックドーム、メモリーズフォレストを追加します。"
+        }
+      }
+    },
+    "minigames": {
+      "symbols": {
+        "diamond": "ダイヤモンド",
+        "star": "スター",
+        "seven": "セブン",
+        "bell": "ベル",
+        "cherry": "チェリー",
+        "circle": "サークル",
+        "triangle": "トライアングル",
+        "square": "スクエア"        
+      },
+      "descriptions": {
+          "target_practice": "的を撃ち抜いてホロコインを稼ごう！",
+          "slots": "アイドルたちと一緒に運試し（参加費: 50 HC）",
+          "holo_dodge": "飛んでくる障害物を避けてコインを稼げ！",
+          "adventure": "探索して資源を集めよう（ホロコイン獲得）"
+      },
+      "ui": {
+        "payout_initial": "運試しに挑戦しよう！",
+        "payout_triple": "{id} が3つ揃った！ +{win} HC",
+        "payout_pair": "ペア成立: +{win} HC",
+        "payout_nothing": "今回はハズレ...",
+        "payout_spinning": "回転中... 幸運を祈る！",
+        "spin": "スピンする ({bet} HC)",
+        "balance": "所持残高: {balance} HC",
+        "coins": "コイン: {score}",
+        "deliveries": "配達数: {count}",
+        "exit": "終了",
+        "prizes": "賞品",
+        "retry": "もう一度挑戦",
+        "click_to_start": "クリックしてスタート",
+        "kitchen": "キッチン",
+        "customer": "お客さん",
+        "challenge": "チャレンジ",
+        "challenge_complete": "チャレンジ達成！ 獲得報酬:",
+        "challenge_failed": "目標（{target}）を達成できなかった。{damage} のダメージを受けた。"
+      },
+      "titles": {
+        "target_practice": "的当て練習（ターゲット・プラクティス）",
+        "holo_dodge": "ホロ・ドッジ",
+        "game_over": "ゲームオーバー",
+        "how_to_play": "遊び方"
+      },
+      "tutorial": {
+        "target_practice": ["的をクリックしよう！", "消えてしまう前に素早く撃ち抜け。"],
+        "holo_dodge": ["左右キー（← / →）または A / D キーを使用！", "飛来物を華麗にかわそう！"],
+        "adventure": ["WASDキーで移動！", "食材を集めて料理を提供しよう！"],
+        "slots": ["クリックしてスピン！", "3つのシンボルを揃えて勝利を掴め！"]
+      },
+      "results": {
+        "reward": "報酬: +{val} ホロコイン",
+        "score": "スコア: {val}",
+        "record": "自己最高記録: {val}"
+      }
+    },
+    "holopedia": {
+      "title": "ホロペディア",
+      "click_idol": "アイドルをクリック",
+      "wardrobe": "ワードローブ（衣装管理）",
+      "select_idol": "マップ上のアイドルを選択してください",
+      "select_idol_file": "ファイルを見たいアイドルを選択してください",
+      "active_bonds": "発動中の絆:",
+      "bonds_guide": "絆ガイド"
+    },
+    "stats": {
+      "base": "基礎ステータス:",
+      "skills": "スキル:",
+      "progression": "成長ルート:",
+      "max": "MAX",
+      "active_bonuses": "発動中のボーナス:"
+    },
+    "replay": {
+      "title": "リプレイ",
+      "results_header": "ホロ・ハンガー・ゲーム - 試合結果 {now}",
+      "winner_prefix": "優勝者",
+      "player_entry": "{prefix}: {name} ({faction})",
+      "controls": "スペース: 一時停止 | 矢印キー: 移動 | ESC: 終了",
+      "ranking": "最終ランキング:",
+      "winner": "勝者",
+      "none_available": "利用可能なリプレイはありません",
+      "click_to_play": "クリックして再生",
+      "view_combat": "戦闘を表示（コロシアム）",
+      "fast_sim": "高速シミュレーション",
+      "log_header": "イベント全ログ（ログコンプリート）:"
+    },
+    "hof": {
+      "title": "殿堂入り",
+      "milestones": "グローバル実績",
+      "games": "試合数",
+      "winners": "優勝回数",
+      "tournaments": "トーナメント",
+      "minigames": "ミニゲーム",
+      "damage": "ダメージ",
+      "career": "戦績: ",
+      "total_kills": "総キル数",
+      "total_damage": "総ダメージ量",
+      "win_rate": "勝率"
+    },
+    "tournament": {
+      "config": "トーナメント設定",
+      "generate_bracket": "トーナメント表を作成",
+      "confirm_bracket": "確認してトーナメント表を表示",
+      "new_legend": "🏆 新たなコロシアムの伝説が誕生！ 🏆",
+      "collect_trophy": "トロフィーを受け取って戻る",
+      "ranking": "YAGOOのコロシアム - ランキング",
+      "duel_start": "⚔️ デュエル開始！",
+      "bet_label": "ベット",
+      "payout_label": "配当",
+      "bet": "賭ける",
+      "next_match": "次戦: {p1} vs {p2}",
+      "won": "ベット的中！",
+      "lost": "ベット外れ",
+      "climax": {
+        "name": "🏆 ファイナル・デュエル（最終決戦）",
+        "desc": "最終決戦！全員センターへ集合、与ダメージと獲得XPが2倍にアップ。"
+      },
+      "combat": {
+      "attack": "⚔️ {actor} の攻撃！ {target} は {dmg} のダメージを受けた。",
+      "skill_use": "✨ {actor} が {skill_name} を放った！"
+      }
+    },
+    "tabs": {
+      "info": "情報",
+      "social": "ソーシャル",
+      "bet": "ベット",
+      "shop": "ショップ",
+      "mission": "ミッション"
+    },
+    "arena": {
+      "generate": "アリーナを生成！",
+      "config": "アリーナ設定",
+      "tributes": "参加者数（トリビュート数）",
+      "selection_mode": "選択モード",
+      "biome": "アリーナのバイオーム",
+      "idols_selected": "選択されたアイドル",
+      "modes": {
+        "random": "ランダム",
+        "manual": "マニュアル（手動）"
+      },
+      "biomes": {
+        "normal": "森林（フォレスト）",
+        "hell": "地獄（ヘル）",
+        "arctic": "極地（アークティック）",
+        "cyber": "サイバー",
+        "cyber_corrupt": "サイバー・コラプト",
+        "cyber_neon": "サイバー・ネオン",
+        "cyber_server": "サイバー・サーバー",
+        "cyber_data": "サイバー・データ",
+        "features": "特殊地形",
+        "realms_beyond": "レルムズ・オブ・ビヨンド",
+        "realms_elysium": "エリュシオンの原野",
+        "realms_astral": "アストラル・レアルム",
+        "realms_tartarus": "タルタロス・レアルム"
+      }
+    },
+    "social": {
+      "map": "ソーシャルマップ",
+      "close_hint": " [R] キーを押して閉じる"
+    },
+    "manager": {
+      "train": "トレーニング",
+      "finish": "完了",
+      "train_hint": "アイドルをクリックして永続ステータスを強化しよう",
+      "recruit": "アイドルスカウト",
+      "train_idols": "アイドル育成",
+      "manage_streaming": "配信管理",
+      "manage_concerts": "ライブコンサート管理",
+      "recruit_title": "アイドルスカウト",
+      "available_idols": "スカウト可能なアイドル",
+      "gym_title": "ジム - トレーニング選択",
+      "wardrobe_title": "ワードローブ - チーム選択",
+      "in_streaming": "配信マネジメント",
+      "in_concert": "コンサートマネジメント",
+      "level_up": "✨ マネージャーレベルが上がった！ 現在レベル {level} です",
+      "mgmt_streaming": "配信マネジメント",
+      "mgmt_concerts": "コンサートマネジメント",
+      "manage_relics": "レリック管理",
+      "capacity": "収容キャパシティ:"
+    },
+    "gym_training": {
+      "title": "トレーニング",
+      "rpg_level": "RPG レベル",
+      "available_points": "利用可能なポイント",
+      "upgrade_stats": "ステータス強化",
+      "train_hint": {
+        "strength": "筋力 (ATK)",
+        "agility": "敏捷性 (SPD)",
+        "intelligence": "知力 (INT)",
+        "luck": "幸運 (LCK)"
+      }
+    },
+    "rpg": {
+      "start_path": "冒険を始める！",
+      "rest_desc": "ひと休みして体力を回復させた。",
+      "npc_leave": "に挨拶をしてその場を立ち去った。",
+      "rpg_progress": "進行度: ランク ",
+      "floor": "階層",
+      "rpg_level": "RPG レベル",
+      "afinity": "親愛度",
+      "points": " ポイント",
+      "stats": {
+        "strength": "攻撃力 (Strength)",
+        "agility": "素早さ (Agility)",
+        "intelligence": "魔力 (Magic)",
+        "luck": "運 (Luck)"
+      }
+    },
+    "relic": {
+      "title": "レリック（聖遺物）",
+      "found": "レリックを発見！",
+      "legendary": "レジェンダリーアイテム！",
+      "collection": "レリック図鑑",
+      "choice_hint": "今回のランで有効な永続アップグレードを選択しよう:",
+      "unknown_name": "正体不明のレリック",
+      "unknown_desc": "使い道も由来も謎に包まれた物体...",
+      "occupied_spaces": "占有スペース",
+      "equiped": "装備中",
+      "reserved": "予約済み"
+    },
+    "shop": {
+      "title": "[ショップ]",
+      "support_shop": "サポートショップ",
+      "select_idol": "アリーナからアイドルを選択してください",
+      "heal_name": "回復スーパーチャット",
+      "heal_desc": "HPを直ちに 30 回復する。",
+      "shield_name": "ファンシールド",
+      "shield_desc": "一時的な防御力が +5 アップ。",
+      "strength_name": "レイジポーション",
+      "strength_desc": "一時的な攻撃力が +8 アップ。",
+      "weapon_name": "エリート補給物資",
+      "weapon_desc": "伝説の武器（ディヴァインウェポン）を現地へお届け。",
+      "gifting": "ギフト贈呈: ",
+      "item_entry": "{name}: {cost} HC"
+    },
+    "shop_manager": {
+      "title": "--- ホロショップ ---",
+      "upgrades": "アップグレード",
+      "cosmetics": "コスチューム・外観",
+      "search_placeholder": "検索（アイドル名、テーマなど）...",
+      "acquired": "購入済み",
+      "buy": "購入",
+      "hc_label": "{price} HC",
+      "level_label": "レベル {level_req}",
+      "err_level_req": "レベルが不足しています（必要レベル: {level_req}）",
+      "err_no_coins": "ホロコインが足りません"
+    },
+    "hideout": {
+      "bedrooms": "寝室",
+      "gym": "ジム",
+      "kitchen": "キッチン",
+      "streaming_room": "配信ルーム",
+      "studio": "スタジオ",
+      "trophy_room": "トロフィー部屋",
+      "relax": "リラクゼーションルーム",
+      "rehearsal": "リハーサル室",
+      "quest_board": "クエストボード",
+      "no_quest_board": "利用可能なクエストはありません",
+      "upgrades": {
+        "gym": {
+          "weights": ["ウェイト器具", "攻撃力（ATK）+3"],
+          "bench": ["ベンチプレス", "クリティカル率 +2%"]
+        },
+        "kitchen": {
+          "stove": ["コンロ", "最大HP +20"],
+          "fridge": ["大型冷蔵庫", "回復効果 +5"]
+        },
+        "studio": {
+          "mocap": ["モックアップスーツ", "キャパシティ +1"],
+          "sensors": ["モーションセンサー", "XP獲得倍率 +2%"]
+        },
+        "dorms": {
+          "beds": ["二段ベッド", "ランの最大参加枠拡張"],
+          "deco": ["おしゃれな内装", "幸運（Luck）アップ"]
+        },
+        "trophy_room": {
+          "shelves": ["特製シェルフ", "ホロコイン獲得量 +5%"],
+          "lights": ["ディスプレイ照明", "アイテムドロップ率 +2%"]
+        },
+        "locker_room": {
+          "lockers": ["ロッカールーム", "レアアイテムドロップボーナス"],
+          "mirrors": ["大型ミラー", "回避率 +2%"]
+        },
+        "streaming": {
+          "setup": ["配信機材セット", "キャパシティ +1"],
+          "bandwidth": ["高速回線", "受動的（パッシブ）HC獲得 +0.5%"],
+          "models": ["3Dモデル改修", "受動的（パッシブ）HC獲得 +2%"]
+        },
+        "relax": {
+          "comfort": ["くつろぎソファ", "エネルギー回復量 +5"],
+          "vibes": ["癒やしの空間", "親愛度上昇率 +2%"]
+        },
+        "rehearsal": {
+          "stage": ["特設ステージ", "XP獲得量 +5%"],
+          "lights": ["ステージ照明", "成功率 +5%"]
+        }
+      }
+    }
+  },
+  "battle": {
+      "templates": {
+        "clumsy": {
+          "trip": [
+            "💀 {p} が自分の靴紐につまずいて派手に転んだ。",
+            "💀 {p} が前をよく見ずに歩いて壁に激突した。"
+          ]
+        },
+        "logs": {
+          "climax": [
+            "🏆 アリーナの中心が黄金色のエネルギーで激しく震え始める！",
+            "🏆 逃げ場なし！ すべての運命がここで決する。"
+          ],
+          "weather": {
+            "clear": "☀️ {d}日目: 快晴。",
+            "rain": "🌧️ {d}日目: 雨。",
+            "wind": "🌬️ {d}日目: 強風。",
+            "fog": "🌫️ {d}日目: 濃霧。",
+            "storm": "⚡ {d}日目: 雷雨。",
+            "cold": "❄️ {d}日目: 寒波。",
+            "meteor": "☄️ {d}日目: 流星群。",
+            "dust": "🌪️ {d}日目: 砂嵐。",
+            "eclipse": "🌑 {d}日目: 日食。",
+            "rainbow": "🌈 {d}日目: 虹。",
+            "strike": "⚡ 落雷！ {p} に高圧電流が直撃した。",
+            "meteor_burn": "☄️ 隕石の炎が {p} を焼き焦がす。"
+          },
+          "environment": {
+            "mountain_landslide": "🏔️ 土砂崩れ！ {p} の頭上に岩が降り注ぐ。",
+            "forest_cold": "❄️ 凍てつく寒さに {p} が震え上がっている。",
+            "forest_berries": "🌿 {p} が美味しい木の実を見つけた（HP +{heal}）。",
+            "mud_drain": "💀 {bioma} の泥が {p} の体力を奪っていく。",
+            "water_current": "🌊 激しい水流が {p} を押し流していく。",
+            "glitch": "👾 エラー発生！ {p} のデータが一時的に破損した。",
+            "glitch_unstable": "   （システム不安定: HP -2）",
+            "electric": "⚡ 放電現象！ 地面から {p} に電撃が走った。",
+            "holy_blessing": "✨ {bioma} の光が {p} を優しく包み込み、祝福を与える（HP +{heal}）。",
+            "star_energy": "🌟 {bioma} に満ちる星のエネルギーが、{p} の身体に漲っていく。",
+            "hell_burn": "🔥 灼熱！ 溶岩の川を踏み抜いた {p} が大やけどを負った。",
+            "crystal_aura": "💎 水晶が神秘的なオーラを反射し、{p} を包み込む。"
+          },
+          "idle": {
+            "generic": [
+              "晩ご飯のことについて考えている。",
+              "あてもなくのんびり歩き回っている。",
+              "周囲の景色を眺めて楽しんでいる。"
+            ],
+            "forest": ["木々の様子をチェックしている。", "小鳥のさえずりに耳を澄ませている。"],
+            "water": ["流れる水をじっと見つめている。", "水面に石をポイッと投げ入れて遊んでいる。"],
+            "mountain": ["さらに高い場所を目指して登っている。", "澄んだ新鮮な空気を胸いっぱいに吸い込んでいる。"],
+            "sand": ["砂浜に絵を描いて遊んでいる。", "きれいな貝殻を探している。"]
+          },
+          "stupid_deaths": [
+            "💀 {p} が自分の靴紐につまずいて盛大に転んだ。",
+            "💀 {p} が上から落ちてきた金床を素手でキャッチしようとして押し潰された。",
+            "💀 {p} が目の前の壁に気づかず、そのまま直撃した。"
+          ],
+          "gas": {
+            "cough": [
+               "☢️ 有毒ガスが迫ってきた！",
+               "☢️ 有毒ガスを吸い込んでしまい、{p} が激しく咳き込んでいる。",
+               "☢️ アリーナ全体にガスが充満し始めている！"
+            ]
+          },
+          "death": [
+            "💀 {p} が力尽きて倒れた。",
+            "💀 {p} は生き残ることができなかった。",
+            "💀 RIP: {p}"
+          ],
+          "betrayal": [
+            "💢 {p} が {f} を裏切った。",
+            "💢 {p} が {f} に牙を剥き、襲いかかった。"
+          ],
+          "stalk": "👀 {p} が影からじっと {o} の様子を窺っている。",
+          "loot": "📦 {p} が {item} を発見した。",
+          "inventory_full": "持ち物がいっぱいです！",
+          "day_prefix": "{day}日目:",
+          "new_event": ["📢 アリーナで新たなイベントが発生！"],
+          "final_duel_start": ["⚔️ ついに最終決戦（ファイナル・デュエル）の幕が上がる！"],
+          "fatigue": "{p} は疲労困憊により {damage} のダメージを受けた。"
+        },
+        "progression": {
+          "skill_learned": [
+            "📜 {p} が新しいスキル「{s}」を習得した！",
+            "📜 {p} が「{s}」の扱い方を完全にマスターした。これは試合のルールを覆す一手になるか！？"
+          ],
+          "level_up": [
+            "🆙 {p} がレベル {l} にアップした！（最大HP +{hp}、{stat} +1）"
+          ],
+          "level_up_milestone": [
+            "🌟 {p} が重要なレベルの節目（マイルストーン）に到達した！"
+          ],
+          "talent_unlocked": [
+            "🌟 タレント解放！ {p} が {i} {t} を獲得した: {d}"
+          ],
+          "item_picked": "📦 {p} が {i} を拾い上げた。",
+          "inventory_full": "持ち物がいっぱいです！",
+          "equip_weapon": "⚔️ {p} が {w} を装備した。",
+          "equip_shield": "🛡️ {p} が {s} を装備した。",
+          "expand_inventory": "🎒 {p} がリュックサックを使って所持枠（インベントリ）を拡張した。",
+          "starting_gear": "🎒 {p} は {gear} を装備してスタートした。"
+        },
+        "funny": [
+          "😂 {p} がジョークを飛ばし、それを聞いた {o} が大笑いした。",
+          "🤡 {p} がバナナの皮を踏んで派手に滑った。"
+        ],
+        "hostile_minor": {
+          "taunt": ["👿 {p} が {o} をからかった。", "💢 {p} が {o} に向かって怒鳴り散らした。"]
+        },
+        "social": {
+          "share": ["🤝 {p} が {o} に持っていた食べ物を分けてあげた。"],
+          "chat": ["💬 {p} が {o} と楽しそうに雑談している。"],
+          "guard": ["🛡️ {p} が身を挺して {o} を守った。"],
+          "romance": ["💖 {p} が {o} に熱烈なアプローチ（意味深な視線）を送った。"]
+        },
+        "romance": ["💖 {p} は {o} のことが大好きでたまらない。"],
+        "context": {
+          "festival": [
+            "🏮 {p} がアリーナを歩きながらお祭りの歌を鼻歌で口ずさんでいる。"
+          ]
+        },
+        "combat": {
+          "vampirism": "🧛 {actor} が {target} から HP を {heal} 吸い取った。",
+          "attack_variants": {
+              "attack1": "⚔️ {attacker} が {weapon} で {target} に攻撃した",
+              "attack2": "⚔️ {attacker} が {weapon} で {target} を激しく切りつけた"
+          },
+          "normal_hit": "{msg}。{dmg} のダメージを与えた（防御力: {def_pct}%）。",
+          "critical_hit": "💥 クリティカルヒット！ {msg}、{dmg} の大ダメージを与えた！",
+          "miss": "💨 {actor} の {target} に対する攻撃は外れてしまった！",
+          "dodge": "💨 神業的な回避（マスター・ドッジ）により、{target} が攻撃をヒラリと かわした！",
+          "fists": "素手"
+        },
+        "boss": {
+            "fubuzilla_breath": "フブジラの熱線ブレス！",
+            "fubuzilla_hit": "{target} に直撃！",
+            "mikodanye_lava": "みこだにぇーの溶岩地獄！",
+            "smol_ame_pound": "スモール・アメの重圧プレス！",
+            "smol_ame_hit": "{target} が押し潰された！",
+            "taran_chama": "タラン＝ちゃまのスペシャルクッキング！"
+        },
+        "effects": {
+            "damage_over_time": "{name} は継続ダメージ {dmg} を受け続けている（スタック: {stacks}）。",
+            "heal_over_time": "{name} は徐々に HP を {heal} 回復している（スタック: {stacks}）。",
+            "burn": "{name} は火傷により {dmg} のダメージを受けた（HP の {pct}%）。"
+        },
+        "climax": [
+            "🏆 アリーナの中心が黄金色のエネルギーで激しく震え始める！",
+            "🏆 逃げ場なし！ すべての運命がここで決する。"
+        ],
+        "status_msgs": {
+          "yandere": "🔪 ヤンデレモード発動！ {p} が狂気に満ちた殺人衝動に包まれる。",
+          "fists": "素手",
+          "burn_dmg": "{name} は火傷により {dmg} のダメージを受けた（HP の {pct}%）。"
+        }
+      },
+      "finished": "試合終了",
+      "final_duel": "ファイナル・デュエル（最終決戦）",
+      "welcome_msg": "ホロ・ハンガー・ゲームへようこそ！",
+      "betting_msg": "試合開始前に推しを応援してブーストしよう！",
+      "shop_closed": "ショップは閉店しました。戦闘が開始されます！",
+      "save_data": "セーブデータ (.txt)",
+      "data_saved": "データ保存完了",
+      "oshi_lost": "💀 あなたの推しは栄冠を手にすることができなかった。",
+      "oshi_won": "🏆 あなたの推しが優勝しました！ ジャックポット: {premio} HC（実績ボーナス x{hc_mult}）",
+      "oshi_eliminated": "💀 あなたの推しが脱落してしまった。",
+      "bet_won": "💰 ベット的中！ {premio} HC を獲得しました（x{hc_mult}）",
+      "bet_won_result": "💰 ベット的中！",
+      "bet_lost_result": "💰 ベット外れ...",
+      "bet_lost": "💀 デュエルでのベットは外れてしまった。",
+      "fight_start": "⚔️ 戦闘開始！",
+      "coliseum": "コロシアム",
+      "duel_stats": "デュエル統計",
+      "night": "🌙 夜",
+      "no_other_groups": "アリーナに他のグループは残っていない。",
+      "game_over": "力尽きました！（ゲームオーバー）",
+      "victory": "勝利！",
+      "event": "イベント",
+      "challenge": "チャレンジ！",
+      "day": "日目",
+      "alive": "生存",
+      "day_log": "--- 第 {day} 日目 ---",
+      "new_match_log": "--- 新しい試合 ({biome}) ---",
+      "controls": {
+        "play_pause": "再生 / 一時停止",
+        "events_today": "今日のイベント",
+        "history": "履歴",
+        "next_turn": "次のターン",
+        "view_bonds": "絆を確認",
+        "main_menu": "メインメニュー"
+      }
+    },
+  "manager": {
+    "level_up": "✨ マネージャーレベルが上がりました！ 現在レベル {level} です"
+  },
+  "climax": {
+    "name": "🏆 ファイナル・デュエル（最終決戦）",
+    "desc": "最終決戦！全員センターへ集合、与ダメージと獲得XPが2倍にアップ。",
+    "climax_desc_1": "🏆 アリーナの中心が黄金色のエネルギーで激しく震え始める！",
+    "climax_desc_2": "🏆 逃げ場なし！ すべての運命がここで決する。"
+  }
+}

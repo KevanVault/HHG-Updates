@@ -1,0 +1,924 @@
+{
+  "ui": {
+    "launcher": {
+      "title": "HOLO HUNGER GAMES",
+      "play": "Play",
+      "update": "Update",
+      "news": "News",
+      "store": "View in Store",
+      "lang": "Language",
+      "verifying": "Verifying connection...",
+      "new_version": "New version: {v}",
+      "no_news": "No news available.",
+      "download": "Downloading...",
+      "completed": "Completed.",
+      "offline": "Offline mode",
+      "updated": "Game updated to version {v}!"
+    },
+    "ui_stats":{
+      "class_role": "CLASS: {role}",
+      "role_skill_label": "{name} ({role})",
+      "unique_skill_label": "{name} (UNIQUE)"
+    },
+    "relic_management": {
+        "title": "RELIC MANAGEMENT",
+        "equip_relic": "EQUIPED RELICS",
+        "actives_availables": "ACTIVE RELICS AVAILABLE",
+        "passives_availables": "PASSIVE RELICS AVAILABLE",
+        "actives": "ACTIVE RELICS",
+        "passives": "PASSIVE RELICS",
+        "equip": "EQUIP",
+        "unequip": "UNEQUIP",
+        "back": "BACK"
+      },
+    "combo_guide": {
+      "title": "BONDS AND COMBOS GUIDE",
+      "title_generations": "GENERATION BONDS",
+      "title_special": "SPECIAL BONDS (GROUPS - Min. 2 Idols)",
+      "title_affinity": "AFFINITY BONUSES",
+      "tip": "TIP: Bonuses stack. Try different combinations!",
+      "affinity_lvl2": "• Lvl 2: +5% ATK",
+      "affinity_lvl3": "• Lvl 3: +5% HP",
+      "affinity_lvl4": "• Lvl 4: +10% LCK",
+      "affinity_lvl5": "• Lvl 5: +5% All Stats",
+      "combos": {
+        "duo": "• Duo (2 of same Gen): +5% ATK / +5% HP",
+        "trio": "• Trio (3 of same Gen): +15% ATK / +15% HP / +15% XP",
+        "micomet": "• MiComet: +10% ATK | Elite: +5% XP",
+        "gamers": "• GAMERS: +10% SPD / +5% ATK",
+        "myth": "• Myth: +10% All Stats",
+        "council": "• Council / Promise: +15% MAG (Abilities)",
+        "advent": "• Advent: +10% HP / +5% LCK | Justice: +10% ATK / +5% DEF",
+        "divas": "• Divas: +20% XP"
+      }
+    },
+    "crash": {
+      "title": "THE GAME HAS CRASHED (SUMIMASEN!)",
+      "log_saved": "Log saved in: {path}",
+      "close": "Press ESC or close the window to exit"
+    },
+    "achievements": {
+    "elite_assassin": { "name": "Elite Assassin", "desc": "Awarded for getting the highest number of kills in a match (minimum 2)." },
+    "war_tank": { "name": "War Tank", "desc": "Awarded to whoever survives after taking massive damage." },
+    "iron_fist": { "name": "Iron Fist", "desc": "Awarded for dealing the highest total damage to other tributes." },
+    "scavenger": { "name": "Scavenger", "desc": "Awarded for collecting a large amount of supplies and weapons from the arena." },
+    "pacifist": { "name": "Pacifist", "desc": "A legendary achievement: winning the match without eliminating anyone." }
+    },
+    "chat": {
+      "user_prefix": "{user}: "
+    },
+    "messages": {
+      "milestone": "🏆 ¡MILESTONE: {name}!{reward}",
+      "reward_xp": " (+{val} XP)",
+      "reward_hc": " (+{val} HC)",
+      "achievement_reason_kills": "Got {val} kills in the match.",
+      "achievement_reason_tank": "Survived {val} damage received.",
+      "achievement_reason_damage": "Dealt a total of {val} damage.",
+      "achievement_reason_items": "Collected {val} supplies.",
+      "error_no_idols": "Error: No idols in the arena. (Data: {count} idols)"
+    },
+    "items": {
+      "medkit": { "name": "[HP] Medkit" },
+      "food": { "name": "[F] Food" },
+      "iron_sword": { "name": "[W] Iron Sword" },
+      "messages": {
+        "cleanse": "You used {name} (+{h} HP, Cleansed)",
+        "hybrid_xp": "You used {name} (+{h} HP, +{xp} XP)",
+        "default": "You used {name} (+{h} HP)",
+        "active": "¡{name} active!",
+        "smoke_escape": "¡Escaped with Smoke!",
+        "cooldown": "¡{name} used! (-{red} CD)!",
+        "status": "You launched {name} (Effect: {status})",
+        "xp_used": "¡{name} used! (+{val} XP)"
+      }
+    },
+    "features": {
+      "ruins": {"name": "Ruins", "description": "Ancient ruins holding forgotten secrets."},
+      "cave": {"name": "Cave", "description": "A dark cave, possibly dangerous."},
+      "altar": {"name": "Altar", "description": "A mysterious altar glowing with energy."},
+      "well": {"name": "Well", "description": "An old, seemingly abandoned well."},
+      "abandoned_camp": {"name": "Abandoned Camp", "description": "Traces of a former camp."},
+      "ancient_tree": {"name": "Ancient Tree", "description": "A towering ancient tree."}
+    },
+    "packs": {
+      "gamers": "Gamers",
+      "holox": "HoloX",
+      "council": "Council",
+      "promise": "Promise",
+      "advent": "Advent",
+      "justice": "Justice",
+      "regloss": "ReGloss",
+      "flowglow": "FlowGlow",
+      "legendaries": "Legendaries"
+    },
+    "options": {
+      "title": "TECHNICAL SETTINGS",
+      "language": "LANGUAGE",
+      "change": "CHANGE",
+      "resolution": "SCREEN RESOLUTION",
+      "fullscreen": "FULLSCREEN MODE",
+      "volume_music": "MUSIC VOLUME",
+      "volume_sfx": "SFX AND VOICE VOLUME",
+      "volume_hint": "Volume changes are applied in real time.",
+      "languages": {
+        "es": "Spanish",
+        "en": "English",
+        "jp": "Japanese"
+      },
+      "resolutions": {
+        "windowed": "Windowed",
+        "1080p": "1080p",
+        "2k": "2k",
+        "native": "Native"
+      }
+    },
+    "menu": {
+      "play": "ARENA MODE",
+      "tournament": "TOURNAMENT MODE",
+      "rpg": "IDOL'S PATH",
+      "shop": "--- HOLOSHOP ---",
+      "minigames": "ARCADE ZONE",
+      "chars": "HOLOPEDIA",
+      "options": "OPTIONS",
+      "hof": "HALL OF FAME",
+      "exit": "EXIT",
+      "start_match": "START MATCH",
+      "skip_bet": "SKIP BET"
+    },
+    "betting_panel": {
+      "init_bet": "INITIAL BET (DAY 0)",
+      "bet_details": "Bet Details",
+      "bet_prompt": "Place your bet",
+      "skip_bet": "Skip Bet",
+      "oshimark": "OSHIMARK: ",
+      "oshi_display": "OSHIMARK: {name}",
+      "bet_info": "Bet: {amount} HC (Payout: x2)",
+      "no_oshi": "Choose your Oshi in the previous screen",
+      "duel_detected": "[DUEL] DUEL DETECTED!",
+      "title": "CHOOSE YOUR OSHI AND BET",
+      "bet_summary": "BET: {amount} HC (Payout: x{payout})",
+      "title_long": "CHOOSE YOUR OSHI AND PLACE YOUR BET"
+    },
+    "system": {
+      "weapon_broken": "⚔️ The {weapon} of {actor} has broken!",
+      "shield_broken": "🛡️ The shield of {defender} has broken!"
+    },
+    "battle": {
+      "balance": "YOUR BALANCE: {amount} HC",
+      "templates": {
+        "clumsy": {
+          "trip": [
+            "💀 {p} tripped over their own shoelaces.",
+            "💀 {p} walked into a wall."
+          ]
+        },
+        "logs": {
+          "climax": [
+            "🏆 The center of the arena vibrates with golden energy!",
+            "🏆 Nowhere to run! The destiny is decided here."
+          ],
+          "weather": {
+            "clear": "☀️ Day {d}: Sunny weather.",
+            "rain": "🌧️ Day {d}: Rainy weather.",
+            "wind": "🌬️ Day {d}: Windy weather.",
+            "fog": "🌫️ Day {d}: Dense fog.",
+            "storm": "⚡ Day {d}: Electric storm.",
+            "cold": "❄️ Day {d}: Cold wave.",
+            "meteor": "☄️ Day {d}: Meteor shower.",
+            "dust": "🌪️ Day {d}: Sandstorm.",
+            "eclipse": "🌑 Day {d}: Eclipse.",
+            "rainbow": "🌈 Day {d}: Rainbow.",
+            "strike": "⚡ ¡THUNDER! {p} is struck by a discharge.",
+            "meteor_burn": "☄️ Meteor burns {p}."
+          },
+          "environment": {
+            "mountain_landslide": "🏔️ ¡LANDSLIDE! Rocks fall on {p}.",
+            "forest_cold": "❄️ {p} shivers from the glacial cold.",
+            "forest_berries": "🌿 {p} finds wild berries (+{heal} HP).",
+            "mud_drain": "💀 {bioma} mud drains {p}.",
+            "water_current": "🌊 A current drags {p}.",
+            "glitch": "👾 ¡ERROR! {p}'s data is momentarily corrupted.",
+            "glitch_unstable": "   (System unstable: -2 HP)",
+            "electric": "⚡ ¡DISCHARGE! {p} receives a spark from the ground.",
+            "holy_blessing": "✨ {bioma}'s light blesses {p}. (+{heal} HP)",
+            "star_energy": "🌟 {p} feels {bioma}'s energy flowing.",
+            "hell_burn": "🔥 ¡BURN! {p} steps on a river of lava.",
+            "crystal_aura": "💎 Crystals reflect a magical aura over {p}."
+          },
+          "idle": {
+            "generic": [
+              "Thinking about dinner.",
+              "Walking aimlessly.",
+              "Enjoying the view."
+            ],
+            "forest": ["Checking the trees.", "Listening to the birds."],
+            "water": ["Watching the water flow.", "Throwing stones into the water."],
+            "mountain": ["Climbing higher.", "Enjoying the fresh air."],
+            "sand": ["Drawing in the sand.", "Looking for seashells."]
+          },
+          "stupid_deaths": [
+            "💀 {p} tripped over their own shoelaces.",
+            "💀 {p} tried to catch a falling anvil.",
+            "💀 {p} walked into a wall."
+          ],
+          "gas": {
+            "cough": [
+               "☢️ The gas is approaching!",
+               "☢️ {p} coughs due to toxic gas.",
+               "☢️ Gas is filling the arena!"
+            ]
+          },
+          "death": [
+            "💀 {p} has fallen.",
+            "💀 {p} did not survive.",
+            "💀 RIP {p}."
+          ],
+          "betrayal": [
+            "💢 {p} betrays {f}.",
+            "💢 {p} attacks {f}."
+          ],
+          "stalk": "👀 {p} watches {o} from the shadows.",
+          "loot": "📦 {p} finds {item}.",
+          "inventory_full": "Inventory is full!",
+          "day_prefix": "Day {day}:",
+          "new_event": ["📢 New event started in the arena!"],
+          "final_duel_start": ["⚔️ The final duel has begun!"],
+          "fatigue": "{p} loses {damage} HP due to fatigue."
+        },
+        "progression": {
+          "skill_learned": [
+            "📜 {p} has learned a new skill: {s}!",
+            "📜 {p} now knows how to use {s}. This changes the rules!"
+          ],
+          "level_up": [
+            "🆙 {p} reached Level {l}! (+{hp} HP MAX, +1 {stat})"
+          ],
+          "level_up_milestone": [
+            "🌟 {p} reached a major level milestone!"
+          ],
+          "talent_unlocked": [
+            "🌟 Talent unlocked! {p} obtains {i} {t}: {d}"
+          ],
+          "item_picked": "📦 {p} picks up {i}.",
+          "equip_weapon": "⚔️ {p} equips {w}.",
+          "equip_shield": "🛡️ {p} equips {s}.",
+          "expand_inventory": "🎒 {p} uses backpack and expands inventory."
+        },
+        "funny": [
+          "😂 {p} tells a joke and {o} laughs.",
+          "🤡 {p} slips on a banana peel."
+        ],
+        "hostile_minor": {
+          "taunt": ["👿 {p} mocks {o}.", "💢 {p} yells at {o}."]
+        },
+        "social": {
+          "share": ["🤝 {p} shares food with {o}."],
+          "chat": ["💬 {p} talks with {o}."],
+          "guard": ["🛡️ {p} protects {o}."],
+          "romance": ["💖 {p} flirts with {o}."]
+        },
+        "romance": ["💖 {p} loves {o}."],
+        "context": {
+          "festival": [
+            "🏮 {p} hums a festival song while walking through the arena."
+          ]
+        },
+        "combat": {
+          "vampirism": "🧛 {actor} drains {heal} HP from {target}.",
+          "attack_variants": {
+              "attack1": "⚔️ {attacker} attacks {target} with {weapon}",
+              "attack2": "⚔️ {attacker} strikes {target} with {weapon}"
+          },
+          "normal_hit": "{msg}. Deals {dmg} damage (Defense: {def_pct}%).",
+          "critical_hit": "💥 CRITICAL HIT! {msg} dealing {dmg} damage!",
+          "miss": "💨 {actor} misses the attack against {target}!",
+          "dodge": "💨 {target} dodges the attack thanks to their Master Dodge!",
+          "fists": "your fists"
+        },
+        "boss": {
+            "fubuzilla_breath": "Fubuzilla breath!",
+            "fubuzilla_hit": "{target} hit!",
+            "mikodanye_lava": "Mikodanye lava!",
+            "smol_ame_pound": "Smol Ame pound!",
+            "smol_ame_hit": "{target} hit!",
+            "taran_chama": "Taran-Chama cooking!"
+        },
+        "effects": {
+            "damage_over_time": "{name} suffers {dmg} continuous damage ({stacks} stacks).",
+            "heal_over_time": "{name} recovers {heal} HP ({stacks} stacks).",
+            "burn": "{name} suffers {dmg} burn damage ({pct}% HP)."
+        },
+        "climax": [
+            "🏆 The center of the arena vibrates with golden energy!",
+            "🏆 Nowhere to run! The destiny is decided here."
+        ],
+        "status_msgs": {
+          "yandere": "🔪 YANDERE MODE! {p} enters a murderous frenzy.",
+          "fists": "your fists",
+          "burn_dmg": "{name} suffers {dmg} burn damage ({pct}% HP)."
+        }
+      },
+      "finished": "MATCH FINISHED",
+      "final_duel": "FINAL DUEL",
+      "welcome_msg": "Welcome to the Holo Hunger Games!",
+      "betting_msg": "Boost your favorite before the start!",
+      "shop_closed": "Shop is closed. Combat has begun!",
+      "save_data": "SAVE DATA (.txt)",
+      "data_saved": "DATA SAVED",
+      "oshi_lost": "💀 Your Oshi did not achieve the crown.",
+      "oshi_won": "🏆 YOUR OSHI HAS WON! Jackpot: {premio} HC (Achievement Bonus x{hc_mult})",
+      "oshi_eliminated": "💀 Your Oshi has been eliminated.",
+      "bet_won": "💰 BET WON! You received {premio} HC (x{hc_mult})",
+      "bet_lost": "💀 BET LOST in the duel.",
+      "fight_start": "⚔️ FIGHT!",
+      "coliseum": "THE COLISEUM",
+      "duel_stats": "DUEL STATISTICS",
+      "night": "🌙 NIGHT",
+      "no_other_groups": "No other groups left in the arena.",
+      "game_over": "YOU HAVE FALLEN!",
+      "victory": "VICTORY!",
+      "event": "EVENT",
+      "challenge": "CHALLENGE!",
+      "day": "DAY",
+      "alive": "ALIVE",
+      "day_log": "--- DAY {day} ---",
+      "new_match_log": "--- New Match ({biome}) ---",
+      "controls": {
+        "play_pause": "PLAY/PAUSE",
+        "events_today": "EVENTS TODAY",
+        "history": "HISTORY",
+        "next_turn": "NEXT TURN",
+        "view_bonds": "VIEW BONDS",
+        "main_menu": "MAIN MENU"
+      }
+    },
+    "mission_board": {
+      "arena_title": "[MISSION] ARENA CONTRACTS",
+      "no_arena_missions": "No active arena missions.",
+      "waiting_duel": "Waiting for duel...",
+      "bet_placed": "PLACED ✓",
+      "board_title": "📋 MISSION BOARD",
+      "no_today": "No missions today.",
+      "reward": "+{xp} XP | +{hc} HC",
+      "contract_progress": "{name} ({prog}/{goal})"
+    },
+    "common": {
+      "system": "SYSTEM",
+      "play": "PLAY",
+      "back": "BACK",
+      "close": "CLOSE",
+      "finish": "FINISH",
+      "claim": "CLAIM",
+      "menu": "MENU",
+      "reset": "RESET",
+      "back_to_menu": "BACK TO MENU",
+      "full": "FULL",
+      "remove": "REMOVE",
+      "confirm_exit": "ARE YOU SURE YOU WANT TO EXIT?",
+      "exit_warning": "Current game progress will be lost.",
+      "yes_exit": "YES, EXIT",
+      "no_back": "NO, BACK",
+      "view_more": "VIEW MORE",
+      "idols": "IDOLS",
+      "completed": "COMPLETED!",
+      "assign": "ASSIGN",
+      "continue": "CONTINUE",
+      "claim_item": "CLAIM"
+    },
+    "main_menu": {
+      "title": "HOLO HUNGER GAMES",
+      "title_with_lang": "{title}{lang}",
+      "rank": {
+        "ceo": "Hololive CEO",
+        "legendary_producer": "Legendary Producer",
+        "elite_manager": "Elite Manager",
+        "senior_producer": "Senior Producer",
+        "assistant_manager": "Assistant Manager",
+        "rookie": "Rookie"
+      },
+      "hc_suffix": " HC",
+      "locked": " [LOCKED]"
+    },
+    "dlc": {
+      "back": "BACK",
+      "title": "DLC MANAGEMENT",
+      "title_short": "DLCs",
+      "installed": "INSTALLED CONTENT",
+      "none_installed": "No DLCs installed.",
+      "available": "AVAILABLE IN STORE",
+      "active": "ACTIVE",
+      "inactive": "INACTIVE",
+      "turn_off": "TURN OFF",
+      "turn_on": "TURN ON",
+      "price": "PRICE",
+      "catalog": {
+        "realms_beyond": {
+          "name": "Realms of Beyond Pack",
+          "desc": "Explore the Underworld and the Elysian Fields."
+        },
+        "cyber_corrupt": {
+          "name": "Cyber Corrupt Pack",
+          "desc": "Adds Error Void, Electric Dome and Memories Forest."
+        }
+      }
+    },
+    "minigames": {
+      "symbols": {
+        "diamond": "DIAMOND",
+        "star": "STAR",
+        "seven": "SEVEN",
+        "bell": "BELL",
+        "cherry": "CHERRY",
+        "circle": "CIRCLE",
+        "triangle": "TRIANGLE",
+        "square": "SQUARE"        
+      },
+      "descriptions": {
+          "target_practice": "Earn HoloCoins by popping targets!",
+          "slots": "Test your luck with the idols (Costs 50 HC)",
+          "holo_dodge": "Dodge projectiles to earn coins!",
+          "adventure": "Explore and collect resources (Earn HoloCoins)"
+      },
+      "ui": {
+        "payout_initial": "TRY YOUR LUCK!",
+        "payout_triple": "TRIPLE {id}! +{win} HC",
+        "payout_pair": "PAIR: +{win} HC",
+        "payout_nothing": "Nothing this time...",
+        "payout_spinning": "Spinning... Good luck!",
+        "spin": "SPIN ({bet} HC)",
+        "balance": "BALANCE: {balance} HC",
+        "coins": "COINS: {score}",
+        "deliveries": "DELIVERIES: {count}",
+        "exit": "EXIT",
+        "prizes": "PRIZES",
+        "retry": "RETRY",
+        "click_to_start": "CLICK TO START",
+        "kitchen": "KITCHEN",
+        "customer": "CUSTOMER",
+        "challenge": "CHALLENGE",
+        "challenge_complete": "CHALLENGE COMPLETED! You have won",
+        "challenge_failed": "YOU MISSED THE GOAL ({target}). You have lost {damage} HP."
+      },
+      "titles": {
+        "target_practice": "TARGET PRACTICE",
+        "holo_dodge": "HOLO DODGE",
+        "game_over": "GAME OVER",
+        "how_to_play": "HOW TO PLAY"
+      },
+      "tutorial": {
+        "target_practice": ["Click on targets!", "Hit them before they disappear."],
+        "holo_dodge": ["Use LEFT/RIGHT or A/D!", "Avoid projectiles!"],
+        "adventure": ["Use WASD to move!", "Collect ingredients and serve dishes!"],
+        "slots": ["Click to spin!", "Match 3 symbols to win!"]
+      },
+      "results": {
+        "reward": "REWARD: +{val} HoloCoins",
+        "score": "Score: {val}",
+        "record": "PERSONAL RECORD: {val}"
+      }
+    },
+    "holopedia": {
+      "title": "HOLOPEDIA",
+      "click_idol": "Click Idol",
+      "wardrobe": "WARDROBE",
+      "select_idol": "Select an idol on the map",
+      "select_idol_file": "Select an Idol to view her file",
+      "active_bonds": "ACTIVE BONDS:",
+      "bonds_guide": "BONDS GUIDE"
+    },
+    "stats": {
+      "base": "BASE STATS:",
+      "skills": "SKILLS:",
+      "progression": "PROGRESSION PATH:",
+      "max": "MAX",
+      "active_bonuses": "ACTIVE BONUSES:"
+    },
+    "replay": {
+      "title": "REPLAY",
+      "results_header": "HOLO HUNGER GAMES - MATCH RESULTS {now}",
+      "winner_prefix": "WINNER",
+      "player_entry": "{prefix}: {name} ({faction})",
+      "controls": "SPACE: Pause | ARROWS: Navigate | ESC: Exit",
+      "ranking": "FINAL RANKING:",
+      "winner": "WINNER",
+      "none_available": "NO REPLAYS AVAILABLE",
+      "click_to_play": "CLICK TO PLAY",
+      "view_combat": "VIEW COMBAT (COLISEUM)",
+      "fast_sim": "FAST SIMULATION",
+      "log_header": "LOG COMPLETO DE EVENTOS:"
+    },
+    "hof": {
+      "title": "HALL OF FAME",
+      "milestones": "GLOBAL MILESTONES",
+      "games": "Games",
+      "winners": "WINNERS",
+      "tournaments": "TOURNAMENTS",
+      "minigames": "MINIGAMES",
+      "damage": "Damage",
+      "career": "Career: ",
+      "total_kills": "Total Kills",
+      "total_damage": "Total Damage",
+      "win_rate": "Win Rate"
+    },
+    "tournament": {
+      "config": "CONFIGURE TOURNAMENT",
+      "generate_bracket": "GENERATE BRACKET",
+      "confirm_bracket": "CONFIRM AND VIEW BRACKET",
+      "new_legend": "🏆 NEW COLISEUM LEGEND! 🏆",
+      "collect_trophy": "COLLECT TROPHY AND RETURN",
+      "ranking": "YAGOO'S COLISEUM - RANKING",
+      "duel_start": "⚔️ Duel Start!",
+      "bet_label": "BET",
+      "payout_label": "PAYOUT",
+      "bet": "BET",
+      "next_match": "NEXT: {p1} vs {p2}",
+      "won": "BET WON!",
+      "lost": "BET LOST",
+      "climax": {
+        "name": "🏆 FINAL DUEL",
+        "desc": "Final duel! Everyone to the center, damage and XP doubled."
+      },
+      "combat": {
+      "attack": "⚔️ {actor} launches an attack! {target} takes {dmg} damage.",
+      "skill_use": "✨ {actor} unleashes {skill_name}!"
+      }
+    },
+    "tabs": {
+      "info": "INFO",
+      "social": "SOCIAL",
+      "bet": "BET",
+      "shop": "SHOP",
+      "mission": "MISSION"
+    },
+    "arena": {
+      "generate": "GENERATE ARENA!",
+      "config": "CONFIGURE ARENA",
+      "tributes": "NUMBER OF TRIBUTES",
+      "selection_mode": "SELECTION MODE",
+      "biome": "ARENA BIOME",
+      "idols_selected": "IDOLS SELECTED",
+      "modes": {
+        "random": "RANDOM",
+        "manual": "MANUAL"
+      },
+      "biomes": {
+        "normal": "FOREST",
+        "hell": "HELL",
+        "arctic": "ARCTIC",
+        "cyber": "CYBER",
+        "cyber_corrupt": "CYBER CORRUPT",
+        "cyber_neon": "CYBER NEON",
+        "cyber_server": "CYBER SERVER",
+        "cyber_data": "CYBER DATA",
+        "features": "FEATURES",
+        "realms_beyond": "REALMS OF BEYOND",
+        "realms_elysium": "ELYSIUM FIELDS",
+        "realms_astral": "ASTRAL REALM",
+        "realms_tartarus": "TARTARUS REALM"
+      }
+    },
+    "social": {
+      "map": "SOCIAL MAP",
+      "close_hint": "Press [R] to close"
+    },
+    "manager": {
+      "train": "TRAIN",
+      "finish": "FINISH",
+      "train_hint": "Click on an Idol to improve her permanent attributes",
+      "recruit": "RECRUIT IDOLS",
+      "train_idols": "TRAIN IDOLS",
+      "manage_streaming": "MANAGE STREAMING",
+      "manage_concerts": "CONCERT MANAGEMENT",
+      "recruit_title": "IDOL RECRUITMENT",
+      "available_idols": "AVAILABLE IDOLS",
+      "gym_title": "GYM - TRAINING SELECTION",
+      "wardrobe_title": "WARDROBE - TEAM SELECTION",
+      "in_streaming": "STREAMING MANAGEMENT",
+      "in_concert": "CONCERT MANAGEMENT",
+      "level_up": "✨ MANAGER LEVEL INCREASED! You are now Level {level}",
+      "mgmt_streaming": "STREAMING MANAGEMENT",
+      "mgmt_concerts": "CONCERT MANAGEMENT",
+      "manage_relics": "MANAGE RELICS",
+      "capacity": "Capacity:"
+    },
+    "gym_training": {
+      "title": "TRAINING",
+      "rpg_level": "RPG LEVEL",
+      "available_points": "Available Points",
+      "upgrade_stats": "Upgrade Stats",
+      "train_hint": {
+        "strength": "Strength (ATK)",
+        "agility": "Agility (SPD)",
+        "intelligence": "Intelligence (INT)",
+        "luck": "Luck (LCK)"
+      }
+    },
+    "rpg": {
+      "start_path": "START PATH!",
+      "rest_desc": "You take a break to regain your strength.",
+      "npc_leave": "say goodbye and leave the area.",
+      "rpg_progress": "Progress: lvl ",
+      "floor": "Floor",
+      "rpg_level": "RPG LEVEL",
+      "afinity": "AFINITY",
+      "points": " POINTS",
+      "stats": {
+        "strength": "ATK (Strength)",
+        "agility": "SPD (Agility)",
+        "intelligence": "INT (Magic)",
+        "luck": "LCK (Luck)"
+      }
+    },
+    "relic": {
+      "title": "RELICS",
+      "found": "RELIC FOUND!",
+      "legendary": "LEGENDARY ITEM!",
+      "collection": "RELIC COLLECTION",
+      "choice_hint": "Choose a permanent upgrade for this run:",
+      "unknown_name": "Unknown Relic",
+      "unknown_desc": "An mysterious object...",
+      "occupied_spaces": "Occupied Spaces",
+      "equiped": "Equipped",
+      "reserved": "Reserved"
+    },
+    "shop": {
+      "title": "[SHOP]",
+      "support_shop": "Support Shop",
+      "select_idol": "SELECT AN IDOL IN THE ARENA",
+      "heal_name": "Health SuperChat",
+      "heal_desc": "Heals 30 HP immediately.",
+      "shield_name": "Fan Shield",
+      "shield_desc": "+5 Temporary Defense.",
+      "strength_name": "Rage Potion",
+      "strength_desc": "+8 Temporary Strength.",
+      "weapon_name": "Elite Supply",
+      "weapon_desc": "Delivers a legendary weapon (Divine Weapon).",
+      "gifting": "Gifting: ",
+      "item_entry": "{name}: {cost} HC"
+    },
+    "shop_manager": {
+      "title": "--- HOLOSHOP ---",
+      "upgrades": "UPGRADES",
+      "cosmetics": "COSMETICS",
+      "search_placeholder": "Search (Idol, Theme...)",
+      "acquired": "ACQUIRED",
+      "buy": "BUY",
+      "hc_label": "{price} HC",
+      "level_label": "LEVEL {level_req}",
+      "err_level_req": "Insufficient level (Req. {level_req})",
+      "err_no_coins": "Insufficient Holocoins"
+    },
+      "hideout": {
+        "bedrooms": "BEDROOMS",
+        "gym": "Gym",
+        "kitchen": "Kitchen",
+        "streaming_room": "Streaming Room",
+        "studio": "Studio",
+        "trophy_room": "Trophy Room",
+        "relax": "Relaxation Room",
+        "rehearsal": "Rehearsal Room",
+        "quest_board": "Quest Board",
+        "no_quest_board": "No Quests Available",
+        "upgrades": {
+          "gym": {
+            "weights": ["Weights", "+3 ATK"],
+            "bench": ["Bench", "+2% Crit"]
+          },
+          "kitchen": {
+            "stove": ["Stove", "+20 HP"],
+            "fridge": ["Fridge", "+5 Healing Power"]
+          },
+          "studio": {
+            "mocap": ["MoCap Suits", "+1 Capacity"],
+            "sensors": ["Sensors", "+2% XP Multiplier"]
+          },
+          "dorms": {
+            "beds": ["Beds", "Run Capacity"],
+            "deco": ["Decoration", "+Luck"]
+          },
+          "trophy_room": {
+            "shelves": ["Shelves", "+5% HoloCoins"],
+            "lights": ["Lights", "+2% Drop"]
+          },
+          "locker_room": {
+            "lockers": ["Lockers", "Drop Rarity Bonus"],
+            "mirrors": ["Mirrors", "+2% Evasion"]
+          },
+          "streaming": {
+            "setup": ["Streaming Setup", "+1 Capacity"],
+            "bandwidth": ["Bandwidth", "+0.5% Passive HC"],
+            "models": ["3D Models", "+2% Passive HC"]
+          },
+          "relax": {
+            "comfort": ["Comfort", "+5 Energy Recovery"],
+            "vibes": ["Vibes", "+2% Affinity Gain"]
+          },
+          "rehearsal": {
+            "stage": ["Stage", "+5% XP Gain"],
+            "lights": ["Lighting", "+5% Success Rate"]
+          }
+        }
+      }
+  },
+  "battle": {
+      "templates": {
+        "clumsy": {
+          "trip": [
+            "💀 {p} tripped over their own shoelaces.",
+            "💀 {p} walked into a wall."
+          ]
+        },
+        "logs": {
+          "climax": [
+            "🏆 The center of the arena vibrates with golden energy!",
+            "🏆 Nowhere to run! The destiny is decided here."
+          ],
+          "weather": {
+            "clear": "☀️ Day {d}: Sunny weather.",
+            "rain": "🌧️ Day {d}: Rainy weather.",
+            "wind": "🌬️ Day {d}: Windy weather.",
+            "fog": "🌫️ Day {d}: Dense fog.",
+            "storm": "⚡ Day {d}: Electric storm.",
+            "cold": "❄️ Day {d}: Cold wave.",
+            "meteor": "☄️ Day {d}: Meteor shower.",
+            "dust": "🌪️ Day {d}: Sandstorm.",
+            "eclipse": "🌑 Day {d}: Eclipse.",
+            "rainbow": "🌈 Day {d}: Rainbow.",
+            "strike": "⚡ ¡THUNDER! {p} is struck by a discharge.",
+            "meteor_burn": "☄️ Meteor burns {p}."
+          },
+          "environment": {
+            "mountain_landslide": "🏔️ ¡LANDSLIDE! Rocks fall on {p}.",
+            "forest_cold": "❄️ {p} shivers from the glacial cold.",
+            "forest_berries": "🌿 {p} finds wild berries (+{heal} HP).",
+            "mud_drain": "💀 {bioma} mud drains {p}.",
+            "water_current": "🌊 A current drags {p}.",
+            "glitch": "👾 ¡ERROR! {p}'s data is momentarily corrupted.",
+            "glitch_unstable": "   (System unstable: -2 HP)",
+            "electric": "⚡ ¡DISCHARGE! {p} receives a spark from the ground.",
+            "holy_blessing": "✨ {bioma}'s light blesses {p}. (+{heal} HP)",
+            "star_energy": "🌟 {p} feels {bioma}'s energy flowing.",
+            "hell_burn": "🔥 ¡BURN! {p} steps on a river of lava.",
+            "crystal_aura": "💎 Crystals reflect a magical aura over {p}."
+          },
+          "idle": {
+            "generic": [
+              "Thinking about dinner.",
+              "Walking aimlessly.",
+              "Enjoying the view."
+            ],
+            "forest": ["Checking the trees.", "Listening to the birds."],
+            "water": ["Watching the water flow.", "Throwing stones into the water."],
+            "mountain": ["Climbing higher.", "Enjoying the fresh air."],
+            "sand": ["Drawing in the sand.", "Looking for seashells."]
+          },
+          "stupid_deaths": [
+            "💀 {p} tripped over their own shoelaces.",
+            "💀 {p} tried to catch a falling anvil.",
+            "💀 {p} walked into a wall."
+          ],
+          "gas": {
+            "cough": [
+               "☢️ The gas is approaching!",
+               "☢️ {p} coughs due to toxic gas.",
+               "☢️ Gas is filling the arena!"
+            ]
+          },
+          "death": [
+            "💀 {p} has fallen.",
+            "💀 {p} did not survive.",
+            "💀 RIP {p}."
+          ],
+          "betrayal": [
+            "💢 {p} betrays {f}.",
+            "💢 {p} attacks {f}."
+          ],
+          "stalk": "👀 {p} watches {o} from the shadows.",
+          "loot": "📦 {p} finds {item}.",
+          "inventory_full": "Inventory is full!",
+          "day_prefix": "Day {day}:",
+          "new_event": ["📢 New event started in the arena!"],
+          "final_duel_start": ["⚔️ The final duel has begun!"],
+          "fatigue": "{p} loses {damage} HP due to fatigue."
+        },
+        "progression": {
+          "skill_learned": [
+            "📜 {p} has learned a new skill: {s}!",
+            "📜 {p} now knows how to use {s}. This changes the rules!"
+          ],
+          "level_up": [
+            "🆙 {p} reached Level {l}! (+{hp} HP MAX, +1 {stat})"
+          ],
+          "level_up_milestone": [
+            "🌟 {p} reached a major level milestone!"
+          ],
+          "talent_unlocked": [
+            "🌟 Talent unlocked! {p} obtains {i} {t}: {d}"
+          ],
+          "item_picked": "📦 {p} picks up {i}.",
+          "inventory_full": "Inventory is full!",
+          "equip_weapon": "⚔️ {p} equips {w}.",
+          "equip_shield": "🛡️ {p} equips {s}.",
+          "expand_inventory": "🎒 {p} uses backpack and expands inventory.",
+          "starting_gear": "🎒 {p} starts with {gear}."
+        },
+        "funny": [
+          "😂 {p} tells a joke and {o} laughs.",
+          "🤡 {p} slips on a banana peel."
+        ],
+        "hostile_minor": {
+          "taunt": ["👿 {p} mocks {o}.", "💢 {p} yells at {o}."]
+        },
+        "social": {
+          "share": ["🤝 {p} shares food with {o}."],
+          "chat": ["💬 {p} talks with {o}."],
+          "guard": ["🛡️ {p} protects {o}."],
+          "romance": ["💖 {p} flirts with {o}."]
+        },
+        "romance": ["💖 {p} loves {o}."],
+        "context": {
+          "festival": [
+            "🏮 {p} hums a festival song while walking through the arena."
+          ]
+        },
+        "combat": {
+          "vampirism": "🧛 {actor} drains {heal} HP from {target}.",
+          "attack_variants": {
+              "attack1": "⚔️ {attacker} attacks {target} with {weapon}",
+              "attack2": "⚔️ {attacker} strikes {target} with {weapon}"
+          },
+          "normal_hit": "{msg}. Deals {dmg} damage (Defense: {def_pct}%).",
+          "critical_hit": "💥 CRITICAL HIT! {msg} dealing {dmg} damage!",
+          "miss": "💨 {actor} misses the attack against {target}!",
+          "dodge": "💨 {target} dodges the attack thanks to their Master Dodge!",
+          "fists": "your fists"
+        },
+        "boss": {
+            "fubuzilla_breath": "Fubuzilla breath!",
+            "fubuzilla_hit": "{target} hit!",
+            "mikodanye_lava": "Mikodanye lava!",
+            "smol_ame_pound": "Smol Ame pound!",
+            "smol_ame_hit": "{target} hit!",
+            "taran_chama": "Taran-Chama cooking!"
+        },
+        "effects": {
+            "damage_over_time": "{name} suffers {dmg} continuous damage ({stacks} stacks).",
+            "heal_over_time": "{name} recovers {heal} HP ({stacks} stacks).",
+            "burn": "{name} suffers {dmg} burn damage ({pct}% HP)."
+        },
+        "climax": [
+            "🏆 The center of the arena vibrates with golden energy!",
+            "🏆 Nowhere to run! The destiny is decided here."
+        ],
+        "status_msgs": {
+          "yandere": "🔪 YANDERE MODE! {p} enters a murderous frenzy.",
+          "fists": "your fists",
+          "burn_dmg": "{name} suffers {dmg} burn damage ({pct}% HP)."
+        }
+      },
+      "finished": "MATCH FINISHED",
+      "final_duel": "FINAL DUEL",
+      "welcome_msg": "Welcome to the Holo Hunger Games!",
+      "betting_msg": "Boost your favorite before the start!",
+      "shop_closed": "Shop is closed. Combat has begun!",
+      "save_data": "SAVE DATA (.txt)",
+      "data_saved": "DATA SAVED",
+      "oshi_lost": "💀 Your Oshi did not achieve the crown.",
+      "oshi_won": "🏆 YOUR OSHI HAS WON! Jackpot: {premio} HC (Achievement Bonus x{hc_mult})",
+      "oshi_eliminated": "💀 Your Oshi has been eliminated.",
+      "bet_won": "💰 BET WON! You received {premio} HC (x{hc_mult})",
+      "bet_won_result": "💰 BET WON!",
+      "bet_lost_result": "💰 BET LOST!",
+      "bet_lost": "💀 BET LOST in the duel.",
+      "fight_start": "⚔️ FIGHT!",
+      "coliseum": "THE COLISEUM",
+      "duel_stats": "DUEL STATISTICS",
+      "night": "🌙 NIGHT",
+      "no_other_groups": "No other groups left in the arena.",
+      "game_over": "YOU HAVE FALLEN!",
+      "victory": "VICTORY!",
+      "event": "EVENT",
+      "challenge": "CHALLENGE!",
+      "day": "DAY",
+      "alive": "ALIVE",
+      "day_log": "--- DAY {day} ---",
+      "new_match_log": "--- New Match ({biome}) ---",
+      "controls": {
+        "play_pause": "PLAY/PAUSE",
+        "events_today": "EVENTS TODAY",
+        "history": "HISTORY",
+        "next_turn": "NEXT TURN",
+        "view_bonds": "VIEW BONDS",
+        "main_menu": "MAIN MENU"
+      }
+    },
+  "manager": {
+    "level_up": "✨ MANAGER LEVEL INCREASED! You are now Level {level}"
+  },
+  "climax": {
+    "name": "🏆 FINAL DUEL",
+    "desc": "Final duel! Everyone to the center, damage and XP doubled.",
+    "climax_desc_1": "🏆 The center of the arena vibrates with golden energy!",
+    "climax_desc_2": "🏆 Nowhere to run! The destiny is decided here."
+  }
+}
