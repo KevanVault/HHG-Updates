@@ -1,6 +1,10 @@
 {
-  "version": "1.3.2",
+  "version": "1.4",
   "files": {
+    "Holo Hunger Games.exe": {
+      "hash": "cf92a0e9cc0281c174a32a55e4dccdbea0002447e0af17089b025d587edd576f",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/Holo%20Hunger%20Games.exe"
+    }
   },
   "files_to_remove": [
   ]
