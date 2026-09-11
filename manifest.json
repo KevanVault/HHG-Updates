@@ -11,15 +11,15 @@
     },
     "en.json": {
       "hash": "",
-      "url": ""
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/en.json"
     },
     "es.json": {
       "hash": "",
-      "url": ""
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/es.json"
     },
     "jp.json": {
       "hash": "",
-      "url": ""
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/jp.json"
     }
   },
   "files_to_remove": [
