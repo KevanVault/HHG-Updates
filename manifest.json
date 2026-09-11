@@ -8,6 +8,18 @@
     "Holo Hunger Games.exe": {
       "hash": "8ebbae25926d7f224fef09d2be2627dad80307b5d5702b087a7edee3c8a89565",
       "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/Holo%20Hunger%20Games.exe"
+    },
+    "en.json": {
+      "hash": "",
+      "url": ""
+    },
+    "es.json": {
+      "hash": "",
+      "url": ""
+    },
+    "jp.json": {
+      "hash": "",
+      "url": ""
     }
   },
   "files_to_remove": [
