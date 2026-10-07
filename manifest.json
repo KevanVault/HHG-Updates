@@ -1,26 +1,6 @@
 {
   "version": "1.3",
   "files": {
-    "Sin titulo-1.png": {
-      "hash": "91cad37514f93b6ddfc9bb248b8fcd8d8617c874ceb93a98cb04581f09f0cb2c",
-      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/Sin%20titulo-1.png?raw=true"
-    },
-    "Holo Hunger Games.exe": {
-      "hash": "7515a153c60a843fe806d1d79314e1bff0001e9416be250bc6f5c2ca6154fd41",
-      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/Holo%20Hunger%20Games.exe"
-    },
-    "_internal/game_data/locales/en.json": {
-      "hash": "cedf3ea6756c95c2b0bfc81fabcb97d16ad120a8aa1219ba3086c6e6e50a1b16",
-      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/en.json"
-    },
-    "_internal/game_data/locales/es.json": {
-      "hash": "1fd54e5b3239425846021262cce53d11c8e5e3754505cb527018b628a8143d57",
-      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/es.json"
-    },
-    "_internal/game_data/locales/jp.json": {
-      "hash": "bbef8de754838f4893abfc0799422b4544c1746d22508eb7429c2b3b9ed75955",
-      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/jp.json"
-    }
   },
   "files_to_remove": [
   ]
