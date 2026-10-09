@@ -47,6 +47,6 @@ Launcher & Automatic Updater
 | It was a difficult decision,
 | but it was an absolutely necessary step to clean up the codebase,
 | lay the groundwork for all new systems, and ensure that from now on, with the new automatic launcher, you will never have to deal with this again or re-download the full game.
-| Thank you from the bottom of our hearts for your understanding and support! ❤️
+| Thank you from the bottom of our hearts for your understanding and support!
 
 We hope you thoroughly enjoy all these new additions! As always, any feedback or bugs you find are more than welcome to keep improving.
