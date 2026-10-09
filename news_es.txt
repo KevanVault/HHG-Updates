@@ -1,4 +1,4 @@
-🚀 NOTAS DEL PARCHE v_1.3: ¡Actualización Masiva de Contenido y Mejoras!
+NOTAS DEL PARCHE v_1.3: ¡Actualización Masiva de Contenido y Mejoras!
 
 ¡Hola a todos los fans de Holo Hunger Games!
 Traemos una de las actualizaciones más grandes hasta la fecha.
@@ -6,44 +6,44 @@ Hemos estado puliendo la experiencia de juego, añadiendo sistemas profundos de 
 
 Aquí tenéis la lista completa de todo lo nuevo que llega al simulador:
 
-🛠️ Corrección de Errores (Bugs Fixes)
+Corrección de Errores (Bugs Fixes)
 	• Adiós a los problemas de interfaz: Se ha solucionado el molesto bug de falta de scroll que afectaba al modo RPG, el vestuario, la gestión de conciertos y la de streamings.
 	¡Ahora navegar por los menús es totalmente fluido!
 
-🌟 Nuevas Características y Sistemas
-	• 🌍 Sistema de Localización de Idiomas: ¡El juego ya es multilingüe! Se han añadido oficialmente los idiomas Ingles (en) Español (es) y Japonés (jp)
+Nuevas Características y Sistemas
+	• Sistema de Localización de Idiomas: ¡El juego ya es multilingüe! Se han añadido oficialmente los idiomas Ingles (en) Español (es) y Japonés (jp)
 	para que disfrutes de toda la jerga y el lore de Hololive adaptados al milímetro.
 
-	• ⚡ Sistema de Energía: Gestiona el esfuerzo de tus ídols para exprimir al máximo sus entrenamientos y directos sin que caigan rendidas.
+	• Sistema de Energía: Gestiona el esfuerzo de tus ídols para exprimir al máximo sus entrenamientos y directos sin que caigan rendidas.
 
-	• 🏋️‍♂️ Nuevas Salas en La Guarida:
+	• Nuevas Salas en La Guarida:
 
 		• Sala de Entrenamiento: Ideal para disparar la ganancia de XP y mejorar los ratios de combate.
 		• Sala de Relajación: El espacio perfecto para recuperar energía a tope y potenciar los vínculos.
 
-	• 💖 Sistema de Afinidad y Misiones RPG:
+	• Sistema de Afinidad y Misiones RPG:
 
 		• Tus ídols ahora tienen un sistema de afinidad que desbloquea bonificaciones exclusivas en el modo RPG.
 		• ¡Sube el nivel de relación para desbloquear diálogos especiales y misiones secundarias exclusivas!
 
-	• 🔮 Renovación Total del Sistema de Reliquias:
+	• Renovación Total del Sistema de Reliquias:
 
 		• Se han rediseñado tanto la forma de conseguirlas como su uso táctico, dividiéndolas ahora en reliquias pasivas y activas.
 		• Se ha habilitado la Sala de Trofeos para gestionar tu colección y se han incorporado imágenes representativas únicas para cada una.
 
-💻 Lanzador y Actualizador Automático (Launcher)
+Lanzador y Actualizador Automático (Launcher)
 	• Se acabó tener que descargar el juego completo cada vez que haya un parche.
 
 	• ¡Hemos añadido un launcher propio! Detecta actualizaciones y te permite actualizar el juego con un solo clic, solucionando bugs de forma limpia y rápida.
 	Además, incluye un tablón de noticias integrado para que estés al tanto de la última hora del desarrollo.
 
-| ⚠️ AVISO IMPORTANTE SOBRE EL PROGRESO:
+| AVISO IMPORTANTE SOBRE EL PROGRESO:
 | Queremos pedir sinceramente disculpas a todos, pero debido a la profunda reestructuración de archivos y la renovación total de los sistemas internos,
 | el progreso de guardado anterior ha quedado obsoleto y no es compatible con esta versión. Significa que las partidas guardadas y el progreso anterior se perderán con este parche.
 |
 | Ha sido una decisión difícil,
 | pero era un paso absolutamente necesario para limpiar la base de código,
 | asentar las bases de todos los sistemas nuevos y garantizar que, a partir de ahora, con el nuevo launcher automático, nunca más tengáis que lidiar con esto ni volver a descargar el juego completo.
-| ¡Gracias de corazón por vuestra comprensión y apoyo! ❤️
+| ¡Gracias de corazón por vuestra comprensión y apoyo!
 
 ¡Esperamos que disfrutéis muchísimo de todas estas novedades! Como siempre, cualquier feedback o bug que encontréis es súper bienvenido para seguir mejorando.
