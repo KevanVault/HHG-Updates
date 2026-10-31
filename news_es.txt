@@ -7,12 +7,12 @@ Además, ¡traemos una incorporación muy especial al plantel de idols!
 
 Aquí tenéis el desglose completo de todas las novedades que aterrizan en el juego:
 
-🗺️ Progreso y Decisiones Tácticas
+Progreso y Decisiones Tácticas
 Sistema de Elección de Rutas (Mapa Ramificado): Ya no estás a merced del azar absoluto. Al avanzar de piso, verás claramente las opciones de ruta disponibles (Combate, Élite, Descanso, Altar o Tienda) para planificar tu camino hacia la victoria.
 
 Nodos de Descanso e Interacción (Fogatas y Altares): Se han implementado puntos tácticos clave en el mapa para la recuperación de recursos, meditación y eventos de riesgo/recompensa. ¿Te arriesgarás a sacrificar algo por un poder mayor?
 
-⚔️ Combate Más Profundo y Táctico
+Combate Más Profundo y Táctico
 Indicadores de Intención del Enemigo (Combat Telegraphing): ¡Se acabó ir a ciegas! Ahora recibirás avisos visuales claros sobre las intenciones del enemigo para el próximo turno, permitiéndote contraatacar o defenderte con cabeza.
 
 Inventario Táctico y Consumibles en Combate: Se ha expandido el uso de objetos consumibles tácticos durante los turnos. Utiliza bombas de humo, venenos o viales en el momento justo para darle la vuelta a un enfrentamiento crítico.
