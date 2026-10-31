@@ -1,49 +1,35 @@
-NOTAS DEL PARCHE v_1.3: ¡Actualización Masiva de Contenido y Mejoras!
+NOTAS DEL PARCHE v_1.3.1: ¡Estrategia, Inmersión Total y la llegada de ASOBI★MAWARI-TAI!
+¡Hola, managers de las Holo Hunger Games!
 
-¡Hola a todos los fans de Holo Hunger Games!
-Traemos una de las actualizaciones más grandes hasta la fecha.
-Hemos estado puliendo la experiencia de juego, añadiendo sistemas profundos de gestión y optimizando todo el rendimiento para que la experiencia sea fluida.
+Volvemos con una actualización de peso que redefine por completo la experiencia táctica dentro del simulador. Hemos estado puliendo los sistemas de combate, la interfaz y añadiendo una profundidad estratégica que cambiará la forma en que planificáis cada jugada.
 
-Aquí tenéis la lista completa de todo lo nuevo que llega al simulador:
+Además, ¡traemos una incorporación muy especial al plantel de idols!
 
-Corrección de Errores (Bugs Fixes)
-	• Adiós a los problemas de interfaz: Se ha solucionado el molesto bug de falta de scroll que afectaba al modo RPG, el vestuario, la gestión de conciertos y la de streamings.
-	¡Ahora navegar por los menús es totalmente fluido!
+Aquí tenéis el desglose completo de todas las novedades que aterrizan en el juego:
 
-Nuevas Características y Sistemas
-	• Sistema de Localización de Idiomas: ¡El juego ya es multilingüe! Se han añadido oficialmente los idiomas Ingles (en) Español (es) y Japonés (jp)
-	para que disfrutes de toda la jerga y el lore de Hololive adaptados al milímetro.
+🗺️ Progreso y Decisiones Tácticas
+Sistema de Elección de Rutas (Mapa Ramificado): Ya no estás a merced del azar absoluto. Al avanzar de piso, verás claramente las opciones de ruta disponibles (Combate, Élite, Descanso, Altar o Tienda) para planificar tu camino hacia la victoria.
 
-	• Sistema de Energía: Gestiona el esfuerzo de tus ídols para exprimir al máximo sus entrenamientos y directos sin que caigan rendidas.
+Nodos de Descanso e Interacción (Fogatas y Altares): Se han implementado puntos tácticos clave en el mapa para la recuperación de recursos, meditación y eventos de riesgo/recompensa. ¿Te arriesgarás a sacrificar algo por un poder mayor?
 
-	• Nuevas Salas en La Guarida:
+⚔️ Combate Más Profundo y Táctico
+Indicadores de Intención del Enemigo (Combat Telegraphing): ¡Se acabó ir a ciegas! Ahora recibirás avisos visuales claros sobre las intenciones del enemigo para el próximo turno, permitiéndote contraatacar o defenderte con cabeza.
 
-		• Sala de Entrenamiento: Ideal para disparar la ganancia de XP y mejorar los ratios de combate.
-		• Sala de Relajación: El espacio perfecto para recuperar energía a tope y potenciar los vínculos.
+Inventario Táctico y Consumibles en Combate: Se ha expandido el uso de objetos consumibles tácticos durante los turnos. Utiliza bombas de humo, venenos o viales en el momento justo para darle la vuelta a un enfrentamiento crítico.
 
-	• Sistema de Afinidad y Misiones RPG:
+Implementación Completa de Reliquias: ¡Todas las reliquias activas y pasivas (adrenaline_shot, emergency_kit, strength_ring, crit_glasses, idol_shoes, etc.) están 100% operativas con sus efectos mecánicos en marcha!
 
-		• Tus ídols ahora tienen un sistema de afinidad que desbloquea bonificaciones exclusivas en el modo RPG.
-		• ¡Sube el nivel de relación para desbloquear diálogos especiales y misiones secundarias exclusivas!
+Nueva Generación: ¡ASOBI★MAWARI-TAI!
+Las calles, los laboratorios y el espacio se desestabilizan con la llegada oficial de la nueva generación de Hololive. ¡Ya puedes reclutar y guiar a Achichi Mela, Hyakuto Kyoko, Suzuna Tsuzuri y Sorashina Sopia dentro del simulador!
 
-	• Renovación Total del Sistema de Reliquias:
+Renovación Visual y Estética de Alta Gama
+Paneles con Gradiente y Bordes Neón: Los contenedores principales y cabeceras de piso flotantes estrenan una interfaz moderna, limpia y visualmente impactante.
 
-		• Se han rediseñado tanto la forma de conseguirlas como su uso táctico, dividiéndolas ahora en reliquias pasivas y activas.
-		• Se ha habilitado la Sala de Trofeos para gestionar tu colección y se han incorporado imágenes representativas únicas para cada una.
+Tarjetas de Ruta Dinámicas: Nuevas cartas de opciones con efectos de elevación al pasar el ratón (hover), código de colores según el tipo de encuentro y gemas de riesgo con brillo propio.
 
-Lanzador y Actualizador Automático (Launcher)
-	• Se acabó tener que descargar el juego completo cada vez que haya un parche.
+HUD de Combate Renovado: Barras de vida fluidas, botones de acción con diseño de cartas de comando y efectos diseñados para una inmersión total en el coliseo.
 
-	• ¡Hemos añadido un launcher propio! Detecta actualizaciones y te permite actualizar el juego con un solo clic, solucionando bugs de forma limpia y rápida.
-	Además, incluye un tablón de noticias integrado para que estés al tanto de la última hora del desarrollo.
+Estabilidad y Corrección de Errores
+Normalización de Ítems y Tienda: Se ha mejorado la robustez en la carga y validación de objetos tanto en las tiendas de los comerciantes como en los cofres.
 
-| AVISO IMPORTANTE SOBRE EL PROGRESO:
-| Queremos pedir sinceramente disculpas a todos, pero debido a la profunda reestructuración de archivos y la renovación total de los sistemas internos,
-| el progreso de guardado anterior ha quedado obsoleto y no es compatible con esta versión. Significa que las partidas guardadas y el progreso anterior se perderán con este parche.
-|
-| Ha sido una decisión difícil,
-| pero era un paso absolutamente necesario para limpiar la base de código,
-| asentar las bases de todos los sistemas nuevos y garantizar que, a partir de ahora, con el nuevo launcher automático, nunca más tengáis que lidiar con esto ni volver a descargar el juego completo.
-| ¡Gracias de corazón por vuestra comprensión y apoyo!
-
-¡Esperamos que disfrutéis muchísimo de todas estas novedades! Como siempre, cualquier feedback o bug que encontréis es súper bienvenido para seguir mejorando.
+Estabilización de Clics: Solucionado el molesto UnboundLocalError que ocurría al hacer clic en espacios vacíos de la vista de nodos RPG. ¡Navegación limpia y sin interrupciones!
