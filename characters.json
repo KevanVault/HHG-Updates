@@ -1,1611 +1,1611 @@
 {
-    "sora":  {
-        "short_name":  "Sora",
-        "name":  "Tokino Sora",
-        "gen":  "Gen 0",
-        "groups":  [
+    "sora": {
+        "short_name": "Sora",
+        "name": "Tokino Sora",
+        "gen": "Gen 0",
+        "groups": [
             "Seiso",
             "Leaders"
         ],
-        "lore":  "The absolute cornerstone of this entire loop. While other idols run for their lives, Sora walks with a terrifying calm that screams: \u0027So, are you the enemy?\u0027. Her divine gaze doesn\u0027t just purify the arena; it forces rival AIs to kneel down and beg for forgiveness for even existing before being eliminated with a flawless smile.",
-        "presets":  [
+        "lore": "La piedra angular absoluta de todo este bucle. Mientras otras idols corren por sus vidas, Sora camina con una calma aterradora que grita: '¿Así que eres el enemigo?'. Su mirada divina no solo purifica la arena; obliga a las IA rivales a arrodillarse y suplicar perdón por el simple hecho de existir antes de ser eliminadas con una sonrisa impecable.",
+        "presets": [
             "Idols",
             "Goddesses",
             "Sora-tomos"
         ],
-        "traits":  [
+        "traits": [
             "pure",
             "leader"
         ],
-        "unique_skill_name":  "Purifying Gaze"
+        "unique_skill_name": "Mirada Purificadora"
     },
-    "azki":  {
-        "short_name":  "AZKi",
-        "name":  "AZKi",
-        "gen":  "Gen 0",
-        "groups":  [
+    "azki": {
+        "short_name": "AZKi",
+        "name": "AZKi",
+        "gen": "Gen 0",
+        "groups": [
             "Divas",
             "Pioneers"
         ],
-        "lore":  "The diva who turned Geoguessr into a weapon of mass destruction. While the map is still generating via bilinear noise, she already knows the exact coordinates of your fear. It doesn\u0027t matter how fast you run: AZKi knows your latitude, your longitude, and the exact split second her virtual voice will collapse your HP bar from across the biome.",
-        "presets":  [
+        "lore": "La diva que convirtió Geoguessr en un arma de destrucción masiva. Mientras el mapa todavía se genera mediante ruido bilineal, ella ya conoce las coordenadas exactas de tu miedo. No importa qué tan rápido corras: AZKi sabe tu latitud, tu longitud y el segundo exacto en el que su voz virtual colapsará tu barra de HP desde el otro lado del bioma.",
+        "presets": [
             "Divas",
             "Pioneers",
             "Geoguessers"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "mapper"
         ],
-        "unique_skill_name":  "AZKi Map"
+        "unique_skill_name": "Mapa de AZKi"
     },
-    "roboco":  {
-        "short_name":  "Roboco",
-        "name":  "Roboco-san",
-        "gen":  "Gen 0",
-        "groups":  [
+    "roboco": {
+        "short_name": "Roboco",
+        "name": "Roboco-san",
+        "gen": "Gen 0",
+        "groups": [
             "Cyber",
             "High-Spec"
         ],
-        "lore":  "An engineering marvel with way more firepower than available RAM. She is fully capable of executing an orbital-precision laser strike, but has a 40% chance of forgetting why she is even in the arena or running out of battery at the most epic moment. She is the ultimate killing machine, as long as a \u0027ponkotsu\u0027 system error doesn\u0027t get in the way.",
-        "presets":  [
+        "lore": "Una maravilla de la ingeniería con mucha más potencia de fuego que memoria RAM disponible. Es perfectamente capaz de ejecutar un ataque láser con precisión orbital, pero tiene un 40% de probabilidades de olvidar por qué está en la arena o de quedarse sin batería en el momento más épico. Es la máquina de matar definitiva, siempre y cuando un error de sistema 'ponkotsu' no se interponga en su camino.",
+        "presets": [
             "High-Spec",
             "Machinery",
             "Robocos"
         ],
-        "traits":  [
+        "traits": [
             "robotic",
             "clumsy"
         ],
-        "unique_skill_name":  "High-Spec Laser"
+        "unique_skill_name": "Láser High-Spec"
     },
-    "miko":  {
-        "short_name":  "Miko",
-        "name":  "Sakura Miko",
-        "gen":  "Gen 0",
-        "groups":  [
+    "miko": {
+        "short_name": "Miko",
+        "name": "Sakura Miko",
+        "gen": "Gen 0",
+        "groups": [
             "Elite",
             "Babies",
             "Micomet"
         ],
-        "lore":  "The Elite Miko whose relationship with fire is... complicated, to say the least. Sent into the arena to purify souls, she usually just ends up setting herself on fire with accidental lava. Her rank 10 luck is the only thing keeping her own magic from wiping her out on turn 1, turning every single one of her blunders into an absurd, inexplicable victory.",
-        "presets":  [
+        "lore": "La Miko Élite cuya relación con el fuego es... complicada, por decir lo menos. Enviada a la arena para purificar almas, por lo general solo termina prendiéndose fuego a sí misma con lava accidental. Su suerte de rango 10 es lo único que evita que su propia magia la aniquile en el turno 1, convirtiendo cada una de sus pifias en una victoria absurda e inexplicable.",
+        "presets": [
             "Elites",
             "35P",
             "Mikos"
         ],
-        "traits":  [
+        "traits": [
             "clumsy",
             "lucky"
         ],
-        "unique_skill_name":  "Elite Lava"
+        "unique_skill_name": "Lava Élite"
     },
-    "suisei":  {
-        "short_name":  "Suisei",
-        "name":  "Hoshimachi Suisei",
-        "gen":  "Gen 0",
-        "groups":  [
+    "suisei": {
+        "short_name": "Suisei",
+        "name": "Hoshimachi Suisei",
+        "gen": "Gen 0",
+        "groups": [
             "Elite",
             "Micomet",
             "Psycho"
         ],
-        "lore":  "Living proof that you should never leave an axe anywhere near a perfect idol. Suisei shines with the brilliance of a comet while singing a heavenly ballad, all while simultaneously calculating the most efficient trajectory to slice through her peers. In the arena she isn\u0027t a survivor; she is a straight-up world boss looking to score a perfect \u0027Tetris\u0027 using her victims\u0027 bodies.",
-        "presets":  [
+        "lore": "La prueba viviente de que nunca debes dejar un hacha cerca de una idol perfecta. Suisei brilla con el resplandor de un cometa mientras canta una balada celestial, todo mientras calcula simultáneamente la trayectoria más eficiente para rebanar a sus compañeras. En la arena no es una superviviente; es literalmente un 'world boss' buscando hacer un 'Tetris' perfecto con los cuerpos de sus víctimas.",
+        "presets": [
             "Comets",
             "Psychos",
             "Hoshiyomi"
         ],
-        "traits":  [
+        "traits": [
             "psycho",
             "idol",
             "tryhard"
         ],
-        "unique_skill_name":  "Stellar Axe"
+        "unique_skill_name": "Hacha Estelar"
     },
-    "mel":  {
-        "short_name":  "Mel",
-        "name":  "Yozora Mel",
-        "gen":  "Gen 1",
-        "groups":  [
+    "mel": {
+        "short_name": "Mel",
+        "name": "Yozora Mel",
+        "gen": "Gen 1",
+        "groups": [
             "Vampires",
             "Kapingos",
             "Acerolas"
         ],
-        "lore":  "The sweetest vampire to ever exist—at least until hunger strikes. Although she claims to survive solely on acerola juice, her fangs gleam suspiciously whenever she approaches an unsuspecting ally. Her kiss doesn\u0027t just drain HP; it leaves you wondering whether you were just attacked or blessed.",
-        "presets":  [
+        "lore": "La vampira más dulce que jamás haya existido... al menos hasta que el hambre aprieta. Aunque afirma sobrevivir exclusivamente a base de zumo de acerola, sus colmillos brillan de forma sospechosa cada vez que se acerca a una aliada desprevenida. Su beso no solo drena HP; te deja dudando de si acabas de ser atacada o bendecida.",
+        "presets": [
             "Vampires",
             "Kapingos",
             "Acerolas"
         ],
-        "traits":  [
+        "traits": [
             "pure",
             "vampire"
         ],
-        "unique_skill_name":  "Vampiric Kiss"
+        "unique_skill_name": "Beso Vampírico"
     },
-    "fubuki":  {
-        "short_name":  "Fubuki",
-        "name":  "Shirakami Fubuki",
-        "gen":  "Gen 1",
-        "groups":  [
+    "fubuki": {
+        "short_name": "Fubuki",
+        "name": "Shirakami Fubuki",
+        "gen": "Gen 1",
+        "groups": [
             "Foxes",
             "Leaders",
             "Gamers"
         ],
-        "lore":  "The white fox (not a cat!) who has mastered the art of tactical Friendzoning. She navigates the arena with an agility that completely defies the game engine, dodging attacks and alliance proposals with equal ease. If she tries to be your friend in the middle of combat, run: she\u0027s probably just waiting for the simulated chat to demand a sacrifice.",
-        "presets":  [
+        "lore": "La zorra blanca (¡que no un gato!) que ha dominado el arte del Friendzoneo táctico. Se mueve por la arena con una agilidad que desafía por completo el motor del juego, esquivando ataques y propuestas de alianza con la misma facilidad. Si intenta ser tu amiga en mitad del combate, huye: probablemente solo esté esperando a que el chat simulado exija un sacrificio.",
+        "presets": [
             "Foxes",
             "Friends",
             "Cats"
         ],
-        "traits":  [
+        "traits": [
             "fast",
             "leader",
             "social_butterfly"
         ],
-        "unique_skill_name":  "Kon Kon Attack"
+        "unique_skill_name": "Ataque Kon Kon"
     },
-    "matsuri":  {
-        "short_name":  "Matsuri",
-        "name":  "Natsuiro Matsuri",
-        "gen":  "Gen 1",
-        "groups":  [
+    "matsuri": {
+        "short_name": "Matsuri",
+        "name": "Natsuiro Matsuri",
+        "gen": "Gen 1",
+        "groups": [
             "Festivals",
             "Chaos",
             "Gods"
         ],
-        "lore":  "She calls herself God, and in an apocalyptic world, who\u0027s going to argue with her? Her energy is a public hazard that completely ignores the laws of physics and decorum. She can instantly switch from being a protective ally to an end-of-the-world level threat if she detects a \u0027loli\u0027 idol within a three-biome radius.",
-        "presets":  [
+        "lore": "Se llama a sí misma Dios, y en un mundo apocalíptico, ¿quién le va a llevar la contraria? Su energía es un peligro público que ignora por completo las leyes de la física y del decoro. Puede pasar al instante de ser una aliada protectora a una amenaza de nivel fin del mundo si detecta a una idol 'loli' en un radio de tres biomas.",
+        "presets": [
             "Festivals",
             "Gods",
             "Matsuris"
         ],
-        "traits":  [
+        "traits": [
             "pervert",
             "energetic"
         ],
-        "unique_skill_name":  "God Power"
+        "unique_skill_name": "Poder Divino"
     },
-    "aki":  {
-        "short_name":  "Aki",
-        "name":  "Aki Rosenthal",
-        "gen":  "Gen 1",
-        "groups":  [
+    "aki": {
+        "short_name": "Aki",
+        "name": "Aki Rosenthal",
+        "gen": "Gen 1",
+        "groups": [
             "Elves",
             "Mukiroze",
             "Dancers"
         ],
-        "lore":  "An interdimensional elf whose floating twin-tails have more personality than most enemies. Her mystical dance can summon portals or blessings, but when the arena gets serious, she unleashes Mukiroze: a manifestation of pure muscle and glory that reminds everyone that elegance doesn\u0027t stop you from snapping your opponent\u0027s bones.",
-        "presets":  [
+        "lore": "Una elfa interdimensional cuyas coletas flotantes tienen más personalidad que la mayoría de los enemigos. Su danza mística puede invocar portales o bendiciones, pero cuando la arena se pone seria, desata a Mukiroze: una manifestación de puro músculo y gloria que le recuerda a todo el mundo que la elegancia no te impide romperle los huesos a tu oponente.",
+        "presets": [
             "Rosetais",
             "Elves",
             "Belly Dancers"
         ],
-        "traits":  [
+        "traits": [
             "magic",
             "pure"
         ],
-        "unique_skill_name":  "Mukiroze Punch"
+        "unique_skill_name": "Puñetazo Mukiroze"
     },
-    "haachama":  {
-            "short_name":  "Haachama",
-            "name":  "Haachama",
-            "gen":  "Gen 1",
-            "groups":  [
-                "Chaos",
-                "Cooks",
-                "Horror"
-            ],
-            "lore":  "A glitch in reality that the Staff Panel simply cannot patch out. She doesn\u0027t fight, she \u0027cooks\u0027. Her opponents don\u0027t fear her strikes; they fear her spider recipes that drain sanity and HP in equal measure. Rumor has it that if you manage to eliminate her, you\u0027re only setting Akai Haato free, which is somehow much more terrifying.",
-            "presets":  [
-                "Chaotic",
-                "Cooks",
-                "Haatons"
-            ],
-            "traits":  [
-                "crazy",
-                "hungry"
-            ],
-            "unique_skill_name":  "Haachama Cooking"
+    "haachama": {
+        "short_name": "Haachama",
+        "name": "Haachama",
+        "gen": "Gen 1",
+        "groups": [
+            "Chaos",
+            "Cooks",
+            "Horror"
+        ],
+        "lore": "Un 'glitch' en la realidad que el Panel del Staff simplemente no puede parchear. Ella no lucha, ella 'cocina'. Sus oponentes no temen sus golpes; temen sus recetas con arañas que drenan la cordura y el HP a partes iguales. Se rumorea que si consigues eliminarla, solo estarás liberando a Akai Haato, lo cual es de alguna manera mucho más aterrador.",
+        "presets": [
+            "Chaotic",
+            "Cooks",
+            "Haatons"
+        ],
+        "traits": [
+            "crazy",
+            "hungry"
+        ],
+        "unique_skill_name": "Cocina de Haachama"
     },
-    "aqua":  {
-        "short_name":  "Aqua",
-        "name":  "Minato Aqua",
-        "gen":  "Gen 2",
-        "groups":  [
+    "aqua": {
+        "short_name": "Aqua",
+        "name": "Minato Aqua",
+        "gen": "Gen 2",
+        "groups": [
             "Maids",
             "Introverts"
         ],
-        "lore":  "The gamer maid with God-tier social anxiety. In the arena, Aqua is a ghost of pure mechanical skill who would rather hide inside a cardboard box than talk to anyone, but she is an absolute nightmare in a 1v1. If you blink, she will have executed a 20-hit combo on you while desperately trying to avoid making eye contact.",
-        "presets":  [
+        "lore": "La sirvienta gamer con un nivel divino de ansiedad social. En la arena, Aqua es un fantasma de pura habilidad mecánica que preferiría esconderse dentro de una caja de cartón antes que hablar con alguien, pero es una pesadilla absoluta en un 1v1. Si parpadeas, te habrá ejecutado un combo de 20 golpes mientras intenta desesperadamente evitar el contacto visual.",
+        "presets": [
             "Onions",
             "Maids",
             "Gamers"
         ],
-        "traits":  [
+        "traits": [
             "shy",
             "fast",
             "tryhard"
         ],
-        "unique_skill_name":  "Sololive"
+        "unique_skill_name": "Sololive"
     },
-    "shion":  {
-        "short_name":  "Shion",
-        "name":  "Murasaki Shion",
-        "gen":  "Gen 2",
-        "groups":  [
+    "shion": {
+        "short_name": "Shion",
+        "name": "Murasaki Shion",
+        "gen": "Gen 2",
+        "groups": [
             "Witches",
             "Brat",
             "Magicians"
         ],
-        "lore":  "The quintessential \u0027kusogaki\u0027 witch. She doesn\u0027t just cast high-magic spells at you; she accompanies every single debuff with a smug laugh that melts away your emotional defense. Her ego is the only thing bigger than her intelligence stat; rumor has it the Final Protocol can\u0027t delete her because she hexed the source code herself just to call us \u0027losers\u0027 forever.",
-        "presets":  [
+        "lore": "La bruja 'kusogaki' por excelencia. No solo te lanza hechizos de alta magia; acompaña cada 'debuff' con una risita engreída que derrite tu defensa emocional. Su ego es lo único más grande que su estadística de inteligencia; se rumorea que el Protocolo Final no puede eliminarla porque le echó un maleficio al código fuente solo para llamarnos 'perdedores' para siempre.",
+        "presets": [
             "Witches",
             "Gakis",
             "Shio-ko"
         ],
-        "traits":  [
+        "traits": [
             "brat",
             "magic"
         ],
-        "unique_skill_name":  "Murasaki Spell"
+        "unique_skill_name": "Hechizo Murasaki"
     },
-    "ayame":  {
-        "short_name":  "Ayame",
-        "name":  "Nakiri Ayame",
-        "gen":  "Gen 2",
-        "groups":  [
+    "ayame": {
+        "short_name": "Ayame",
+        "name": "Nakiri Ayame",
+        "gen": "Gen 2",
+        "groups": [
             "Oni",
             "Warriors",
             "Nakirium"
         ],
-        "lore":  "An Oni so incredibly adorable that the combat engine suffers errors just trying to process her aggression. Her katanas slice through bilinear noise with the grace of a ritual dance, but her truest weapon is \u0027Nakirium\u0027: a mystical energy emanating from her giggles that, while healing to the soul, leaves you completely wide open to her lethal dual strike.",
-        "presets":  [
+        "lore": "Una Oni tan increíblemente adorable que el motor de combate sufre errores solo intentando procesar su agresividad. Sus katanas cortan el ruido bilineal con la gracia de una danza ritual, pero su verdadera arma es el 'Nakirium': una energía mística que emana de sus risitas y que, aunque cura el alma, te deja completamente expuesto a su letal doble estocada.",
+        "presets": [
             "Onis",
             "Nakirium",
             "Warriors"
         ],
-        "traits":  [
+        "traits": [
             "cute",
             "fast"
         ],
-        "unique_skill_name":  "Nakirium"
+        "unique_skill_name": "Nakirium"
     },
-    "choco":  {
-        "short_name":  "Choco",
-        "name":  "Yuzuki Choco",
-        "gen":  "Gen 2",
-        "groups":  [
+    "choco": {
+        "short_name": "Choco",
+        "name": "Yuzuki Choco",
+        "gen": "Gen 2",
+        "groups": [
             "Demons",
             "Nurses",
             "Succubus"
         ],
-        "lore":  "The demon nurse who turns the battlefield into a private check-up from which nobody leaves cleared. Her intelligence is top-tier, analyzing your weak points while offering a \u0027medical exam.\u0027 If you fall into her trap, you will quickly find out that her heals are merely a way to prolong your stay in her endless loop of seduction and damage.",
-        "presets":  [
+        "lore": "La enfermera demonio que convierte el campo de batalla en una revisión médica privada de la que nadie sale de alta. Su inteligencia es de nivel superior, analizando tus puntos débiles mientras te ofrece un 'examen médico'. Si caes en su trampa, descubrirás rápidamente que sus curas son solo un medio para prolongar tu estancia en su bucle infinito de seducción y daño.",
+        "presets": [
             "Nurses",
             "Succubi",
             "Choco-mates"
         ],
-        "traits":  [
+        "traits": [
             "pervert",
             "smart"
         ],
-        "unique_skill_name":  "Medical Exam"
+        "unique_skill_name": "Examen Médico"
     },
-    "subaru":  {
-        "short_name":  "Subaru",
-        "name":  "Oozora Subaru",
-        "gen":  "Gen 2",
-        "groups":  [
+    "subaru": {
+        "short_name": "Subaru",
+        "name": "Oozora Subaru",
+        "gen": "Gen 2",
+        "groups": [
             "Athletes",
             "Managers",
             "Ducks"
         ],
-        "lore":  "The screaming heart of the arena. Subaru doesn\u0027t step into battle; she steps into a sports-induced panic attack that triggers her signature duck \u0027Shout,\u0027 capable of stunning gods and androids alike. She is the only idol who can die heroically and respawn just to complain that absolutely nobody is following the game rules.",
-        "presets":  [
+        "lore": "El corazón chillón de la arena. Subaru no entra en combate; entra en un ataque de pánico deportivo que activa su característico 'Grito' de pato, capaz de aturdir a diosas y androides por igual. Es la única idol capaz de morir heroicamente y reaparecer solo para quejarse de que absolutamente nadie está siguiendo las reglas del juego.",
+        "presets": [
             "Ducks",
             "Managers",
             "Subaru-tomos"
         ],
-        "traits":  [
+        "traits": [
             "energetic",
             "pure",
             "social_butterfly"
         ],
-        "unique_skill_name":  "Duck Shout"
+        "unique_skill_name": "Grito de Pato"
     },
-    "mio":  {
-        "short_name":  "Mio",
-        "name":  "Ookami Mio",
-        "gen":  "Gamers",
-        "groups":  [
+    "mio": {
+        "short_name": "Mio",
+        "name": "Ookami Mio",
+        "gen": "Gamers",
+        "groups": [
             "Wolves",
             "Mothers",
             "Tarot"
         ],
-        "lore":  "The mama wolf trying to bring order to a loop filled with absolute psychopaths. With her tarot cards, Mio can predict the arena\u0027s next random event, protecting her allies with fierce maternal instinct. But beware: if you harm her generation \u0027daughters\u0027, the wolf spirit will awaken, and there won\u0027t be a single corner of the map left to hide.",
-        "presets":  [
+        "lore": "La mamá lobo que intenta poner orden en un bucle lleno de auténticas psicópatas. Con sus cartas del tarot, Mio puede predecir el próximo evento aleatorio de la arena, protegiendo a sus aliadas con un feroz instinto maternal. Pero cuidado: si haces daño a las 'hijas' de su generación, el espíritu del lobo despertará y no quedará un solo rincón del mapa donde esconderse.",
+        "presets": [
             "Wolves",
             "Mamas",
             "Mio-fa"
         ],
-        "traits":  [
+        "traits": [
             "pure",
             "leader"
         ],
-        "unique_skill_name":  "Mio\u0027s Tarot"
+        "unique_skill_name": "Tarot de Mio"
     },
-    "okayu":  {
-        "short_name":  "Okayu",
-        "name":  "Nekomata Okayu",
-        "gen":  "Gamers",
-        "groups":  [
+    "okayu": {
+        "short_name": "Okayu",
+        "name": "Nekomata Okayu",
+        "gen": "Gamers",
+        "groups": [
             "Cats",
             "Pranksters",
             "Hungry"
         ],
-        "lore":  "A stray cat navigating the biomes\u0027 shadows with an unsettling calmness. She doesn\u0027t fight for glory; she fights for onigiri and for the sheer joy of watching the confusion on her victims\u0027 faces as she steals their loot right from under their noses. In the Final Protocol, Okayu is living proof that crime doesn\u0027t just pay—it purrs.",
-        "presets":  [
+        "lore": "Una gata callejera que se mueve entre las sombras de los biomas con una calma inquietante. No lucha por la gloria; lucha por los onigiri y por el puro placer de ver la confusión en la cara de sus víctimas mientras les roba el botín delante de sus narices. En el Protocolo Final, Okayu es la prueba viviente de que el crimen no solo compensa: también ronronea.",
+        "presets": [
             "Cats",
             "Mogu Mogus",
             "Pies"
         ],
-        "traits":  [
+        "traits": [
             "pervert",
             "hungry",
             "cat"
         ],
-        "unique_skill_name":  "Mogu Mogu"
+        "unique_skill_name": "Mogu Mogu"
     },
-    "korone":  {
-        "short_name":  "Korone",
-        "name":  "Inugami Korone",
-        "gen":  "Gamers",
-        "groups":  [
+    "korone": {
+        "short_name": "Korone",
+        "name": "Inugami Korone",
+        "gen": "Gamers",
+        "groups": [
             "Dogs",
             "Warriors",
             "Horror"
         ],
-        "lore":  "The baker of doom possessing physical endurance that completely defies logic. Her loyalty is absolute, but her love is measured in collected fingers. If you hear a distant \u0027Yubi Yubi!\u0027 approaching, prepare yourself for an endless war of attrition where Korone won\u0027t stop until your HP bar—and your limbs—belong to her.",
-        "presets":  [
+        "lore": "La panadera de la perdición con una resistencia física que desafía completamente la lógica. Su lealtad es absoluta, pero su amor se mide en dedos recolectados. Si oyes un lejano '¡Yubi Yubi!' acercarse, prepárate para una guerra de desgaste infinita donde Korone no se detendrá hasta que tu barra de HP (y tus extremidades) le pertenezcan.",
+        "presets": [
             "Puppies",
             "Yubis",
             "Bakers"
         ],
-        "traits":  [
+        "traits": [
             "psycho",
             "loyal"
         ],
-        "unique_skill_name":  "Yubi Yubi!"
+        "unique_skill_name": "¡Yubi Yubi!"
     },
-    "pekora":  {
-        "short_name":  "Pekora",
-        "name":  "Usada Pekora",
-        "gen":  "Gen 3",
-        "groups":  [
+    "pekora": {
+        "short_name": "Pekora",
+        "name": "Usada Pekora",
+        "gen": "Gen 3",
+        "groups": [
             "Rabbits",
             "Chaos",
             "Comedians"
         ],
-        "lore":  "The most wanted war criminal in the entire arena. Pekora doesn\u0027t fight for victory; she fights for the spectacle of a perfectly placed TNT explosion. Her laugh echoes through the game\u0027s source code as an ominous warning that something is about to blow sky-high. If she proposes an \u0027alliance\u0027, run; you are most likely just bait for her next redstone trap.",
-        "presets":  [
+        "lore": "La criminal de guerra más buscada de toda la arena. Pekora no lucha por la victoria; lucha por el espectáculo de una explosión de TNT perfectamente colocada. Su risa resuena en el código fuente del juego como una advertencia ominosa de que algo está a punto de volar por los aires. Si te propone una 'alianza', huye; lo más probable es que solo seas el cebo para su próxima trampa de redstone.",
+        "presets": [
             "Nousagis",
             "Rabbits",
             "TNT"
         ],
-        "traits":  [
+        "traits": [
             "brat",
             "smart",
             "coward"
         ],
-        "unique_skill_name":  "TNT Trap"
+        "unique_skill_name": "Trampa de TNT"
     },
-    "rushia":  {
-        "short_name":  "Rushia",
-        "name":  "Uruha Rushia",
-        "gen":  "Gen 3",
-        "groups":  [
+    "rushia": {
+        "short_name": "Rushia",
+        "name": "Uruha Rushia",
+        "gen": "Gen 3",
+        "groups": [
             "Necromancers",
             "Yandere",
             "Uruha"
         ],
-        "lore":  "A necromancer whose absolute fury can completely shatter the game\u0027s audio engine. If you dare call her \u0027flat\u0027, her HP instantly transforms into pure rage and her screams summon the dead to claim your soul. In the Final Protocol, Rushia is the queen of broken hearts and vanished health bars—a tactical yandere who won\u0027t let anyone escape her eternal \u0027love\u0027.",
-        "presets":  [
+        "lore": "Una nigromante cuya furia absoluta puede destrozar por completo el motor de audio del juego. Si te atreves a llamarla 'tabla', su HP se transforma instantáneamente en pura rabia y sus gritos invocan a los muertos para reclamar tu alma. En el Protocolo Final, Rushia es la reina de los corazones rotos y las barras de vida desaparecidas: una yandere táctica que no dejará que nadie escape de su 'amor' eterno.",
+        "presets": [
             "Necromancers",
             "Fandeads",
             "Yanderes"
         ],
-        "traits":  [
+        "traits": [
             "psycho",
             "brat"
         ],
-        "unique_skill_name":  "Necromantic Scream"
+        "unique_skill_name": "Grito Nigromántico"
     },
-    "flare":  {
-        "short_name":  "Flare",
-        "name":  "Shiranui Flare",
-        "gen":  "Gen 3",
-        "groups":  [
+    "flare": {
+        "short_name": "Flare",
+        "name": "Shiranui Flare",
+        "gen": "Gen 3",
+        "groups": [
             "Elves",
             "Warriors",
             "Shiranui"
         ],
-        "lore":  "The fire elf who brings both sanity and flawless precision to the party. Flare moves with a half-elf elegance that completely masks her devastating pyromaniac potential. Her arrows don\u0027t just seek out her enemy\u0027s weak points; they light up the darkest biomes, reminding everyone that while she may be pure of heart, her fire knows no mercy.",
-        "presets":  [
+        "lore": "La elfa de fuego que aporta tanto cordura como una precisión impecable al grupo. Flare se mueve con una elegancia de semielfa que disfraza por completo su devastador potencial piromaniaco. Sus flechas no solo buscan los puntos débiles del enemigo; iluminan los biomas más oscuros, recordando a todos que, aunque sea de corazón puro, su fuego no tiene piedad.",
+        "presets": [
             "Elves",
             "Elfriends",
             "Warriors"
         ],
-        "traits":  [
+        "traits": [
             "pure",
             "smart"
         ],
-        "unique_skill_name":  "Fiery Arrow"
+        "unique_skill_name": "Flecha Ardiente"
     },
-    "noel":  {
-        "short_name":  "Noel",
-        "name":  "Shirogane Noel",
-        "gen":  "Gen 3",
-        "groups":  [
+    "noel": {
+        "short_name": "Noel",
+        "name": "Shirogane Noel",
+        "gen": "Gen 3",
+        "groups": [
             "Knights",
             "Muscle",
             "AraAra"
         ],
-        "lore":  "A knight with the raw strength of a gorilla and the stomach of a black hole. Noel is the ultimate tank: she can take direct hits from meteorites and still keep thinking about her next bowl of gyudon. Her mace is capable of warping the arena\u0027s terrain, and if Flare is in danger, her strength stats break right through any programmed limits.",
-        "presets":  [
+        "lore": "Una caballera con la fuerza bruta de un gorila y el estómago de un agujero negro. Noel es el tanque definitivo: puede recibir impactos directos de meteoritos y seguir pensando en su próximo tazón de gyudon. Su maza es capaz de deformar el terreno de la arena, y si Flare está en peligro, sus estadísticas de fuerza rompen cualquier límite programado.",
+        "presets": [
             "Knights",
             "Muscle",
             "Gyudons"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "pure"
         ],
-        "unique_skill_name":  "Knight\u0027s Mace"
+        "unique_skill_name": "Maza de Caballero"
     },
-    "marine":  {
-        "short_name":  "Marine",
-        "name":  "Houshou Marine",
-        "gen":  "Gen 3",
-        "groups":  [
+    "marine": {
+        "short_name": "Marine",
+        "name": "Houshou Marine",
+        "gen": "Gen 3",
+        "groups": [
             "Pirates",
             "Horny",
             "Oldies"
         ],
-        "lore":  "The pirate captain who is always \u00270.5 seconds\u0027 away from being censored by the Staff Panel. Marine makes up for her lack of physical stamina with a charisma that leaves opponents dazed, and a tactical intelligence born from a thousand battles (and way too many doujins). Her \u0027Ahoy!\u0027 is a battle cry that seeks treasure, attention, and occasionally, victory.",
-        "presets":  [
+        "lore": "La capitana pirata que siempre está a '0.5 segundos' de ser censurada por el Panel del Staff. Marine compensa su falta de resistencia física con un carisma que deja aturdidos a los oponentes, y una inteligencia táctica nacida de mil batallas (y demasiados doujins). Su '¡Ahoy!' es un grito de guerra que busca tesoros, atención y, ocasionalmente, la victoria.",
+        "presets": [
             "Pirates",
             "Ichoumens",
             "Marines"
         ],
-        "traits":  [
+        "traits": [
             "pervert",
             "horny"
         ],
-        "unique_skill_name":  "Red Tide"
+        "unique_skill_name": "Marea Roja"
     },
-    "kanata":  {
-        "short_name":  "Kanata",
-        "name":  "Amane Kanata",
-        "gen":  "Gen 4",
-        "groups":  [
+    "kanata": {
+        "short_name": "Kanata",
+        "name": "Amane Kanata",
+        "gen": "Gen 4",
+        "groups": [
             "Angels",
             "Muscle",
             "Heimins"
         ],
-        "lore":  "An angel possessing a crushing grip strength of 50 kg per square millimeter. Kanata is fully capable of crushing a rival AI\u0027s source code with her bare hands while wearing a 500-yen T-shirt. She is the sturdiest tank in the heavens—a celestial presence that offers you a halo of hope right before slamming you into a wall with the force of a meteorite.",
-        "presets":  [
+        "lore": "Un ángel que posee una aplastante fuerza de agarre de 50 kg por milímetro cuadrado. Kanata es perfectamente capaz de aplastar el código fuente de una IA rival con sus propias manos mientras lleva puesta una camiseta de 500 yenes. Es el tanque más resistente de los cielos: una presencia celestial que te ofrece un halo de esperanza justo antes de estrellarte contra un muro con la fuerza de un meteorito.",
+        "presets": [
             "Gorillas",
             "Angels",
             "Heimins"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "pure"
         ],
-        "unique_skill_name":  "50KG Pressure"
+        "unique_skill_name": "Presión 50KG"
     },
-    "watame":  {
-        "short_name":  "Watame",
-        "name":  "Tsunomaki Watame",
-        "gen":  "Gen 4",
-        "groups":  [
+    "watame": {
+        "short_name": "Watame",
+        "name": "Tsunomaki Watame",
+        "gen": "Gen 4",
+        "groups": [
             "Sheep",
             "Bards",
             "WatameDidNothingWrong"
         ],
-        "lore":  "The bard sheep who has perfected the art of dying and respawning before the phrase \u0027Watame wa warukunai yo\u0027 even finishes playing. Her signature claim that she did absolutely nothing wrong is her greatest psychological defense. In the Final Protocol, Watame is an endless war of attrition: no matter how many times you eliminate her, she will return for vengeance with a shogunate made of wool.",
-        "presets":  [
+        "lore": "La oveja bardo que ha perfeccionado el arte de morir y reaparecer antes de que la frase 'Watame wa warukunai yo' termine de sonar. Su afirmación característica de que no hizo absolutamente nada malo es su mejor defensa psicológica. En el Protocolo Final, Watame es una guerra de desgaste infinita: no importa cuántas veces la elimines, volverá para vengarse con un shogunato hecho de lana.",
+        "presets": [
             "Sheep",
             "Watamates",
             "Bards"
         ],
-        "traits":  [
+        "traits": [
             "pure",
             "lucky"
         ],
-        "unique_skill_name":  "Watame Shogun"
+        "unique_skill_name": "Watame Shogun"
     },
-    "towa":  {
-        "short_name":  "Towa",
-        "name":  "Tokoyami Towa",
-        "gen":  "Gen 4",
-        "groups":  [
+    "towa": {
+        "short_name": "Towa",
+        "name": "Tokoyami Towa",
+        "gen": "Gen 4",
+        "groups": [
             "Demons",
             "Angels"
         ],
-        "lore":  "A demon suffering an identity crisis from being way too much of a good person. She constantly tries to commit evil deeds in the arena, but accidentally ends up healing allies or saving idols in distress (TMT!). Her combat style is sophisticated and serious, but the social system always flags her as an \u0027Angel\u0027, much to her absolute demonic frustration.",
-        "presets":  [
+        "lore": "Una demonio que sufre una crisis de identidad por ser demasiado buena persona. Intenta cometer actos malvados constantemente en la arena, pero accidentalmente termina curando aliados o rescatando idols en apuros (¡TMT!). Su estilo de combate es sofisticado y serio, pero el sistema social siempre la clasifica como 'Ángel', para su absoluta frustración demoníaca.",
+        "presets": [
             "Demons",
             "Kenzokus",
             "TMT"
         ],
-        "traits":  [
+        "traits": [
             "pure",
             "smart"
         ],
-        "unique_skill_name":  "TMT Beam"
+        "unique_skill_name": "Rayo TMT"
     },
-    "luna":  {
-        "short_name":  "Luna",
-        "name":  "Himemori Luna",
-        "gen":  "Gen 4",
-        "groups":  [
+    "luna": {
+        "short_name": "Luna",
+        "name": "Himemori Luna",
+        "gen": "Gen 4",
+        "groups": [
             "Princesses",
             "Babies",
             "Godzilla"
         ],
-        "lore":  "The princess of the Candy Kingdom who demands immediate attention or absolute destruction. If her sugar levels drop, Luna activates her Godzilla protocols and shoots lasers that can level entire biomes. She is the ultimate \u0027baby\u0027 of the arena, but one with access to heavy weaponry and a complete lack of patience for \u0027commoners.\u0027",
-        "presets":  [
+        "lore": "La princesa del Reino de los Caramelos que exige atención inmediata o la destrucción absoluta. Si sus niveles de azúcar bajan, Luna activa sus protocolos de Godzilla y dispara rayos capaces de nivelar biomas enteros. Es la 'bebé' definitiva de la arena, pero una con acceso a armamento pesado y una total falta de paciencia para los 'plebeyos'.",
+        "presets": [
             "Princesses",
             "Lu-knights",
             "Sweets"
         ],
-        "traits":  [
+        "traits": [
             "brat",
             "magic"
         ],
-        "unique_skill_name":  "Nanora Beam"
+        "unique_skill_name": "Rayo Nanora"
     },
-    "lamy":  {
-        "short_name":  "Lamy",
-        "name":  "Yukihana Lamy",
-        "gen":  "Gen 5",
-        "groups":  [
+    "lamy": {
+        "short_name": "Lamy",
+        "name": "Yukihana Lamy",
+        "gen": "Gen 5",
+        "groups": [
             "Elves",
             "Mothers",
             "Drunkards"
         ],
-        "lore":  "The snow elf who discovered that alcohol is the ultimate fuel for magic. In the arena, Lamy moves with an icy elegance until she uncorks her sake bottle; at that exact moment, her mystical precision spikes drastically, leaving her enemies either frozen... or with a massive data hangover. She is the \u0027mama\u0027 of the group, but one who will throw an icicle at you if you don\u0027t clean up your files.",
-        "presets":  [
+        "lore": "La elfa de la nieve que descubrió que el alcohol es el combustible definitivo para la magia. En la arena, Lamy se mueve con una elegancia gélida hasta que descorcha su botella de sake; en ese preciso instante, su precisión mística se dispara drásticamente, dejando a sus enemigos congelados... o con una resaca masiva de datos. Es la 'mamá' del grupo, pero una que te lanzará un carámbano si no limpias tus archivos.",
+        "presets": [
             "Snow",
             "Lamy-tomos",
             "Drunkards"
         ],
-        "traits":  [
+        "traits": [
             "magic",
             "pure"
         ],
-        "unique_skill_name":  "Sake Breath"
+        "unique_skill_name": "Aliento de Sake"
     },
-    "nene":  {
-        "short_name":  "Nene",
-        "name":  "Momosuzu Nene",
-        "gen":  "Gen 5",
-        "groups":  [
+    "nene": {
+        "short_name": "Nene",
+        "name": "Momosuzu Nene",
+        "gen": "Gen 5",
+        "groups": [
             "Aliens",
             "Idols",
             "Wives"
         ],
-        "lore":  "The wife of the entire server and CEO of friendly chaos. Nene enters the arena with the energy of a thousand bears and a charisma that allows her to collect \u0027husbands\u0027 and takedowns in equal measure. Her luck is legendary: she can survive a TNT blast simply because the universe finds her too adorable to let her die. Seal of Approval!",
-        "presets":  [
+        "lore": "La esposa de todo el servidor y CEO del caos amigable. Nene entra en la arena con la energía de mil osos y un carisma que le permite coleccionar 'esposos' y bajas a partes iguales. Su suerte es legendaria: puede sobrevivir a la explosión de un TNT simplemente porque el universo la encuentra demasiado adorable como para dejarla morir. ¡Sello de Aprobación!",
+        "presets": [
             "Wives",
             "Husbands",
             "Bears"
         ],
-        "traits":  [
+        "traits": [
             "energetic",
             "lucky",
             "social_butterfly"
         ],
-        "unique_skill_name":  "Bear Seal"
+        "unique_skill_name": "Sello Oso"
     },
-    "botan":  {
-        "short_name":  "Botan",
-        "name":  "Shishiro Botan",
-        "gen":  "Gen 5",
-        "groups":  [
+    "botan": {
+        "short_name": "Botan",
+        "name": "Shishiro Botan",
+        "gen": "Gen 5",
+        "groups": [
             "Lions",
             "Gamers",
             "Tactical"
         ],
-        "lore":  "A tactical lioness who plays HHG like a high-stakes competitive FPS. While other idols scream, Botan giggles as she sets up her NASA-tier PC right in the middle of a gunfight. She is the ultimate predator; if you see an SSRB grenade rolling toward you, don\u0027t run—just accept that you\u0027ve been completely outplayed by the queen of tactical gaming.",
-        "presets":  [
+        "lore": "Una leona táctica que juega a HHG como si fuera un FPS competitivo de alto nivel. Mientras otras idols gritan, Botan se ríe entre dientes mientras monta su PC de la NASA justo en medio de un tiroteo. Es la depredadora definitiva; si ves una granada SSRB rodando hacia ti, no corras: simplemente acepta que la reina del gaming táctico te ha superado por completo.",
+        "presets": [
             "Lionesses",
             "SSRB",
             "FPS Boss"
         ],
-        "traits":  [
+        "traits": [
             "fast",
             "smart",
             "tryhard"
         ],
-        "unique_skill_name":  "SSRB Tactics"
+        "unique_skill_name": "Tácticas SSRB"
     },
-    "polka":  {
-        "short_name":  "Polka",
-        "name":  "Omaru Polka",
-        "gen":  "Gen 5",
-        "groups":  [
+    "polka": {
+        "short_name": "Polka",
+        "name": "Omaru Polka",
+        "gen": "Gen 5",
+        "groups": [
             "Circus",
             "Chaos",
             "Fennecs"
         ],
-        "lore":  "An entire circus contained within a single idol. Polka is a statistical anomaly who hurls pianos, honking horns, and sound effects that leave even the most serious AIs dazed. Her combat style is entirely unpredictable: one turn she\u0027s a harmless clown, and the next she\u0027s chaos incarnate, disrupting the turn order simply because \u0027it was funny.\u0027",
-        "presets":  [
+        "lore": "Un circo entero contenido dentro de una sola idol. Polka es una anomalía estadística que arroja pianos, bocinas y efectos de sonido que dejan aturdidas incluso a las IA más serias. Su estilo de combate es totalmente impredecible: en un turno es un payaso inofensivo y al siguiente es el caos encarnado, alterando el orden de los turnos simplemente porque 'era gracioso'.",
+        "presets": [
             "Circus",
             "Zainins",
             "Fennecs"
         ],
-        "traits":  [
+        "traits": [
             "crazy",
             "energetic",
             "social_butterfly"
         ],
-        "unique_skill_name":  "Polka Chaos"
+        "unique_skill_name": "Caos Polka"
     },
-    "laplus":  {
-        "short_name":  "La+",
-        "name":  "La+ Darknesss",
-        "gen":  "HoloX",
-        "groups":  [
+    "laplus": {
+        "short_name": "La+",
+        "name": "La+ Darknesss",
+        "gen": "HoloX",
+        "groups": [
             "Leaders",
             "Demons",
             "Brat"
         ],
-        "lore":  "The leader of the most powerful secret organization in the world—or so she claims before Staff places her in a high chair so she can reach the monitor. La+ possesses an ego that barely fits into her 3D model and devastating magical intelligence, as long as her horns don\u0027t get stuck in an arena doorway. Yamada!",
-        "presets":  [
+        "lore": "La líder de la organización secreta más poderosa del mundo... o eso afirma antes de que el Staff la ponga en una trona para que alcance el monitor. La+ posee un ego que apenas cabe en su modelo 3D y una inteligencia mágica devastadora, siempre que sus cuernos no se queden atascados en el marco de alguna puerta de la arena. ¡Yamada!",
+        "presets": [
             "HoloX",
             "Shorties",
             "Dark"
         ],
-        "traits":  [
+        "traits": [
             "brat",
             "chuuni",
             "leader"
         ],
-        "unique_skill_name":  "YMD! Curse"
+        "unique_skill_name": "Maldición YMD!"
     },
-    "lui":  {
-        "short_name":  "Lui",
-        "name":  "Takane Lui",
-        "gen":  "HoloX",
-        "groups":  [
+    "lui": {
+        "short_name": "Lui",
+        "name": "Takane Lui",
+        "gen": "HoloX",
+        "groups": [
             "Birds",
             "Managers",
             "Mothers"
         ],
-        "lore":  "The hawk officer who is, in reality, the only person keeping HoloX running. In the arena, Lui is elegance personified, utilizing her whip to bring order among unruly idols. She is the tactical tank who looks after her allies while trying to convince everyone she isn\u0027t a mother, despite having a bag full of candy and advice.",
-        "presets":  [
+        "lore": "La oficial halcón que es, en realidad, la única persona que mantiene a HoloX en funcionamiento. En la arena, Lui es la elegancia personificada, utilizando su látigo para poner orden entre las idols más rebeldes. Es el tanque táctico que cuida de sus aliadas mientras intenta convencer a todos de que no es una madre, a pesar de llevar la bolsa llena de caramelos y consejos.",
+        "presets": [
             "Hawks",
             "Lui-tomos",
             "Officers"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "leader"
         ],
-        "unique_skill_name":  "Officer\u0027s Whip"
+        "unique_skill_name": "Látigo de Oficial"
     },
-    "koyori":  {
-        "short_name":  "Koyori",
-        "name":  "Hakui Koyori",
-        "gen":  "HoloX",
-        "groups":  [
+    "koyori": {
+        "short_name": "Koyori",
+        "name": "Hakui Koyori",
+        "gen": "HoloX",
+        "groups": [
             "Coyotes",
             "Scientists",
             "Hungry"
         ],
-        "lore":  "The mad scientist who views the arena as one giant laboratory. She doesn\u0027t fight for glory; she fights to harvest enemy HP samples. Her potions can either grant you an incredible buff or warp your textures into something that even the bilinear noise engine can\u0027t explain. To her, a defeat is merely an \u0027interesting data point.\u0027",
-        "presets":  [
+        "lore": "La científica chiflada que ve la arena como un gigantesco laboratorio. No lucha por gloria; lucha por cosechar muestras de HP enemigo. Sus pociones pueden darte un buff increíble o deformar tus texturas en algo que ni el motor de ruido bilineal sabría explicar. Para ella, una derrota es simplemente un 'dato de investigación interesante'.",
+        "presets": [
             "Scientists",
             "Coyotes",
             "Koyori-mates"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "hungry"
         ],
-        "unique_skill_name":  "Coyote Experiment"
+        "unique_skill_name": "Experimento Coyote"
     },
-    "chloe":  {
-        "short_name":  "Chloe",
-        "name":  "Sakamata Chloe",
-        "gen":  "HoloX",
-        "groups":  [
+    "chloe": {
+        "short_name": "Chloe",
+        "name": "Sakamata Chloe",
+        "gen": "HoloX",
+        "groups": [
             "Orcas",
             "Assassins",
             "Stinky"
         ],
-        "lore":  "An apex predator orca who makes up for her lack of personal hygiene with terrifying attack speed. Her lore states that the smell of her mask acts as a massive debuff weapon, draining enemy morale. Chloe is lethal in water and on land, but if anyone throws a \u0027Soap\u0027 item into the arena, her SPD stats tank completely out of sheer panic.",
-        "presets":  [
+        "lore": "Una orca superdepredadora que compensa su falta de higiene personal con una velocidad de ataque aterradora. Su lore dice que el olor de su máscara actúa como un arma de debuff masivo, drenando la moral enemiga. Chloe es letal en el agua y en la tierra, pero si alguien lanza un ítem de 'Jabón' a la arena, sus stats de SPD se van al suelo por puro pánico.",
+        "presets": [
             "Orcas",
             "Sakamates",
             "Cleaners"
         ],
-        "traits":  [
+        "traits": [
             "stinky",
             "fast"
         ],
-        "unique_skill_name":  "Orca Scent"
+        "unique_skill_name": "Aroma de Orca"
     },
-    "iroha":  {
-        "short_name":  "Iroha",
-        "name":  "Kazama Iroha",
-        "gen":  "HoloX",
-        "groups":  [
+    "iroha": {
+        "short_name": "Iroha",
+        "name": "Kazama Iroha",
+        "gen": "HoloX",
+        "groups": [
             "Samurai",
             "Ninjas",
             "Pure"
         ],
-        "lore":  "The samurai who is simply too pure for her own good. Iroha apologizes every single time she cuts down an opponent, which she executes at a speed the human eye can barely track. Although she adamantly insists she is not a ninja (despite moving exactly like one), her slashes remain the cleanest in the arena.",
-        "presets":  [
+        "lore": "La samurái que es sencillamente demasiado pura para su propio bien. Iroha pide disculpas cada vez que corta a un oponente, lo cual ejecuta a una velocidad que el ojo humano apenas puede rastrear. Aunque insiste rotundamente en que no es una ninja (a pesar de moverse exactamente como una), sus cortes siguen siendo los más limpios de la arena.",
+        "presets": [
             "Samurai",
             "Kazama-tai",
             "Ninjas"
         ],
-        "traits":  [
+        "traits": [
             "pure",
             "fast"
         ],
-        "unique_skill_name":  "Kazama-tai Slash"
+        "unique_skill_name": "Corte Kazama-tai"
     },
-    "moona":  {
-        "short_name":  "Moona",
-        "name":  "Moona Hoshinova",
-        "gen":  "ID Gen 1",
-        "groups":  [
+    "moona": {
+        "short_name": "Moona",
+        "name": "Moona Hoshinova",
+        "gen": "ID Gen 1",
+        "groups": [
             "Moons",
             "Architects"
         ],
-        "lore":  "The moon goddess who shares her body with a college student. In the arena, Moona acts as a gravitational force that pulls victory (and Pekora) right toward her. Her mystical power is so vast that she can reconstruct entire biomes, but beware: if Hoshinova takes full control, her elegance turns into a technical coldness that leaves no trace of her victims.",
-        "presets":  [
+        "lore": "La diosa lunar que comparte cuerpo con una estudiante universitaria. En la arena, Moona actúa como una fuerza gravitatoria que atrae la victoria (y a Pekora) directamente hacia ella. Su poder místico es tan vasto que puede reconstruir biomas enteros, pero cuidado: si Hoshinova toma el control total, su elegancia se transforma en una frialdad técnica que no deja rastro de sus víctimas.",
+        "presets": [
             "Moons",
             "Moonafic",
             "Architects"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "smart"
         ],
-        "unique_skill_name":  "Lunar Earthquake"
+        "unique_skill_name": "Terremoto Lunar"
     },
-    "ollie":  {
-        "short_name":  "Ollie",
-        "name":  "Kureiji Ollie",
-        "gen":  "ID Gen 2",
-        "groups":  [
+    "ollie": {
+        "short_name": "Ollie",
+        "name": "Kureiji Ollie",
+        "gen": "ID Gen 2",
+        "groups": [
             "Zombies",
             "Chaos"
         ],
-        "lore":  "The zombie with more raw energy than the rest of the roster combined. Ollie doesn\u0027t need to worry about HP because she\u0027s technically already dead; her strategy relies on hurling herself headfirst (literally) into the enemy while screeching with absolute excitement. She is the queen of chaotic support: she can die, revive, and propose to you all in the exact same turn.",
-        "presets":  [
+        "lore": "La zombi con más energía bruta que todo el resto de la plantilla junta. Ollie no necesita preocuparse por el HP porque técnicamente ya está muerta; su estrategia consiste en lanzarse de cabeza (literalmente) contra el enemigo mientras grita de pura emoción. Es la reina del soporte caótico: puede morir, revivir y proponerte matrimonio, todo en el mismo turno.",
+        "presets": [
             "Zombies",
             "Zoms",
             "Screamers"
         ],
-        "traits":  [
+        "traits": [
             "crazy",
             "energetic"
         ],
-        "unique_skill_name":  "Zombie Scream"
+        "unique_skill_name": "Grito Zombi"
     },
-    "reine":  {
-        "short_name":  "Reine",
-        "name":  "Pavolia Reine",
-        "gen":  "ID Gen 2",
-        "groups":  [
+    "reine": {
+        "short_name": "Reine",
+        "name": "Pavolia Reine",
+        "gen": "ID Gen 2",
+        "groups": [
             "Peacocks",
             "Leaders"
         ],
-        "lore":  "The peacock lady who radiates an elegance so oppressive that other idols feel guilty just trying to target her. Reine commands water and wind magic, but her truest skill lies in \u0027investigating\u0027 her opponents until she uncovers their most embarrassing secrets. If she offers you a cup of tea in the middle of the arena, brace yourself: poison is the least of your concerns.",
-        "presets":  [
+        "lore": "La dama pavo real que irradia una elegancia tan opresiva que las demás idols se sienten culpables solo por intentarla como objetivo. Reine domina la magia de agua y viento, pero su verdadera habilidad reside en 'investigar' a sus oponentes hasta descubrir sus secretos más vergonzosos. Si te ofrece una taza de té en mitad de la arena, prepárate: el veneno es la menor de tus preocupaciones.",
+        "presets": [
             "Peacocks",
             "Merakyats",
             "Royalty"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "leader"
         ],
-        "unique_skill_name":  "Royal Fan"
+        "unique_skill_name": "Abanico Real"
     },
-    "kobo":  {
-        "short_name":  "Kobo",
-        "name":  "Kobo Kanaeru",
-        "gen":  "ID Gen 3",
-        "groups":  [
+    "kobo": {
+        "short_name": "Kobo",
+        "name": "Kobo Kanaeru",
+        "gen": "ID Gen 3",
+        "groups": [
             "Rain",
             "Brat"
         ],
-        "lore":  "The rain shaman who turns the Final Protocol into a water park filled with screaming and sobbing. Kobo doesn\u0027t need a complex strategy; her level 10 luck causes lightning bolts to rain down on her enemies while she cries over losing her umbrella. If she doesn\u0027t win, she will flood the server with tears (and actual water).",
-        "presets":  [
+        "lore": "La chamana de la lluvia que transforma el Protocolo Final en un parque acuático lleno de gritos y sollozos. Kobo no necesita una estrategia compleja; su suerte de nivel 10 hace que caigan rayos sobre sus enemigos mientras ella llora por haber perdido su paraguas. Si no gana, inundará el servidor con lágrimas (y agua real).",
+        "presets": [
             "Rain",
             "Kobokans"
         ],
-        "traits":  [
+        "traits": [
             "brat",
             "energetic",
             "coward"
         ],
-        "unique_skill_name":  "Rain Tantrum"
+        "unique_skill_name": "Berrinche de Lluvia"
     },
-    "kaela":  {
-        "short_name":  "Kaela",
-        "name":  "Kaela Kovalskia",
-        "gen":  "ID Gen 3",
-        "groups":  [
+    "kaela": {
+        "short_name": "Kaela",
+        "name": "Kaela Kovalskia",
+        "gen": "ID Gen 3",
+        "groups": [
             "Smiths",
             "Grinders"
         ],
-        "lore":  "While other idols fight for dear life, Kaela is off grinding materials in a dark corner of the arena to forge herself a set of diamond armor. She is the most unflappable tank in the game, possessing far more HP than a sense of humor. Her passion is hard work, and if you cross her path, she will hammer you down with the exact same patience she uses to forge a legendary blade.",
-        "presets":  [
+        "lore": "Mientras otras idols luchan por sus vidas, Kaela está farmeando materiales en un rincón oscuro de la arena para forjarse una armadura de diamante. Es el tanque más imperturbable del juego, poseyendo mucho más HP que sentido del humor. Su pasión es el trabajo duro, y si te cruzas en su camino, te martilleará con la mismísima paciencia que usa para forjar una hoja legendaria.",
+        "presets": [
             "Blacksmiths",
             "Pemaloe",
             "Grinders"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "calm"
         ],
-        "unique_skill_name":  "Grinding Hammer"
+        "unique_skill_name": "Martillo Farmeador"
     },
-    "zeta":  {
-        "short_name":  "Zeta",
-        "name":  "Vestia Zeta",
-        "gen":  "ID Gen 3",
-        "groups":  [
+    "zeta": {
+        "short_name": "Zeta",
+        "name": "Vestia Zeta",
+        "gen": "ID Gen 3",
+        "groups": [
             "Agents",
             "Cats"
         ],
-        "lore":  "An elite secret agent who spends 90% of her time insisting she is human and the other 10% chasing laser pointers across the biomes. Zeta is a lethal assassin capable of infiltrating any base, but her stealth shatters the moment someone cracks open a can of tuna nearby. She is agile, intelligent, and definitely NOT a cat (regardless of what the game engine says).",
-        "presets":  [
+        "lore": "Una agente secreta de élite que pasa el 90% de su tiempo insistiendo en que es humana y el otro 10% persiguiendo punteros láser por los biomas. Zeta es una asesina letal capaz de infiltrarse en cualquier base, pero su sigilo se desmorona en el momento en que alguien abre una lata de atún cerca. Es ágil, inteligente y definitivamente NO es un gato (sin importar lo que diga el motor del juego).",
+        "presets": [
             "Agents",
             "Zetami",
             "Cats"
         ],
-        "traits":  [
+        "traits": [
             "fast",
             "smart"
         ],
-        "unique_skill_name":  "(Not) Cat Stealth"
+        "unique_skill_name": "Sigilo (No) Gatuno"
     },
-    "calliope":  {
-        "short_name":  "Calli",
-        "name":  "Mori Calliope",
-        "gen":  "Myth",
-        "groups":  [
+    "calliope": {
+        "short_name": "Calli",
+        "name": "Mori Calliope",
+        "gen": "Myth",
+        "groups": [
             "Reapers",
             "Singers"
         ],
-        "lore":  "The apprentice of the Reaper himself who decided that rapping was far more effective than a scythe. Calli manages the souls of the Final Protocol with relentless efficiency, though she often gets distracted trying to convince everyone she\u0027s a cool \u0027dad.\u0027 If her \u0027Sheriff\u0027 bar fills up, time stops for a recorder solo that marks the definitive end of your run.",
-        "presets":  [
+        "lore": "La aprendiz del mismísimo Reaper que decidió que rapear era mucho más efectivo que una guadaña. Calli gestiona las almas del Protocolo Final con una eficiencia implacable, aunque a menudo se distrae intentando convencer a todos de que es un 'papá' genial. Si su barra de 'Sheriff' se llena, el tiempo se detiene para un solo de flauta dulce que marca el fin definitivo de tu partida.",
+        "presets": [
             "Reapers",
             "Dead Beats",
             "Rappers"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "leader",
             "tryhard"
         ],
-        "unique_skill_name":  "Death\u0027s Scythe"
+        "unique_skill_name": "Guadaña de la Muerte"
     },
-    "kiara":  {
-        "short_name":  "Kiara",
-        "name":  "Takanashi Kiara",
-        "gen":  "Myth",
-        "groups":  [
+    "kiara": {
+        "short_name": "Kiara",
+        "name": "Takanashi Kiara",
+        "gen": "Myth",
+        "groups": [
             "Phoenixes",
             "Leaders"
         ],
-        "lore":  "The eternal phoenix who turns the concept of a \u0027Game Over\u0027 into a mere suggestion. Kiara leads with a fire that never burns out and an obsession with Calli that borders on the mystical. In the arena, she is the tank that always returns; you can vaporize her, but you\u0027re only setting up her next triumphant re-entry from the ashes... probably carrying a KFP menu.",
-        "presets":  [
+        "lore": "El fénix eterno que convierte el concepto de 'Game Over' en una simple sugerencia. Kiara lidera con un fuego que nunca se apaga y una obsesión por Calli que roza lo místico. En la arena, es el tanque que siempre regresa; puedes vaporizarla, pero solo estás preparando su próxima reentrada triunfal desde las cenizas... probablemente con un menú de KFP en la mano.",
+        "presets": [
             "Phoenixes",
             "KFP",
             "Chickens"
         ],
-        "traits":  [
+        "traits": [
             "hungry",
             "energetic"
         ],
-        "unique_skill_name":  "Phoenix Rebirth"
+        "unique_skill_name": "Renacer del Fénix"
     },
-    "ina":  {
-        "short_name":  "Ina",
-        "name":  "Ninomae Ina\u0027nis",
-        "gen":  "Myth",
-        "groups":  [
+    "ina": {
+        "short_name": "Ina",
+        "name": "Ninomae Ina'nis",
+        "gen": "Myth",
+        "groups": [
             "Eldritch",
             "Artists"
         ],
-        "lore":  "The priestess of the Ancient Ones who fights with the combined power of terrible puns and cosmic tentacles. Ina is the calm in the eye of the storm; while the arena collapses, she is busy drawing or eating cookies. Her reach is infinite, and if her enemies don\u0027t perish from her dark magic, they will succumb to the pure agony of her \u0027dad jokes.\u0027",
-        "presets":  [
+        "lore": "La sacerdotisa de los Antiguos que lucha con el poder combinado de chistes terribles y tentáculos cósmicos. Ina es la calma en el ojo de la tormenta; mientras la arena se desmorona, ella está ocupada dibujando o comiendo galletas. Su alcance es infinito, y si sus enemigos no perecen por su magia oscura, sucumbirán a la pura agonía de sus 'chistes de papá'.",
+        "presets": [
             "Tentacles",
             "Takodachis",
             "Wah"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "calm"
         ],
-        "unique_skill_name":  "Tentacles of the Wah"
+        "unique_skill_name": "Tentáculos del Wah"
     },
-    "gura":  {
-        "short_name":  "Gura",
-        "name":  "Gawr Gura",
-        "gen":  "Myth",
-        "groups":  [
+    "gura": {
+        "short_name": "Gura",
+        "name": "Gawr Gura",
+        "gen": "Myth",
+        "groups": [
             "Sharks",
             "Chaos"
         ],
-        "lore":  "A shark from Atlantis who forgot how to swim but perfected the art of the \u0027A.\u0027 Gura is small, fast, and possesses a level of hydrodynamics that defies the physics engine. Her luck is pure chaos: she can miss the simplest strike or pull off a divine maneuver by absolute accident. Don\u0027t underestimate her size; her teeth are real and she carries a trident she doesn\u0027t quite know how to use, but it hurts just the same.",
-        "presets":  [
+        "lore": "Una tiburona de la Atlántida que olvidó cómo nadar pero perfeccionó el arte del 'A'. Gura es pequeña, rápida y posee un nivel de hidrodinámica que desafía al motor de físicas. Su suerte es puro caos: puede fallar el golpe más simple o ejecutar una maniobra divina por puro accidente. No subestimes su tamaño; sus dientes son reales y lleva un tridente que no sabe muy bien cómo usar, pero que duele de todos modos.",
+        "presets": [
             "Sharks",
             "Shrimps",
             "Atlantis"
         ],
-        "traits":  [
+        "traits": [
             "fast",
             "cute",
             "clumsy",
             "brat"
         ],
-        "unique_skill_name":  "Shark Bite"
+        "unique_skill_name": "Mordisco de Tiburón"
     },
-    "ame":  {
-        "short_name":  "Ame",
-        "name":  "Watson Amelia",
-        "gen":  "Myth",
-        "groups":  [
+    "ame": {
+        "short_name": "Ame",
+        "name": "Watson Amelia",
+        "gen": "Myth",
+        "groups": [
             "Detectives",
             "Time"
         ],
-        "lore":  "The time-traveling detective who probably broke the game loop in the first place. Watson doesn\u0027t rely on magic; she utilizes British tech, highly suspicious concoctions, and the unstoppable power of ground pounding your mom. If she loses, she simply resets her personal timeline, making her the single most frustrating opponent in the Protocol.",
-        "presets":  [
+        "lore": "La detective viajera del tiempo que probablemente rompió el bucle del juego en primer lugar. Watson no confía en la magia; utiliza tecnología británica, brebajes altamente sospechosos y el imparable poder de reventar a tu madre contra el suelo. Si pierde, simplemente reinicia su línea temporal personal, convirtiéndose en la oponente más frustrante del Protocolo.",
+        "presets": [
             "Detectives",
             "Investigators",
             "Bubbas"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "crazy",
             "tryhard"
         ],
-        "unique_skill_name":  "Ground Pound"
+        "unique_skill_name": "Pisotón Terrestre"
     },
-    "fauna":  {
-        "short_name":  "Fauna",
-        "name":  "Ceres Fauna",
-        "gen":  "Council",
-        "groups":  [
+    "fauna": {
+        "short_name": "Fauna",
+        "name": "Ceres Fauna",
+        "gen": "Council",
+        "groups": [
             "Nature",
             "Mothers"
         ],
-        "lore":  "Mother Nature herself, who offers you a warm hug and then suffocates you with roots for not recycling. Fauna is the queen of terrifyingly \u0027soft-spoken\u0027 horror. Her control over the living arena is absolute; she can make the forest heal you or turn the trees into lethal traps. Remember: nature always wins, and Fauna has plenty of patience.",
-        "presets":  [
+        "lore": "La mismísima Madre Naturaleza, quien te ofrece un cálido abrazo y luego te asfixia con raíces por no reciclar. Fauna es la reina del terror 'de voz suave' más absoluto. Su control sobre la arena viviente es total; puede hacer que el bosque te cure o convertir los árboles en trampas letales. Recuerda: la naturaleza siempre gana, y Fauna tiene paciencia de sobra.",
+        "presets": [
             "Nature",
             "Saplings",
             "Kirin"
         ],
-        "traits":  [
+        "traits": [
             "pure",
             "scary",
             "calm"
         ],
-        "unique_skill_name":  "I am Nature"
+        "unique_skill_name": "Yo soy la Naturaleza"
     },
-    "kronii":  {
-        "short_name":  "Kronii",
-        "name":  "Ouro Kronii",
-        "gen":  "Council",
-        "groups":  [
+    "kronii": {
+        "short_name": "Kronii",
+        "name": "Ouro Kronii",
+        "gen": "Council",
+        "groups": [
             "Time",
             "Wardens"
         ],
-        "lore":  "The Warden of Time who happens to be her own number-one fan. Kronii can manipulate combat turns at will, simply because time itself doesn\u0027t dare contradict someone with a voice like hers. She is perfection personified, and if she ever loses a duel, it\u0027s probably because the universe made a calculation error, not her.",
-        "presets":  [
+        "lore": "La Guardiana del Tiempo que resulta ser su propia fan número uno. Kronii puede manipular los turnos de combate a voluntad, simplemente porque el tiempo mismo no se atreve a llevarle la contraria a alguien con una voz como la suya. Es la perfección encarnada, y si alguna vez pierde un duelo, probablemente sea porque el universo cometió un error de cálculo, no ella.",
+        "presets": [
             "Time",
             "Kronies",
             "Clocks"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "narcissist"
         ],
-        "unique_skill_name":  "Blades of Time"
+        "unique_skill_name": "Espadas del Tiempo"
     },
-    "mumei":  {
-        "short_name":  "Mumei",
-        "name":  "Nanashi Mumei",
-        "gen":  "Council",
-        "groups":  [
+    "mumei": {
+        "short_name": "Mumei",
+        "name": "Nanashi Mumei",
+        "gen": "Council",
+        "groups": [
             "Civilizations",
             "Owls",
             "Scary"
         ],
-        "lore":  "Civilization personified, equipped with the memory of a goldfish and a terrifying survival instinct. Mumei might forget who you are mid-sentence, but her bow never forgets where your weak point is. Behind her innocent \u0027I don\u0027t know what\u0027s happening\u0027 expression hides an apex predator who genuinely enjoys watching the world she built burn.",
-        "presets":  [
+        "lore": "La civilización personificada, equipada con la memoria de un pez rojo y un instinto de supervivencia aterrador. Mumei puede olvidar quién eres a mitad de frase, pero su arco nunca olvida dónde está tu punto débil. Detrás de su inocente expresión de 'no sé qué está pasando' se esconde una superdepredadora que disfruta sinceramente viendo arder el mundo que ella misma construyó.",
+        "presets": [
             "Owls",
             "Hoomans",
             "Civilization"
         ],
-        "traits":  [
+        "traits": [
             "scary",
             "forgetful"
         ],
-        "unique_skill_name":  "Dagger of Civilization"
+        "unique_skill_name": "Daga de la Civilización"
     },
-    "baelz":  {
-        "short_name":  "Bae",
-        "name":  "Hakos Baelz",
-        "gen":  "Council",
-        "groups":  [
+    "baelz": {
+        "short_name": "Bae",
+        "name": "Hakos Baelz",
+        "gen": "Council",
+        "groups": [
             "Chaos",
             "Rats"
         ],
-        "lore":  "Chaos incarnate trapped inside a rat wielding a giant die. Bae doesn\u0027t just play HHG; she is the glitch in the code that makes things fun. Her attacks are a coin toss: either absolutely nothing happens, or the entire map shifts colors and every enemy explodes. With her, the only constant is that nothing makes sense.",
-        "presets":  [
+        "lore": "El caos encarnado atrapado dentro de una rata que empuña un dado gigante. Bae no solo juega a HHG; ella es el error en el código que hace que las cosas sean divertidas. Sus ataques son un lanzamiento de moneda: o no pasa absolutamente nada, o todo el mapa cambia de color y los enemigos explotan. Con ella, la única constante es que nada tiene sentido.",
+        "presets": [
             "Chaos",
             "Rats",
             "Bratz"
         ],
-        "traits":  [
+        "traits": [
             "crazy",
             "lucky"
         ],
-        "unique_skill_name":  "Chaos Dice"
+        "unique_skill_name": "Dado del Caos"
     },
-    "irys":  {
-        "short_name":  "IRyS",
-        "name":  "IRyS",
-        "gen":  "Promise",
-        "groups":  [
+    "irys": {
+        "short_name": "IRyS",
+        "name": "IRyS",
+        "gen": "Promise",
+        "groups": [
             "Nephilim",
             "Singers"
         ],
-        "lore":  "The embodiment of Hope who seems to enjoy others\u0027 suffering just a little bit too much. As a Nephilim, IRyS constantly oscillates between divine light and absolute chaos; she can heal your wounds or hurl an explosive crystal at you while singing a flawless ballad. In the arena, her presence is a stark reminder that hope sometimes carries a very sharp edge.",
-        "presets":  [
+        "lore": "La encarnación de la Esperanza a la que parece gustarle el sufrimiento ajeno solo un poco de más. Como Nephilim, IRyS oscila constantemente entre la luz divina y el caos absoluto; puede curar tus heridas o lanzarte un cristal explosivo mientras canta una balada impecable. En la arena, su presencia es un firme recordatorio de que la esperanza a veces tiene un filo muy afilado.",
+        "presets": [
             "Hope",
             "Nephilim",
             "RyStays"
         ],
-        "traits":  [
+        "traits": [
             "energetic",
             "pure"
         ],
-        "unique_skill_name":  "Explosive Hope"
+        "unique_skill_name": "Esperanza Explosiva"
     },
-    "shiori":  {
-        "short_name":  "Shiori",
-        "name":  "Shiori Novella",
-        "gen":  "Advent",
-        "groups":  [
+    "shiori": {
+        "short_name": "Shiori",
+        "name": "Shiori Novella",
+        "gen": "Advent",
+        "groups": [
             "Archivists",
             "Horror"
         ],
-        "lore":  "The archivist who knows way too much about the game\u0027s source code. Shiori doesn\u0027t just fight—she \u0027edits\u0027 you. If she catches you, she will spin a tale so deeply disturbing that your intelligence stats will drop to zero while she harvests your data for her private collection of oddities. She is the goth librarian who turned lore into a biological weapon.",
-        "presets":  [
+        "lore": "La archivista que sabe demasiado sobre el código fuente del juego. Shiori no solo lucha: te 'edita'. Si te atrapa, te tejerá un relato tan profundamente perturbador que tus estadísticas de inteligencia caerán a cero mientras cosecha tus datos para su colección privada de rarezas. Es la bibliotecaria gótica que convirtió el lore en un arma biológica.",
+        "presets": [
             "Archivists",
             "Novelists",
             "Goths"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "crazy"
         ],
-        "unique_skill_name":  "Forbidden Story"
+        "unique_skill_name": "Historia Prohibida"
     },
-    "bijou":  {
-        "short_name":  "Biboo",
-        "name":  "Koseki Bijou",
-        "gen":  "Advent",
-        "groups":  [
+    "bijou": {
+        "short_name": "Biboo",
+        "name": "Koseki Bijou",
+        "gen": "Advent",
+        "groups": [
             "Rocks",
             "Gremlins"
         ],
-        "lore":  "A gem so bright that the rendering engine struggles to process her shaders. Biboo is the most adorable yet frustrating tank in the arena; she is literally rock-solid, and her brain-rot jokes inflict actual physical damage. If she activates her \u0027moai\u0027 mode, brace yourself: you won\u0027t be able to budge her, but she will absolutely crush your hopes with a viral dance.",
-        "presets":  [
+        "lore": "Una gema tan brillante que el motor de renderizado sufre para procesar sus shaders. Biboo es el tanque más adorable pero frustrante de la arena; es literalmente dura como una roca, y sus bromas de 'brain-rot' infligen daño físico real. Si activa su modo 'moai', prepárate: no podrás moverla ni un milímetro, pero ella destruirá tus esperanzas con un baile viral.",
+        "presets": [
             "Gems",
             "Rocks",
             "Pebbles"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "cute"
         ],
-        "unique_skill_name":  "Biboo Rock"
+        "unique_skill_name": "Roca Biboo"
     },
-    "nerissa":  {
-        "short_name":  "Nerissa",
-        "name":  "Nerissa Ravencroft",
-        "gen":  "Advent",
-        "groups":  [
+    "nerissa": {
+        "short_name": "Nerissa",
+        "name": "Nerissa Ravencroft",
+        "gen": "Advent",
+        "groups": [
             "Ravens",
             "Singers"
         ],
-        "lore":  "The songstress whose voice is a portal to the underworld and whose appetite for food (and Kiara) knows no bounds. Nerissa uses her melodies to drag AI souls down into an abyss of deep notes. She is demonic elegance turned DPS: she will hit you so hard you\u0027ll end up thanking her for the concert while your HP bar vanishes.",
-        "presets":  [
+        "lore": "La cantante cuya voz es un portal al inframundo y cuyo apetito por la comida (y por Kiara) no conoce límites. Nerissa usa sus melodías para arrastrar las almas de las IA hacia un abismo de notas graves. Es elegancia demoníaca convertida en DPS: te golpeará tan fuerte que terminarás agradeciéndole el concierto mientras tu barra de HP desaparece.",
+        "presets": [
             "Ravens",
             "Jailbirds",
             "Singers"
         ],
-        "traits":  [
+        "traits": [
             "magic",
             "pure"
         ],
-        "unique_skill_name":  "Dark Siren Song"
+        "unique_skill_name": "Canto de Sirena Oscura"
     },
-    "fuwawa":  {
-        "short_name":  "Fuwawa",
-        "name":  "Fuwawa Abyssgard",
-        "gen":  "Advent",
-        "groups":  [
+    "fuwawa": {
+        "short_name": "Fuwawa",
+        "name": "Fuwawa Abyssgard",
+        "gen": "Advent",
+        "groups": [
             "Twins",
             "Dogs"
         ],
-        "lore":  "The \u0027fluffy\u0027 half of the Bau Bau twins who leads with a sweet smile and lethal intent. While she appears to be the responsible one, Fuwawa flawlessly coordinates combination attacks that shred enemy defenses before you can even utter \u0027Bau Bau.\u0027 In the arena, she is the mastermind who decides who gets bitten today.",
-        "presets":  [
+        "lore": "La mitad 'esponjosa' de las gemelas Bau Bau que lidera con una dulce sonrisa e intenciones letales. Aunque parece la responsable, Fuwawa coordina a la perfección ataques combinados que destruyen las defensas enemigas antes de que puedas decir 'Bau Bau'. En la arena, es la mente maestra que decide a quién le toca morder hoy.",
+        "presets": [
             "Twins",
             "Bau Baus",
             "Ruffians"
         ],
-        "traits":  [
+        "traits": [
             "cute",
             "leader"
         ],
-        "unique_skill_name":  "Bau Bau! Combo"
+        "unique_skill_name": "¡Combo Bau Bau!"
     },
-    "mococo":  {
-        "short_name":  "Mococo",
-        "name":  "Mococo Abyssgard",
-        "gen":  "Advent",
-        "groups":  [
+    "mococo": {
+        "short_name": "Mococo",
+        "name": "Mococo Abyssgard",
+        "gen": "Advent",
+        "groups": [
             "Twins",
             "Dogs",
             "Chaos"
         ],
-        "lore":  "Pure unadulterated chaos packed into a guard dog who doesn\u0027t know the meaning of the word \u0027retreat.\u0027 Mococo is a whirlwind of claws and fuzzy energy who bites first and asks questions never. If you see her eyes gleam, she has entered \u0027savage\u0027 mode; her agility spikes so much it feels like there are two of her... and there usually are if Fuwawa is nearby.",
-        "presets":  [
+        "lore": "Puro caos sin diluir empaquetado en una perra guardiana que no conoce el significado de la palabra 'retirada'. Mococo es un torbellino de garras y energía afelpada que muerde primero y nunca pregunta después. Si ves que sus ojos brillan, ha entrado en modo 'salvaje'; su agilidad se dispara tanto que parece que hay dos de ella... y normalmente las hay si Fuwawa está cerca.",
+        "presets": [
             "Twins",
             "Bau Baus",
             "Ruffians"
         ],
-        "traits":  [
+        "traits": [
             "energetic",
             "brat"
         ],
-        "unique_skill_name":  "Bau Bau! Combo"
+        "unique_skill_name": "¡Combo Bau Bau!"
     },
-    "ao":  {
-        "short_name":  "Ao",
-        "name":  "Hiodoshi Ao",
-        "gen":  "ReGloss",
-        "groups":  [
+    "ao": {
+        "short_name": "Ao",
+        "name": "Hiodoshi Ao",
+        "gen": "ReGloss",
+        "groups": [
             "Artists",
             "Leaders"
         ],
-        "lore":  "The \u0027cool\u0027 artist who instantly panics the moment a pretty girl looks her way. Ao constantly tries to strike an epic manga protagonist pose, but she usually ends up being the arena\u0027s primary comic relief. That said, when her paintbrush touches the ground, the stage becomes her canvas and you become a smudge she intends to erase.",
-        "presets":  [
+        "lore": "La artista 'guay' que entra en pánico al instante en cuanto una chica guapa la mira. Ao intenta constantemente poner una pose épica de protagonista de manga, pero suele terminar siendo el principal alivio cómico de la arena. Dicho esto, cuando su pincel toca el suelo, el escenario se convierte en su lienzo y tú en un borrón que pretende borrar.",
+        "presets": [
             "Artists",
             "Ao-kun",
             "ReGloss"
         ],
-        "traits":  [
+        "traits": [
             "clumsy",
             "leader"
         ],
-        "unique_skill_name":  "Meme Sketch"
+        "unique_skill_name": "Boceto Meme"
     },
-    "kanade":  {
-        "short_name":  "Kanade",
-        "name":  "Otonose Kanade",
-        "gen":  "ReGloss",
-        "groups":  [
+    "kanade": {
+        "short_name": "Kanade",
+        "name": "Otonose Kanade",
+        "gen": "ReGloss",
+        "groups": [
             "Musicians",
             "Brat"
         ],
-        "lore":  "A musical prodigy with the volatile personality of an aggressive hamster. Kanade screeches louder than she actually hits, but her sound waves are fully capable of disrupting even the heaviest tanks. Don\u0027t let her small size fool you: she is an elite \u0027kusogaki\u0027 who will use her talent to humiliate you right before taking you out.",
-        "presets":  [
+        "lore": "Una prodigio musical con la personalidad volátil de un hámster agresivo. Kanade grita más fuerte de lo que realmente golpea, pero sus ondas sonoras son totalmente capaces de desestabilizar incluso a los tanques más pesados. No dejes que su pequeño tamaño te engañe: es una 'kusogaki' de élite que usará su talento para humillarte justo antes de eliminarte.",
+        "presets": [
             "Musicians",
             "Kanadets",
             "ReGloss"
         ],
-        "traits":  [
+        "traits": [
             "energetic",
             "brat"
         ],
-        "unique_skill_name":  "Opera Solo"
+        "unique_skill_name": "Solo de Ópera"
     },
-    "ririka":  {
-        "short_name":  "Ririka",
-        "name":  "Ichijou Ririka",
-        "gen":  "ReGloss",
-        "groups":  [
+    "ririka": {
+        "short_name": "Ririka",
+        "name": "Ichijou Ririka",
+        "gen": "ReGloss",
+        "groups": [
             "Leaders",
             "Business"
         ],
-        "lore":  "The entrepreneur who views HHG as an opportunity for highly aggressive networking. Ririka manages her resources with terrifying precision, calculating the cost-benefit ratio of every single attack. If she offers you a deal, read the fine print carefully: you\u0027ve probably just traded your FB bar away for a smile and a temporary buff.",
-        "presets":  [
+        "lore": "La empresaria que ve HHG como una oportunidad para hacer networking extremadamente agresivo. Ririka gestiona sus recursos con una precisión aterradora, calculando la relación coste-beneficio de cada ataque. Si te ofrece un trato, lee con atención la letra pequeña: es muy probable que le hayas cambiado tu barra de FB por una sonrisa y un buff temporal.",
+        "presets": [
             "Leaders",
             "Ririka",
             "ReGloss"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "leader"
         ],
-        "unique_skill_name":  "Business Plan"
+        "unique_skill_name": "Plan de Negocios"
     },
-    "raden":  {
-        "short_name":  "Raden",
-        "name":  "Juufuutei Raden",
-        "gen":  "ReGloss",
-        "groups":  [
+    "raden": {
+        "short_name": "Raden",
+        "name": "Juufuutei Raden",
+        "gen": "ReGloss",
+        "groups": [
             "Art",
             "Culture"
         ],
-        "lore":  "The art expert who can lecture you on museum history while smacking you across the face with a folding fan. Raden is mystical and refined, but her true power comes alive when Lamy\u0027s \u0027sake\u0027 isn\u0027t the only thing flowing freely in the arena. She is high culture transformed into an unpredictable combat technique.",
-        "presets":  [
+        "lore": "La experta en arte que puede darte una conferencia sobre historia de los museos mientras te da un abanicazo en toda la cara. Raden es mística y refinada, pero su verdadero poder despierta cuando el 'sake' de Lamy no es lo único que fluye libremente por la arena. Es la alta cultura transformada en una técnica de combate impredecible.",
+        "presets": [
             "Arts",
             "Raden",
             "ReGloss"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "pure"
         ],
-        "unique_skill_name":  "Art Mask"
+        "unique_skill_name": "Máscara de Arte"
     },
-    "hajime":  {
-        "short_name":  "Bancho",
-        "name":  "Todoroki Hajime",
-        "gen":  "ReGloss",
-        "groups":  [
+    "hajime": {
+        "short_name": "Bancho",
+        "name": "Todoroki Hajime",
+        "gen": "ReGloss",
+        "groups": [
             "Bikers",
             "Delinquents"
         ],
-        "lore":  "The delinquent leader who sounds like a cartoon character but hits like a literal freight train. Bancho possesses boundless energy and a unique dialect that even the game\u0027s internal translation system struggles to fully decipher. She is the raw brute force of ReGloss, always ready for a head-on collision without brakes.",
-        "presets":  [
+        "lore": "La líder delincuente que suena como un personaje de dibujos animados pero golpea como un tren de mercancías. Bancho posee una energía desbordante y un dialecto único que incluso al sistema de traducción interna del juego le cuesta descifrar del todo. Es la fuerza bruta de ReGloss, siempre lista para una colisión frontal y sin frenos.",
+        "presets": [
             "Bikers",
             "Bam",
             "ReGloss"
         ],
-        "traits":  [
+        "traits": [
             "fast",
             "energetic"
         ],
-        "unique_skill_name":  "BAM! Impact"
+        "unique_skill_name": "¡Impacto BAM!"
     },
-    "elizabeth":  {
-        "short_name":  "Elizabeth",
-        "name":  "Elizabeth Rose Bloodflame",
-        "gen":  "Justice",
-        "groups":  [
+    "elizabeth": {
+        "short_name": "Elizabeth",
+        "name": "Elizabeth Rose Bloodflame",
+        "gen": "Justice",
+        "groups": [
             "Leaders",
             "Singers"
         ],
-        "lore":  "The charismatic queen with a voice powerful enough to stop a war or order a public execution. Elizabeth leads Justice with an authority that forces even the Staff Panel to stand at attention. In the arena, she is an unyielding force of will, turning every duel into an epic concert where she always holds the microphone... and the whip.",
-        "presets":  [
+        "lore": "La reina carismática con una voz lo suficientemente poderosa como para detener una guerra o decretar una ejecución pública. Elizabeth lidera Justice con una autoridad que obliga incluso al Panel de Staff a ponerse en firme. En la arena, es una fuerza de voluntad inquebrantable que convierte cada duelo en un concierto épico donde siempre sostiene el micrófono... y el látigo.",
+        "presets": [
             "Justice",
             "Flames",
             "Knights"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "leader"
         ],
-        "unique_skill_name":  "Crimson Judgment"
+        "unique_skill_name": "Juicio Carmesí"
     },
-    "gigi":  {
-        "short_name":  "Gigi",
-        "name":  "Gigi Murin",
-        "gen":  "Justice",
-        "groups":  [
+    "gigi": {
+        "short_name": "Gigi",
+        "name": "Gigi Murin",
+        "gen": "Justice",
+        "groups": [
             "Gremlins",
             "Chaos"
         ],
-        "lore":  "The mechanical chaos gremlin who came to dismantle the arena screw by screw. Gigi is pure kinetic energy and practical jokes. If you leave your gear unattended near her, she will likely rewire it into an exploding toaster. She is fast, incredibly irritating to her enemies, and utterly lethal when she decides it\u0027s time to break something important.",
-        "presets":  [
+        "lore": "La gremlin mecánica del caos que vino a desmontar la arena tornillo a tornillo. Gigi es pura energía cinética y bromas pesadas. Si dejas tu equipo desatendido cerca de ella, lo más probable es que lo recablee para convertirlo en una tostadora explosiva. Es rápida, increíblemente irritante para sus enemigos y completamente letal cuando decide que es hora de romper algo importante.",
+        "presets": [
             "Justice",
             "Gremlins",
             "Pranksters"
         ],
-        "traits":  [
+        "traits": [
             "fast",
             "crazy"
         ],
-        "unique_skill_name":  "Gremlin Mischief"
+        "unique_skill_name": "Trastada Gremlin"
     },
-    "cecilia":  {
-        "short_name":  "Cecilia",
-        "name":  "Cecilia Immergreen",
-        "gen":  "Justice",
-        "groups":  [
+    "cecilia": {
+        "short_name": "Cecilia",
+        "name": "Cecilia Immergreen",
+        "gen": "Justice",
+        "groups": [
             "Robotics",
             "Smart"
         ],
-        "lore":  "An automaton of Swiss precision trying to comprehend human emotions while calculating the exact trajectory of an incoming bullet. Cecilia is mechanical elegance personified; she fights with a cold logic that completely unhinges more emotional idols. If she defeats you, she will likely apologize while logging your elimination data into her research journal.",
-        "presets":  [
+        "lore": "Un autómata de precisión suiza que intenta comprender las emociones humanas mientras calcula la trayectoria exacta de una bala entrante. Cecilia es la elegancia mecánica personificada; lucha con una lógica fría que desquicia por completo a las idols más emocionales. Si te derrota, es muy probable que se disculpe mientras registra los datos de tu eliminación en su diario de investigación.",
+        "presets": [
             "Justice",
             "Automata",
             "Greens"
         ],
-        "traits":  [
+        "traits": [
             "robotic",
             "smart"
         ],
-        "unique_skill_name":  "Toy Wind-up"
+        "unique_skill_name": "Cuerda de Juguete"
     },
-    "raora":  {
-        "short_name":  "Raora",
-        "name":  "Raora Panthera",
-        "gen":  "Justice",
-        "groups":  [
+    "raora": {
+        "short_name": "Raora",
+        "name": "Raora Panthera",
+        "gen": "Justice",
+        "groups": [
             "Panthers",
             "Artists"
         ],
-        "lore":  "The artist panther who views the battlefield as a blank canvas just waiting for a splash of red. Raora masterfully combines feline agility with a unique aesthetic vision. She can track her prey across the entire map, and when she catches them, she finishes them off with an Italian grace that makes even dying by her hand look like a work of art.",
-        "presets":  [
+        "lore": "La pantera artista que ve el campo de batalla como un lienzo en blanco esperando una pincelada de rojo. Raora combina magistralmente la agilidad felina con una visión estética única. Puede rastrear a su presa por todo el mapa y, cuando la atrapa, la remata con una gracia italiana que hace que hasta morir a sus manos parezca una obra de arte.",
+        "presets": [
             "Justice",
             "Panthers",
             "Italians"
         ],
-        "traits":  [
+        "traits": [
             "fast",
             "strong"
         ],
-        "unique_skill_name":  "Artist\u0027s Swipe"
+        "unique_skill_name": "Garrazo de Artista"
     },
-    "iofi":  {
-        "short_name":  "Iofi",
-        "name":  "Airani Iofifteen",
-        "gen":  "ID Gen 1",
-        "groups":  [
+    "iofi": {
+        "short_name": "Iofi",
+        "name": "Airani Iofifteen",
+        "gen": "ID Gen 1",
+        "groups": [
             "Aliens",
             "Artists"
         ],
-        "lore":  "An alien who entered the arena to study Earth culture and ended up painting the battlefield with the (pixelated) blood of her rivals. Iofi doesn\u0027t fight with conventional weapons; she uses her paintbrush to rewrite the opponent\u0027s textures. She is the ultimate polyglot, capable of roasting you in five different languages while erasing you from the map.",
-        "presets":  [
+        "lore": "Una extraterrestre que entró a la arena para estudiar la cultura terrestre y terminó pintando el campo de batalla con la sangre (pixelada) de sus rivales. Iofi no lucha con armas convencionales; usa su pincel para reescribir las texturas del oponente. Es la políglota definitiva, capaz de insultarte en cinco idiomas diferentes mientras te borra del mapa.",
+        "presets": [
             "ID",
             "Artists",
             "Aliens"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "social_butterfly"
         ],
-        "unique_skill_name":  "Alien Paintbrush"
+        "unique_skill_name": "Pincel Extraterrestre"
     },
-    "risu":  {
-        "short_name":  "Risu",
-        "name":  "Ayunda Risu",
-        "gen":  "ID Gen 1",
-        "groups":  [
+    "risu": {
+        "short_name": "Risu",
+        "name": "Ayunda Risu",
+        "gen": "ID Gen 1",
+        "groups": [
             "Animals",
             "Chaos"
         ],
-        "lore":  "A squirrel with a split personality that makes the entire game engine shudder. For most of the year she is adorable, but when \u0027Nonstop Nut November\u0027 hits, her ATK stats scale infinitely and her enemies end up buried under an avalanche of nuts. If you hear her maniacal laughter, your inventory already belongs to her.",
-        "presets":  [
+        "lore": "Una ardilla con una doble personalidad que hace temblar al motor entero del juego. La mayor parte del año es adorable, pero cuando llega el 'Nonstop Nut November', sus estadísticas de ATQ escalan al infinito y sus enemigos terminan sepultados bajo una avalancha de nueces. Si escuchas su risa maníaca, tu inventario ya le pertenece.",
+        "presets": [
             "ID",
             "Squirrels",
             "Nuts"
         ],
-        "traits":  [
+        "traits": [
             "energetic",
             "hungry"
         ],
-        "unique_skill_name":  "Non-stop Nut"
+        "unique_skill_name": "Nuez Sin Parar"
     },
-    "anya":  {
-        "short_name":  "Anya",
-        "name":  "Anya Melfissa",
-        "gen":  "ID Gen 2",
-        "groups":  [
+    "anya": {
+        "short_name": "Anya",
+        "name": "Anya Melfissa",
+        "gen": "ID Gen 2",
+        "groups": [
             "Weapons",
             "Sleepy"
         ],
-        "lore":  "An ancient blade that took on a human form just so she could sleep more. Anya is lethally sharp, but only if you manage to wake her up. In the arena, she is the queen of counterattacks; she prefers not to move at all, letting her enemies cut themselves trying to hit her. She is the most dangerous object in the match, with a sarcasm that cuts deeper than her edge.",
-        "presets":  [
+        "lore": "Una hoja ancestral que tomó forma humana solo para poder dormir más. Anya es letalmente afilada, pero solo si logras despertarla. En la arena, es la reina del contraataque; prefiere no moverse en absoluto, dejando que sus enemigos se corten solos al intentar golpearla. Es el objeto más peligroso de la partida, con un sarcasmo que corta más profundo que su propio filo.",
+        "presets": [
             "ID",
             "Daggers",
             "Weapons"
         ],
-        "traits":  [
+        "traits": [
             "calm",
             "fast"
         ],
-        "unique_skill_name":  "Ancestral Slash"
+        "unique_skill_name": "Corte Ancestral"
     },
-    "coco":  {
-        "short_name":  "Coco",
-        "name":  "Kiryu Coco",
-        "gen":  "Gen 4",
-        "groups":  [
+    "coco": {
+        "short_name": "Coco",
+        "name": "Kiryu Coco",
+        "gen": "Gen 4",
+        "groups": [
             "Dragons",
             "Leaders"
         ],
-        "lore":  "The legendary dragon who taught idols to speak freely and fight with style. Her presence in the arena is mythical; a colossally proportioned tank who uses \u0027Asacoco\u0027 to warp her enemies\u0027 perception. Even if the game loop resets infinitely, Coco\u0027s legacy is the flame that keeps burning in the heart of every match, reminding everyone that she will always be the boss.",
-        "presets":  [
+        "lore": "La dragona legendaria que enseñó a las idols a hablar con libertad y a luchar con estilo. Su presencia en la arena es mítica; un tanque de proporciones colosales que utiliza 'Asacoco' para distorsionar la percepción de sus enemigos. Aunque el bucle del juego se reinicie infinitamente, el legado de Coco es la llama que sigue ardiendo en el corazón de cada partida, recordando a todos que ella siempre será la jefa.",
+        "presets": [
             "Legends",
             "Dragons",
             "Asacoco"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "leader",
             "crazy"
         ],
-        "unique_skill_name":  "Dragon Breath"
+        "unique_skill_name": "Aliento de Dragón"
     },
-    "sana":  {
-        "short_name":  "Sana",
-        "name":  "Tsukumo Sana",
-        "gen":  "Council",
-        "groups":  [
+    "sana": {
+        "short_name": "Sana",
+        "name": "Tsukumo Sana",
+        "gen": "Council",
+        "groups": [
             "Space",
             "Gods"
         ],
-        "lore":  "The Speaker of Space who has a slight scaling issue: if she removes her limiter, her 3D model flattens the entire arena. Sana views the battlefield as a fascinating ant farm. Her cosmic power is immeasurable, but she is usually more interested in stargazing within the biomes than securing victory, unless someone insults the celestial bodies.",
-        "presets":  [
+        "lore": "La Portavoz del Espacio que tiene un ligero problema de escala: si se quita el limitador, su modelo 3D aplasta la arena entera. Sana ve el campo de batalla como una fascinante granja de hormigas. Su poder cósmico es inconmensurable, pero por lo general está más interesada en contemplar las estrellas dentro de los biomas que en asegurar la victoria, a menos que alguien insulte a los cuerpos celestes.",
+        "presets": [
             "Legends",
             "Space",
             "Goddesses"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "pure"
         ],
-        "unique_skill_name":  "Galactic Scale"
+        "unique_skill_name": "Escala Galáctica"
     },
-    "riona":  {
-        "short_name":  "Riona",
-        "name":  "Isaki Riona",
-        "gen":  "Flow Glow",
-        "groups":  [
+    "riona": {
+        "short_name": "Riona",
+        "name": "Isaki Riona",
+        "gen": "Flow Glow",
+        "groups": [
             "ReGloss",
             "Musicians"
         ],
-        "lore":  "The idol who turned the battlefield into a high-precision dance floor. Riona brings the rhythm to the Final Protocol; while others scramble in panic, she moves with an elegance that feels choreographed by the game engine itself. She is living proof that you can be pure of heart while flawlessly wiping an enemy off the map without missing a single beat.",
-        "presets":  [
+        "lore": "La idol que convirtió el campo de batalla en una pista de baile de alta precisión. Riona le aporta el ritmo al Protocolo Final; mientras otros cunden en pánico, ella se mueve con una elegancia que parece coreografiada por el propio motor del juego. Es la prueba viviente de que se puede tener un corazón puro mientras borras limpiamente a un enemigo del mapa sin perder un solo compás.",
+        "presets": [
             "Flow Glow",
             "ReGloss",
             "New Gen"
         ],
-        "traits":  [
+        "traits": [
             "pure",
             "smart"
         ],
-        "unique_skill_name":  "Riona\u0027s Rhythm"
+        "unique_skill_name": "Ritmo de Riona"
     },
-    "vivi":  {
-        "short_name":  "Vivi",
-        "name":  "Kikirara Vivi",
-        "gen":  "Flow Glow",
-        "groups":  [
+    "vivi": {
+        "short_name": "Vivi",
+        "name": "Kikirara Vivi",
+        "gen": "Flow Glow",
+        "groups": [
             "ReGloss",
             "Musicians"
         ],
-        "lore":  "A spark of raw energy who moves so fast the arena\u0027s shaders can barely load her in. Vivi is the definition of \u0027now you see me, now you don\u0027t\u0027; an elusive assassin blinking between biomes like a shooting star. Don\u0027t bother trying to track her with your camera angle: by the time you realize she\u0027s there, she\u0027s already left a trail of critical damage and an energetic smile.",
-        "presets":  [
+        "lore": "Una chispa de energía pura que se mueve tan rápido que a los shaders de la arena apenas les da tiempo a cargarla. Vivi es la definición de 'ahora me ves, ahora no me ves'; una asesina escurridiza que parpadea entre biomas como una estrella fugaz. Ni te molestes en intentar seguirla con el ángulo de cámara: para cuando te des cuenta de que está ahí, ya habrá dejado un rastro de daño crítico y una sonrisa enérgica.",
+        "presets": [
             "Flow Glow",
             "ReGloss",
             "New Gen"
         ],
-        "traits":  [
+        "traits": [
             "fast",
             "energetic"
         ],
-        "unique_skill_name":  "Vivi Spark"
+        "unique_skill_name": "Chispa Vivi"
     },
-    "niko":  {
-        "short_name":  "Niko",
-        "name":  "Koganei Niko",
-        "gen":  "Flow Glow",
-        "groups":  [
+    "niko": {
+        "short_name": "Niko",
+        "name": "Koganei Niko",
+        "gen": "Flow Glow",
+        "groups": [
             "ReGloss",
             "Musicians"
         ],
-        "lore":  "The leader of FLOW GLOW who understands that style is just as vital as brute strength. Niko is a front-line shock tank who completely bypassed the concept of subtlety. Armed with her signature hammer and natural leadership, she shatters enemy formations to pave the way for her squad, ensuring the last frame you see is her flawless victory pose.",
-        "presets":  [
+        "lore": "La líder de FLOW GLOW que entiende que el estilo es tan vital como la fuerza bruta. Niko es una tanque de choque de primera línea que ignoró por completo el concepto de la sutileza. Armada con su martillo característico y su liderazgo natural, destroza las formaciones enemigas para despejar el camino a su escuadrón, asegurándose de que el último fotograma que veas sea su impecable pose de victoria.",
+        "presets": [
             "Flow Glow",
             "ReGloss",
             "New Gen"
         ],
-        "traits":  [
+        "traits": [
             "strong",
             "leader"
         ],
-        "unique_skill_name":  "Niko\u0027s Hammer"
+        "unique_skill_name": "Martillo de Niko"
     },
-    "su":  {
-        "short_name":  "Su",
-        "name":  "Mizumiya Su",
-        "gen":  "Flow Glow",
-        "groups":  [
+    "su": {
+        "short_name": "Su",
+        "name": "Mizumiya Su",
+        "gen": "Flow Glow",
+        "groups": [
             "ReGloss",
             "Musicians"
         ],
-        "lore":  "Fluid, serene, and lethal. Su flows through the arena as if bilinear noise were her native element. As a DPS, she avoids head-on clashes, choosing instead to surround you like a silent tide until it\u0027s far too late to escape. She acts as the tactical heart of her squad, proving that still waters run remarkably deep.",
-        "presets":  [
+        "lore": "Fluida, serena y letal. Su se desplaza por la arena como si el ruido bilinear fuera su elemento natural. Como DPS, evita los enfrentamientos directos, prefiriendo rodearte como una marea silenciosa hasta que es demasiado tarde para escapar. Sirve como el corazón táctico de su escuadrón, demostrando que las aguas tranquilas son sorprendentemente profundas.",
+        "presets": [
             "Flow Glow",
             "ReGloss",
             "New Gen"
         ],
-        "traits":  [
+        "traits": [
             "calm",
             "smart"
         ],
-        "unique_skill_name":  "Su\u0027s Tide"
+        "unique_skill_name": "Marea de Su"
     },
-    "chihaya":  {
-        "short_name":  "Chihaya",
-        "name":  "Rindo Chihaya",
-        "gen":  "Flow Glow",
-        "groups":  [
+    "chihaya": {
+        "short_name": "Chihaya",
+        "name": "Rindo Chihaya",
+        "gen": "Flow Glow",
+        "groups": [
             "ReGloss",
             "Musicians"
         ],
-        "lore":  "The mastermind who reads the arena\u0027s source code like an open book. While others rely on muscle memory, Chihaya has already simulated 40 different permutations of the upcoming turn. She is the strategist who refines the chaos of FLOW GLOW into an efficient war machine. With her at the helm, victory isn\u0027t a probability—it\u0027s a logical conclusion executed with alarming speed.",
-        "presets":  [
+        "lore": "La mente maestra que lee el código fuente de la arena como un libro abierto. Mientras los demás confían en la memoria muscular, Chihaya ya ha simulado 40 permutaciones distintas del siguiente turno. Es la estratega que refina el caos de FLOW GLOW hasta convertirlo en una máquina de guerra eficiente. Con ella al mando, la victoria no es una probabilidad: es una conclusión lógica ejecutada a una velocidad alarmante.",
+        "presets": [
             "Flow Glow",
             "ReGloss",
             "New Gen"
         ],
-        "traits":  [
+        "traits": [
             "smart",
             "leader"
         ],
-        "unique_skill_name":  "Chihaya Tactics"
+        "unique_skill_name": "Tácticas de Chihaya"
     },
     "mela": {
         "short_name": "Mela",
         "name": "Achichi Mela",
-        "gen": "ASOBI★MAWARI-TAI!",
+        "gen": "ASOBI MAWARITAI",
         "groups": ["Fire", "Heroes"],
-        "lore": "A salamander firefighter with a passion that burns brighter than an out-of-control wildfire. In the arena, she doesn't seek to put out fires, but to fuel them into an uncontrollable pyrotechnic spectacle. If you see smoke on the horizon, run; if you hear her laugh, pray your fire extinguisher actually works.",
+        "lore": "Una bombero salamandra con una pasión que arde con más fuerza que un incendio forestal descontrolado. En la arena no busca apagar el fuego, sino avivarlo hasta convertirlo en un espectáculo pirotécnico incontrolable. Si ves humo en el horizonte, corre; si escuchas su risa, reza para que el extintor sirva de algo.",
         "presets": ["Firefighters", "Salamanders", "Melas"],
         "traits": ["hot-blooded", "reckless"],
-        "unique_skill_name": "Rescue Flame"
-      },
-      "kyoko": {
+        "unique_skill_name": "Llama de Rescate"
+    },
+    "kyoko": {
         "short_name": "Kyoko",
         "name": "Hyakuto Kyoko",
-        "gen": "ASOBI★MAWARI-TAI!",
+        "gen": "ASOBI MAWARITAI",
         "groups": ["Police", "Justice"],
-        "lore": "The self-proclaimed hero police officer who patrols the arena with a megaphone and a completely distorted sense of justice. To her, any minor slip-up by her peers (like tripping or breathing wrong) constitutes a severe violation punishable by a preemptive whack.",
+        "lore": "La policía heroica autoproclamada que patrulla la arena con un megáfono y un sentido de la justicia completamente distorsionado. Para ella, cualquier mínimo desliz de sus compañeras (como tropezarse o respirar mal) constituye una infracción grave penada con un porrazo preventivo.",
         "presets": ["Cops", "Justice", "Kyokos"],
         "traits": ["strict", "noisy"],
-        "unique_skill_name": "Megaphone of Law"
+        "unique_skill_name": "Megáfono de la Ley"
       },
       "tsuzuri": {
         "short_name": "Tsuzuri",
         "name": "Suzuna Tsuzuri",
-        "gen": "ASOBI★MAWARI-TAI!",
+        "gen": "ASOBI MAWARITAI",
         "groups": ["Delivery", "Animals"],
-        "lore": "A goat-eared mailwoman whose sole life mission is to deliver packages on time... even if the recipient is running away in terror from an explosion. Her speedy legs and obsession with getting delivery receipts signed make her an unstoppable logistics force.",
+        "lore": "Una cartera con orejas de cabra cuya única misión vital es entregar paquetes a tiempo... aunque el destinatario esté intentando huir despavorido de una explosión. Sus piernas veloces y su obsesión por firmar el albarán de entrega la convierten en una fuerza imparable de la logística.",
         "presets": ["Mailmen", "Goats", "Suzunas"],
         "traits": ["fast", "persistent"],
-        "unique_skill_name": "Express Package"
+        "unique_skill_name": "Paquete Express"
       },
       "sopia": {
         "short_name": "Sopia",
         "name": "Sorashina Sopia",
-        "gen": "ASOBI★MAWARI-TAI!",
+        "gen": "ASOBI MAWARITAI",
         "groups": ["Space", "Geniuses"],
-        "lore": "A genius astronaut who analyzed survival odds in the arena and concluded the best strategy is to look at the stars and disconnect from earthly suffering. She calculates orbital trajectories with millimeter precision, right before tripping over an invisible pebble.",
+        "lore": "Una astronauta genio que analizó las probabilidades de supervivencia en la arena y concluyó que la mejor estrategia es mirar las estrellas y desconectar del sufrimiento terrenal. Calcula trayectorias orbitales con precisión milimétrica, justo antes de tropezar con una piedra invisible.",
         "presets": ["Astronauts", "Geniuses", "Sopias"],
         "traits": ["smart", "absent-minded"],
-        "unique_skill_name": "Orbital Calculation"
+        "unique_skill_name": "Cálculo Orbital"
       }
-    }
+}
