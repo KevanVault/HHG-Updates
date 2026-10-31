@@ -1,0 +1,388 @@
+{
+  "tournament_mode": {
+    "price": 50000,
+    "icon": "T",
+    "level_req": 20,
+    "type": "upgrade"
+  },
+  "pack_gen2": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "Gen 2",
+    "level_req": 5
+  },
+  "pack_gamers": {
+    "price": 6000,
+    "type": "idols",
+    "gen": "Gamers",
+    "level_req": 8
+  },
+  "pack_gen3": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "Gen 3",
+    "level_req": 10
+  },
+  "pack_gen4": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "Gen 4",
+    "level_req": 12
+  },
+  "pack_gen5": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "Gen 5",
+    "level_req": 15
+  },
+  "pack_holox": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "HoloX",
+    "level_req": 18
+  },
+  "pack_myth": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "Myth",
+    "level_req": 10
+  },
+  "pack_council": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "Council",
+    "level_req": 14
+  },
+  "pack_advent": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "Advent",
+    "level_req": 18
+  },
+  "pack_justice": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "Justice",
+    "level_req": 22
+  },
+  "pack_id1": {
+    "price": 6000,
+    "type": "idols",
+    "gen": "ID Gen 1",
+    "level_req": 5
+  },
+  "pack_id2": {
+    "price": 6000,
+    "type": "idols",
+    "gen": "ID Gen 2",
+    "level_req": 8
+  },
+  "pack_id3": {
+    "price": 6000,
+    "type": "idols",
+    "gen": "ID Gen 3",
+    "level_req": 12
+  },
+  "pack_regloss": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "ReGloss",
+    "level_req": 20
+  },
+  "pack_flowglow": {
+    "price": 10000,
+    "type": "idols",
+    "gen": "Flow Glow",
+    "level_req": 25
+  },
+  "pack_asobi-mawari-tai": {
+    "price": 15000,
+    "type": "idols",
+    "gen": "ASOBI MAWARITAI",
+    "level_req": 30
+  },
+  "theme_cyber": {
+    "price": 25000,
+    "icon": "C",
+    "level_req": 15,
+    "type": "upgrade"
+  },
+  "theme_arctic": {
+    "price": 25000,
+    "icon": "A",
+    "level_req": 25,
+    "type": "upgrade"
+  },
+  "theme_hell": {
+    "price": 25000,
+    "icon": "H",
+    "level_req": 35,
+    "type": "upgrade"
+  },
+  "skin_sora_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "sora",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_sora_yukata": {
+    "price": 12000,
+    "type": "skin",
+    "idol_id": "sora",
+    "skin_id": "yukata",
+    "level_req": 5
+  },
+  "skin_roboco_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "roboco",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_roboco_yukata": {
+    "price": 12000,
+    "type": "skin",
+    "idol_id": "roboco",
+    "skin_id": "yukata",
+    "level_req": 5
+  },
+  "skin_azki_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "azki",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_azki_yukata": {
+    "price": 12000,
+    "type": "skin",
+    "idol_id": "azki",
+    "skin_id": "yukata",
+    "level_req": 5
+  },
+  "skin_miko_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "miko",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_miko_yukata": {
+    "price": 12000,
+    "type": "skin",
+    "idol_id": "miko",
+    "skin_id": "yukata",
+    "level_req": 5
+  },
+  "skin_suisei_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "suisei",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_suisei_yukata": {
+    "price": 12000,
+    "type": "skin",
+    "idol_id": "suisei",
+    "skin_id": "yukata",
+    "level_req": 5
+  },
+  "skin_fubuki_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "fubuki",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_aqua_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "aqua",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_ayame_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "ayame",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_subaru_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "subaru",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_okayu_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "okayu",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_mio_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "mio",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_towa_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "towa",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_kanata_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "kanata",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_marine_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "marine",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_lamy_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "lamy",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_laplus_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "laplus",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_lui_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "lui",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_chloe_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "chloe",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_iroha_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "iroha",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_koyori_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "koyori",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_moona_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "moona",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_iofi_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "iofi",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_reine_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "reine",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_ina_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "ina",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_gura_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "gura",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_kiara_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "kiara",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_kronii_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "kronii",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_fauna_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "fauna",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_mumei_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "mumei",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_noel_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "noel",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_flare_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "flare",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_polka_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "polka",
+    "skin_id": "verano",
+    "level_req": 5
+  },
+  "skin_choco_verano": {
+    "price": 8000,
+    "type": "skin",
+    "idol_id": "choco",
+    "skin_id": "verano",
+    "level_req": 5
+  }
+}

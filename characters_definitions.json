@@ -1,0 +1,1274 @@
+{
+    "sora":  {
+        "role":  "tank",
+        "faction":  "neutral",
+        "max_hp":  110,
+        "stats":  {
+                "fuerza":  6,
+                "agilidad":  6,
+                "inteligencia":  7,
+                "suerte":  9
+            },
+        "unique_skill":  "sora_divine",
+        "progression":  {
+                        "5":  "magic_bolt",
+                        "10":  "quick_shot"
+                    }
+        },
+    "azki":  {
+                 "role":  "tank",
+                 "faction":  "neutral",
+                 "max_hp":  105,
+                 "stats":  {
+                               "fuerza":  5,
+                               "agilidad":  7,
+                               "inteligencia":  8,
+                               "suerte":  7
+                           },
+                 "unique_skill":  "azki_map",
+                 "progression":  {
+                                     "5":  "slash",
+                                     "10":  "magic_bolt"
+                                 }
+             },
+    "roboco":  {
+                   "role":  "tank",
+                   "faction":  "neutral",
+                   "max_hp":  115,
+                   "stats":  {
+                                 "fuerza":  8,
+                                 "agilidad":  5,
+                                 "inteligencia":  9,
+                                 "suerte":  6
+                             },
+                   "unique_skill":  "roboco_beam",
+                   "progression":  {
+                                       "5":  "quick_shot",
+                                       "10":  "regeneration"
+                                   }
+               },
+    "miko":  {
+                 "role":  "dps",
+                 "faction":  "neutral",
+                 "max_hp":  95,
+                 "stats":  {
+                               "fuerza":  6,
+                               "agilidad":  6,
+                               "inteligencia":  4,
+                               "suerte":  10
+                           },
+                 "unique_skill":  "miko_lava",
+                 "progression":  {
+                                     "5":  "magic_bolt",
+                                     "10":  "slash"
+                                 }
+             },
+    "suisei":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  95,
+                   "stats":  {
+                                 "fuerza":  9,
+                                 "agilidad":  8,
+                                 "inteligencia":  7,
+                                 "suerte":  5
+                             },
+                   "unique_skill":  "suisei_axe",
+                   "progression":  {
+                                       "5":  "slash",
+                                       "10":  "quick_shot"
+                                   }
+               },
+    "mel":  {
+                "role":  "assassin",
+                "faction":  "neutral",
+                "max_hp":  85,
+                "stats":  {
+                              "fuerza":  6,
+                              "agilidad":  8,
+                              "inteligencia":  6,
+                              "suerte":  6
+                          },
+                "unique_skill":  "mel_kiss",
+                "progression":  {
+                                    "5":  "slash",
+                                    "10":  "magic_bolt"
+                                }
+            },
+    "fubuki":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  95,
+                   "stats":  {
+                                 "fuerza":  5,
+                                 "agilidad":  9,
+                                 "inteligencia":  8,
+                                 "suerte":  7
+                             },
+                   "unique_skill":  "fubuki_kon",
+                   "progression":  {
+                                       "5":  "quick_shot",
+                                       "10":  "slash"
+                                   }
+               },
+    "matsuri":  {
+                    "role":  "dps",
+                    "faction":  "neutral",
+                    "max_hp":  90,
+                    "stats":  {
+                                  "fuerza":  7,
+                                  "agilidad":  7,
+                                  "inteligencia":  5,
+                                  "suerte":  8
+                              },
+                    "unique_skill":  "matsuri_god",
+                    "progression":  {
+                                        "5":  "slash",
+                                        "10":  "quick_shot"
+                                    }
+                },
+    "aki":  {
+                "role":  "tank",
+                "faction":  "neutral",
+                "max_hp":  100,
+                "stats":  {
+                              "fuerza":  6,
+                              "agilidad":  5,
+                              "inteligencia":  9,
+                              "suerte":  6
+                          },
+                "unique_skill":  "aki_mukiroze",
+                "progression":  {
+                                    "5":  "magic_bolt",
+                                    "10":  "slash"
+                                }
+            },
+    "haachama":  {
+                     "role":  "dps",
+                     "faction":  "neutral",
+                     "max_hp":  95,
+                     "stats":  {
+                                   "fuerza":  8,
+                                   "agilidad":  7,
+                                   "inteligencia":  3,
+                                   "suerte":  9
+                               },
+                     "unique_skill":  "haachama_cook",
+                     "progression":  {
+                                         "5":  "slash",
+                                         "10":  "quick_shot"
+                                     }
+                 },
+    "aqua":  {
+                 "role":  "assassin",
+                 "faction":  "neutral",
+                 "max_hp":  80,
+                 "stats":  {
+                               "fuerza":  4,
+                               "agilidad":  10,
+                               "inteligencia":  8,
+                               "suerte":  3
+                           },
+                 "unique_skill":  "aqua_sololive",
+                 "progression":  {
+                                     "5":  "slash",
+                                     "10":  "quick_shot"
+                                 }
+             },
+    "shion":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  85,
+                  "stats":  {
+                                "fuerza":  5,
+                                "agilidad":  7,
+                                "inteligencia":  10,
+                                "suerte":  5
+                            },
+                  "unique_skill":  "shion_magic",
+                  "progression":  {
+                                      "5":  "magic_bolt",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "ayame":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  95,
+                  "stats":  {
+                                "fuerza":  9,
+                                "agilidad":  9,
+                                "inteligencia":  6,
+                                "suerte":  6
+                            },
+                  "unique_skill":  "ayame_nakirium",
+                  "progression":  {
+                                      "5":  "slash",
+                                      "10":  "magic_bolt"
+                                  }
+              },
+    "choco":  {
+                  "role":  "tank",
+                  "faction":  "neutral",
+                  "max_hp":  110,
+                  "stats":  {
+                                "fuerza":  6,
+                                "agilidad":  4,
+                                "inteligencia":  9,
+                                "suerte":  7
+                            },
+                  "unique_skill":  "choco_exam",
+                  "progression":  {
+                                      "5":  "magic_bolt",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "subaru":  {
+                   "role":  "tank",
+                   "faction":  "neutral",
+                   "max_hp":  115,
+                   "stats":  {
+                                 "fuerza":  7,
+                                 "agilidad":  7,
+                                 "inteligencia":  6,
+                                 "suerte":  6
+                             },
+                   "unique_skill":  "subaru_shout",
+                   "progression":  {
+                                       "5":  "slash",
+                                       "10":  "quick_shot"
+                                   }
+               },
+    "mio":  {
+                "role":  "tank",
+                "faction":  "neutral",
+                "max_hp":  105,
+                "stats":  {
+                              "fuerza":  6,
+                              "agilidad":  7,
+                              "inteligencia":  8,
+                              "suerte":  7
+                          },
+                "unique_skill":  "mio_tarot",
+                "progression":  {
+                                    "5":  "magic_bolt",
+                                    "10":  "regeneration"
+                                }
+            },
+    "okayu":  {
+                  "role":  "assassin",
+                  "faction":  "neutral",
+                  "max_hp":  90,
+                  "stats":  {
+                                "fuerza":  7,
+                                "agilidad":  8,
+                                "inteligencia":  8,
+                                "suerte":  7
+                            },
+                  "unique_skill":  "okayu_onigiri",
+                  "progression":  {
+                                      "5":  "slash",
+                                      "10":  "quick_shot"
+                                  }
+              },
+    "korone":  {
+                   "role":  "tank",
+                   "faction":  "neutral",
+                   "max_hp":  130,
+                   "stats":  {
+                                 "fuerza":  9,
+                                 "agilidad":  5,
+                                 "inteligencia":  4,
+                                 "suerte":  6
+                             },
+                   "unique_skill":  "korone_yubi",
+                   "progression":  {
+                                       "5":  "slash",
+                                       "10":  "magic_bolt"
+                                   }
+               },
+    "pekora":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  85,
+                   "stats":  {
+                                 "fuerza":  5,
+                                 "agilidad":  7,
+                                 "inteligencia":  10,
+                                 "suerte":  8
+                             },
+                   "unique_skill":  "pekora_tnt",
+                   "progression":  {
+                                       "5":  "quick_shot",
+                                       "10":  "magic_bolt"
+                                   }
+               },
+    "rushia":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  80,
+                   "stats":  {
+                                 "fuerza":  10,
+                                 "agilidad":  6,
+                                 "inteligencia":  7,
+                                 "suerte":  4
+                             },
+                   "unique_skill":  "rushia_scream",
+                   "progression":  {
+                                       "5":  "magic_bolt",
+                                       "10":  "regeneration"
+                                   }
+               },
+    "flare":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  95,
+                  "stats":  {
+                                "fuerza":  7,
+                                "agilidad":  8,
+                                "inteligencia":  8,
+                                "suerte":  6
+                            },
+                  "unique_skill":  "flare_arrow",
+                  "progression":  {
+                                      "5":  "quick_shot",
+                                      "10":  "magic_bolt"
+                                  }
+              },
+    "noel":  {
+                 "role":  "tank",
+                 "faction":  "neutral",
+                 "max_hp":  125,
+                 "stats":  {
+                               "fuerza":  10,
+                               "agilidad":  4,
+                               "inteligencia":  5,
+                               "suerte":  6
+                           },
+                 "unique_skill":  "noel_knight",
+                 "progression":  {
+                                     "5":  "slash",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "marine":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  85,
+                   "stats":  {
+                                 "fuerza":  6,
+                                 "agilidad":  4,
+                                 "inteligencia":  9,
+                                 "suerte":  7
+                             },
+                   "unique_skill":  "marine_horny",
+                   "progression":  {
+                                       "5":  "slash",
+                                       "10":  "magic_bolt"
+                                   }
+               },
+    "kanata":  {
+                   "role":  "tank",
+                   "faction":  "neutral",
+                   "max_hp":  100,
+                   "stats":  {
+                                 "fuerza":  10,
+                                 "agilidad":  6,
+                                 "inteligencia":  7,
+                                 "suerte":  5
+                             },
+                   "unique_skill":  "kanata_grip",
+                   "progression":  {
+                                       "5":  "slash",
+                                       "10":  "regeneration"
+                                   }
+               },
+    "watame":  {
+                   "role":  "tank",
+                   "faction":  "neutral",
+                   "max_hp":  110,
+                   "stats":  {
+                                 "fuerza":  6,
+                                 "agilidad":  5,
+                                 "inteligencia":  7,
+                                 "suerte":  9
+                             },
+                   "unique_skill":  "watame_shogun",
+                   "progression":  {
+                                       "5":  "magic_bolt",
+                                       "10":  "regeneration"
+                                   }
+               },
+    "towa":  {
+                 "role":  "dps",
+                 "faction":  "neutral",
+                 "max_hp":  100,
+                 "stats":  {
+                               "fuerza":  7,
+                               "agilidad":  8,
+                               "inteligencia":  8,
+                               "suerte":  6
+                           },
+                 "unique_skill":  "towa_angel",
+                 "progression":  {
+                                     "5":  "magic_bolt",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "luna":  {
+                 "role":  "dps",
+                 "faction":  "neutral",
+                 "max_hp":  80,
+                 "stats":  {
+                               "fuerza":  4,
+                               "agilidad":  4,
+                               "inteligencia":  9,
+                               "suerte":  7
+                           },
+                 "unique_skill":  "luna_nanora",
+                 "progression":  {
+                                     "5":  "magic_bolt",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "lamy":  {
+                 "role":  "dps",
+                 "faction":  "neutral",
+                 "max_hp":  90,
+                 "stats":  {
+                               "fuerza":  5,
+                               "agilidad":  6,
+                               "inteligencia":  9,
+                               "suerte":  6
+                           },
+                 "unique_skill":  "lamy_sake",
+                 "progression":  {
+                                     "5":  "magic_bolt",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "nene":  {
+                 "role":  "dps",
+                 "faction":  "neutral",
+                 "max_hp":  95,
+                 "stats":  {
+                               "fuerza":  6,
+                               "agilidad":  7,
+                               "inteligencia":  5,
+                               "suerte":  9
+                           },
+                 "unique_skill":  "nene_seal",
+                 "progression":  {
+                                     "5":  "slash",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "botan":  {
+                  "role":  "assassin",
+                  "faction":  "neutral",
+                  "max_hp":  100,
+                  "stats":  {
+                                "fuerza":  8,
+                                "agilidad":  9,
+                                "inteligencia":  9,
+                                "suerte":  6
+                            },
+                  "unique_skill":  "botan_ssrb",
+                  "progression":  {
+                                      "5":  "quick_shot",
+                                      "10":  "slash"
+                                  }
+              },
+    "polka":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  90,
+                  "stats":  {
+                                "fuerza":  6,
+                                "agilidad":  8,
+                                "inteligencia":  7,
+                                "suerte":  8
+                            },
+                  "unique_skill":  "polka_chaos",
+                  "progression":  {
+                                      "5":  "quick_shot",
+                                      "10":  "magic_bolt"
+                                  }
+              },
+    "laplus":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  80,
+                   "stats":  {
+                                 "fuerza":  4,
+                                 "agilidad":  5,
+                                 "inteligencia":  10,
+                                 "suerte":  6
+                             },
+                   "unique_skill":  "laplus_darkness",
+                   "progression":  {
+                                       "5":  "magic_bolt",
+                                       "10":  "regeneration"
+                                   }
+               },
+    "lui":  {
+                "role":  "tank",
+                "faction":  "neutral",
+                "max_hp":  105,
+                "stats":  {
+                              "fuerza":  7,
+                              "agilidad":  6,
+                              "inteligencia":  8,
+                              "suerte":  7
+                          },
+                "unique_skill":  "lui_whip",
+                "progression":  {
+                                    "5":  "slash",
+                                    "10":  "regeneration"
+                                }
+            },
+    "koyori":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  90,
+                   "stats":  {
+                                 "fuerza":  5,
+                                 "agilidad":  7,
+                                 "inteligencia":  10,
+                                 "suerte":  8
+                             },
+                   "unique_skill":  "koyori_potion",
+                   "progression":  {
+                                       "5":  "magic_bolt",
+                                       "10":  "slash"
+                                   }
+               },
+    "chloe":  {
+                  "role":  "assassin",
+                  "faction":  "neutral",
+                  "max_hp":  95,
+                  "stats":  {
+                                "fuerza":  8,
+                                "agilidad":  9,
+                                "inteligencia":  6,
+                                "suerte":  5
+                            },
+                  "unique_skill":  "chloe_stink",
+                  "progression":  {
+                                      "5":  "slash",
+                                      "10":  "quick_shot"
+                                  }
+              },
+    "iroha":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  100,
+                  "stats":  {
+                                "fuerza":  9,
+                                "agilidad":  9,
+                                "inteligencia":  7,
+                                "suerte":  6
+                            },
+                  "unique_skill":  "iroha_slash",
+                  "progression":  {
+                                      "5":  "slash",
+                                      "10":  "magic_bolt"
+                                  }
+              },
+    "moona":  {
+                  "role":  "tank",
+                  "faction":  "neutral",
+                  "max_hp":  110,
+                  "stats":  {
+                                "fuerza":  8,
+                                "agilidad":  6,
+                                "inteligencia":  8,
+                                "suerte":  7
+                            },
+                  "unique_skill":  "moona_moon",
+                  "progression":  {
+                                      "5":  "magic_bolt",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "ollie":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  120,
+                  "stats":  {
+                                "fuerza":  7,
+                                "agilidad":  9,
+                                "inteligencia":  5,
+                                "suerte":  8
+                            },
+                  "unique_skill":  "ollie_scream",
+                  "progression":  {
+                                      "5":  "slash",
+                                      "10":  "magic_bolt"
+                                  }
+              },
+    "reine":  {
+                  "role":  "tank",
+                  "faction":  "neutral",
+                  "max_hp":  105,
+                  "stats":  {
+                                "fuerza":  6,
+                                "agilidad":  7,
+                                "inteligencia":  9,
+                                "suerte":  6
+                            },
+                  "unique_skill":  "reine_pavo",
+                  "progression":  {
+                                      "5":  "magic_bolt",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "kobo":  {
+                 "role":  "dps",
+                 "faction":  "neutral",
+                 "max_hp":  85,
+                 "stats":  {
+                               "fuerza":  4,
+                               "agilidad":  8,
+                               "inteligencia":  7,
+                               "suerte":  10
+                           },
+                 "unique_skill":  "kobo_rain",
+                 "progression":  {
+                                     "5":  "magic_bolt",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "kaela":  {
+                  "role":  "tank",
+                  "faction":  "neutral",
+                  "max_hp":  140,
+                  "stats":  {
+                                "fuerza":  9,
+                                "agilidad":  4,
+                                "inteligencia":  8,
+                                "suerte":  5
+                            },
+                  "unique_skill":  "kaela_grind",
+                  "progression":  {
+                                      "5":  "slash",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "zeta":  {
+                 "role":  "assassin",
+                 "faction":  "neutral",
+                 "max_hp":  90,
+                 "stats":  {
+                               "fuerza":  7,
+                               "agilidad":  10,
+                               "inteligencia":  8,
+                               "suerte":  6
+                           },
+                 "unique_skill":  "zeta_cat",
+                 "progression":  {
+                                     "5":  "quick_shot",
+                                     "10":  "slash"
+                                 }
+             },
+    "calliope":  {
+                     "role":  "dps",
+                     "faction":  "neutral",
+                     "max_hp":  105,
+                     "stats":  {
+                                   "fuerza":  9,
+                                   "agilidad":  6,
+                                   "inteligencia":  6,
+                                   "suerte":  5
+                               },
+                     "unique_skill":  "calli_scythe",
+                     "progression":  {
+                                         "5":  "slash",
+                                         "10":  "regeneration"
+                                     }
+                 },
+    "kiara":  {
+                  "role":  "tank",
+                  "faction":  "neutral",
+                  "max_hp":  110,
+                  "stats":  {
+                                "fuerza":  7,
+                                "agilidad":  7,
+                                "inteligencia":  7,
+                                "suerte":  8
+                            },
+                  "unique_skill":  "kiara_phoenix",
+                  "progression":  {
+                                      "5":  "magic_bolt",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "ina":  {
+                "role":  "tank",
+                "faction":  "neutral",
+                "max_hp":  100,
+                "stats":  {
+                              "fuerza":  5,
+                              "agilidad":  5,
+                              "inteligencia":  10,
+                              "suerte":  7
+                          },
+                "unique_skill":  "ina_wah",
+                "progression":  {
+                                    "5":  "magic_bolt",
+                                    "10":  "regeneration"
+                                }
+            },
+    "gura":  {
+                 "role":  "assassin",
+                 "faction":  "neutral",
+                 "max_hp":  80,
+                 "stats":  {
+                               "fuerza":  7,
+                               "agilidad":  10,
+                               "inteligencia":  5,
+                               "suerte":  6
+                           },
+                 "unique_skill":  "gura_bite",
+                 "progression":  {
+                                     "5":  "slash",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "ame":  {
+                "role":  "dps",
+                "faction":  "neutral",
+                "max_hp":  90,
+                "stats":  {
+                              "fuerza":  6,
+                              "agilidad":  8,
+                              "inteligencia":  10,
+                              "suerte":  7
+                          },
+                "unique_skill":  "ame_groundpound",
+                "progression":  {
+                                    "5":  "quick_shot",
+                                    "10":  "magic_bolt"
+                                }
+            },
+    "fauna":  {
+                  "role":  "tank",
+                  "faction":  "neutral",
+                  "max_hp":  115,
+                  "stats":  {
+                                "fuerza":  5,
+                                "agilidad":  6,
+                                "inteligencia":  9,
+                                "suerte":  8
+                            },
+                  "unique_skill":  "fauna_nature",
+                  "progression":  {
+                                      "5":  "regeneration",
+                                      "10":  "magic_bolt"
+                                  }
+              },
+    "kronii":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  100,
+                   "stats":  {
+                                 "fuerza":  8,
+                                 "agilidad":  8,
+                                 "inteligencia":  8,
+                                 "suerte":  5
+                             },
+                   "unique_skill":  "kronii_blades",
+                   "progression":  {
+                                       "5":  "slash",
+                                       "10":  "magic_bolt"
+                                   }
+               },
+    "mumei":  {
+                  "role":  "assassin",
+                  "faction":  "neutral",
+                  "max_hp":  90,
+                  "stats":  {
+                                "fuerza":  8,
+                                "agilidad":  8,
+                                "inteligencia":  6,
+                                "suerte":  7
+                            },
+                  "unique_skill":  "mumei_dagger",
+                  "progression":  {
+                                      "5":  "slash",
+                                      "10":  "quick_shot"
+                                  }
+              },
+    "baelz":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  90,
+                  "stats":  {
+                                "fuerza":  7,
+                                "agilidad":  9,
+                                "inteligencia":  7,
+                                "suerte":  9
+                            },
+                  "unique_skill":  "baelz_chaos",
+                  "progression":  {
+                                      "5":  "magic_bolt",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "irys":  {
+                 "role":  "dps",
+                 "faction":  "neutral",
+                 "max_hp":  100,
+                 "stats":  {
+                               "fuerza":  7,
+                               "agilidad":  7,
+                               "inteligencia":  8,
+                               "suerte":  7
+                           },
+                 "unique_skill":  "irys_hope",
+                 "progression":  {
+                                     "5":  "magic_bolt",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "shiori":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  90,
+                   "stats":  {
+                                 "fuerza":  5,
+                                 "agilidad":  6,
+                                 "inteligencia":  10,
+                                 "suerte":  7
+                             },
+                   "unique_skill":  "shiori_story",
+                   "progression":  {
+                                       "5":  "magic_bolt",
+                                       "10":  "regeneration"
+                                   }
+               },
+    "bijou":  {
+                  "role":  "tank",
+                  "faction":  "neutral",
+                  "max_hp":  120,
+                  "stats":  {
+                                "fuerza":  6,
+                                "agilidad":  5,
+                                "inteligencia":  7,
+                                "suerte":  9
+                            },
+                  "unique_skill":  "bijou_rock",
+                  "progression":  {
+                                      "5":  "slash",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "nerissa":  {
+                    "role":  "dps",
+                    "faction":  "neutral",
+                    "max_hp":  100,
+                    "stats":  {
+                                  "fuerza":  8,
+                                  "agilidad":  7,
+                                  "inteligencia":  8,
+                                  "suerte":  6
+                              },
+                    "unique_skill":  "nerissa_song",
+                    "progression":  {
+                                        "5":  "magic_bolt",
+                                        "10":  "regeneration"
+                                    }
+                },
+    "fuwawa":  {
+                   "role":  "tank",
+                   "faction":  "neutral",
+                   "max_hp":  105,
+                   "stats":  {
+                                 "fuerza":  7,
+                                 "agilidad":  8,
+                                 "inteligencia":  6,
+                                 "suerte":  8
+                             },
+                   "unique_skill":  "fuwamoco_bau",
+                   "progression":  {
+                                       "5":  "slash",
+                                       "10":  "regeneration"
+                                   }
+               },
+    "mococo":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  95,
+                   "stats":  {
+                                 "fuerza":  8,
+                                 "agilidad":  9,
+                                 "inteligencia":  5,
+                                 "suerte":  7
+                             },
+                   "unique_skill":  "fuwamoco_bau",
+                   "progression":  {
+                                       "5":  "slash",
+                                       "10":  "regeneration"
+                                   }
+               },
+    "ao":  {
+               "role":  "dps",
+               "faction":  "neutral",
+               "max_hp":  90,
+               "stats":  {
+                             "fuerza":  6
+                         }
+           },
+    "kanade":  {
+                   "role":  "dps",
+                   "faction":  "neutral",
+                   "max_hp":  85,
+                   "stats":  {
+                                 "fuerza":  5,
+                                 "agilidad":  8,
+                                 "inteligencia":  7,
+                                 "suerte":  6
+                             },
+                   "unique_skill":  "kanade_opera",
+                   "progression":  {
+                                       "5":  "magic_bolt",
+                                       "10":  "regeneration"
+                                   }
+               },
+    "ririka":  {
+                   "role":  "tank",
+                   "faction":  "neutral",
+                   "max_hp":  100,
+                   "stats":  {
+                                 "fuerza":  6,
+                                 "agilidad":  6,
+                                 "inteligencia":  9,
+                                 "suerte":  7
+                             },
+                   "unique_skill":  "ririka_ceo",
+                   "progression":  {
+                                       "5":  "quick_shot",
+                                       "10":  "slash"
+                                   }
+               },
+    "raden":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  95,
+                  "stats":  {
+                                "fuerza":  5,
+                                "agilidad":  5,
+                                "inteligencia":  10,
+                                "suerte":  8
+                            },
+                  "unique_skill":  "raden_mask",
+                  "progression":  {
+                                      "5":  "magic_bolt",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "hajime":  {
+                   "role":  "assassin",
+                   "faction":  "neutral",
+                   "max_hp":  90,
+                   "stats":  {
+                                 "fuerza":  8,
+                                 "agilidad":  9,
+                                 "inteligencia":  5,
+                                 "suerte":  6
+                             },
+                   "unique_skill":  "hajime_bam",
+                   "progression":  {
+                                       "5":  "slash",
+                                       "10":  "quick_shot"
+                                   }
+               },
+    "elizabeth":  {
+                      "role":  "dps",
+                      "faction":  "neutral",
+                      "max_hp":  105,
+                      "stats":  {
+                                    "fuerza":  9,
+                                    "agilidad":  7,
+                                    "inteligencia":  8,
+                                    "suerte":  6
+                                },
+                      "unique_skill":  "elizabeth_justice",
+                      "progression":  {
+                                          "5":  "slash",
+                                          "10":  "magic_bolt"
+                                      }
+                  },
+    "gigi":  {
+                 "role":  "assassin",
+                 "faction":  "neutral",
+                 "max_hp":  85,
+                 "stats":  {
+                               "fuerza":  7,
+                               "agilidad":  10,
+                               "inteligencia":  6,
+                               "suerte":  8
+                           },
+                 "unique_skill":  "gigi_gremlin",
+                 "progression":  {
+                                     "5":  "slash",
+                                     "10":  "quick_shot"
+                                 }
+             },
+    "cecilia":  {
+                    "role":  "tank",
+                    "faction":  "neutral",
+                    "max_hp":  115,
+                    "stats":  {
+                                  "fuerza":  6,
+                                  "agilidad":  5,
+                                  "inteligencia":  9,
+                                  "suerte":  7
+                              },
+                    "unique_skill":  "cecilia_toy",
+                    "progression":  {
+                                        "5":  "magic_bolt",
+                                        "10":  "regeneration"
+                                    }
+                },
+    "raora":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  95,
+                  "stats":  {
+                                "fuerza":  8,
+                                "agilidad":  8,
+                                "inteligencia":  7,
+                                "suerte":  6
+                            },
+                  "unique_skill":  "raora_panther",
+                  "progression":  {
+                                      "5":  "slash",
+                                      "10":  "quick_shot"
+                                  }
+              },
+    "iofi":  {
+                 "role":  "dps",
+                 "faction":  "neutral",
+                 "max_hp":  90,
+                 "stats":  {
+                               "fuerza":  5,
+                               "agilidad":  7,
+                               "inteligencia":  9,
+                               "suerte":  6
+                           },
+                 "unique_skill":  "iofi",
+                 "progression":  {
+                                     "5":  "quick_shot",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "risu":  {
+                 "role":  "dps",
+                 "faction":  "neutral",
+                 "max_hp":  100,
+                 "stats":  {
+                               "fuerza":  7,
+                               "agilidad":  8,
+                               "inteligencia":  7,
+                               "suerte":  8
+                           },
+                 "unique_skill":  "risu",
+                 "progression":  {
+                                     "5":  "quick_shot",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "anya":  {
+                 "role":  "assassin",
+                 "faction":  "neutral",
+                 "max_hp":  85,
+                 "stats":  {
+                               "fuerza":  9,
+                               "agilidad":  8,
+                               "inteligencia":  7,
+                               "suerte":  5
+                           },
+                 "unique_skill":  "anya_keris",
+                 "progression":  {
+                                     "5":  "slash",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "coco":  {
+                 "role":  "tank",
+                 "faction":  "neutral",
+                 "max_hp":  150,
+                 "stats":  {
+                               "fuerza":  10,
+                               "agilidad":  5,
+                               "inteligencia":  8,
+                               "suerte":  7
+                           },
+                 "unique_skill":  "coco_breath",
+                 "progression":  {
+                                     "5":  "slash",
+                                     "10":  "magic_bolt"
+                                 }
+             },
+    "sana":  {
+                 "role":  "tank",
+                 "faction":  "neutral",
+                 "max_hp":  130,
+                 "stats":  {
+                               "fuerza":  9,
+                               "agilidad":  4,
+                               "inteligencia":  9,
+                               "suerte":  7
+                           },
+                 "unique_skill":  "sana_size",
+                 "progression":  {
+                                     "5":  "magic_bolt",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "riona":  {
+                  "role":  "dps",
+                  "faction":  "neutral",
+                  "max_hp":  95,
+                  "stats":  {
+                                "fuerza":  6,
+                                "agilidad":  7,
+                                "inteligencia":  8,
+                                "suerte":  6
+                            },
+                  "unique_skill":  "riona_rhythm",
+                  "progression":  {
+                                      "5":  "magic_bolt",
+                                      "10":  "regeneration"
+                                  }
+              },
+    "vivi":  {
+                 "role":  "assassin",
+                 "faction":  "neutral",
+                 "max_hp":  85,
+                 "stats":  {
+                               "fuerza":  7,
+                               "agilidad":  10,
+                               "inteligencia":  6,
+                               "suerte":  8
+                           },
+                 "unique_skill":  "vivi_spark",
+                 "progression":  {
+                                     "5":  "quick_shot",
+                                     "10":  "slash"
+                                 }
+             },
+    "niko":  {
+                 "role":  "tank",
+                 "faction":  "neutral",
+                 "max_hp":  110,
+                 "stats":  {
+                               "fuerza":  8,
+                               "agilidad":  6,
+                               "inteligencia":  7,
+                               "suerte":  7
+                           },
+                 "unique_skill":  "niko_hammer",
+                 "progression":  {
+                                     "5":  "slash",
+                                     "10":  "regeneration"
+                                 }
+             },
+    "su":  {
+               "role":  "dps",
+               "faction":  "neutral",
+               "max_hp":  90,
+               "stats":  {
+                             "fuerza":  5,
+                             "agilidad":  8,
+                             "inteligencia":  9,
+                             "suerte":  6
+                         },
+               "unique_skill":  "su_tide",
+               "progression":  {
+                                   "5":  "magic_bolt",
+                                   "10":  "regeneration"
+                               }
+           },
+    "chihaya":  {
+                    "role":  "dps",
+                    "faction":  "neutral",
+                    "max_hp":  100,
+                    "stats":  {
+                                  "fuerza":  7,
+                                  "agilidad":  7,
+                                  "inteligencia":  8,
+                                  "suerte":  7
+                              },
+                    "unique_skill":  "chihaya_tactic",
+                    "progression":  {
+                                        "5":  "quick_shot",
+                                        "10":  "slash"
+                                    }
+                },
+    "mela": {
+        "role": "dps",
+        "faction": "neutral",
+        "max_hp": 100,
+        "stats": {
+        "fuerza": 8,
+        "agilidad": 7,
+        "inteligencia": 5,
+        "suerte": 6
+        },
+        "unique_skill": "mela_flame",
+        "progression": {
+        "5": "slash",
+        "10": "magic_bolt"
+        }
+    },
+    "kyoko": {
+        "role": "tank",
+        "faction": "neutral",
+        "max_hp": 115,
+        "stats": {
+        "fuerza": 7,
+        "agilidad": 5,
+        "inteligencia": 6,
+        "suerte": 6
+        },
+        "unique_skill": "kyoko_megaphone",
+        "progression": {
+        "5": "quick_shot",
+        "10": "regeneration"
+        }
+    },
+    "tsuzuri": {
+        "role": "dps",
+        "faction": "neutral",
+        "max_hp": 90,
+        "stats": {
+        "fuerza": 5,
+        "agilidad": 10,
+        "inteligencia": 6,
+        "suerte": 7
+        },
+        "unique_skill": "tsuzuri_express",
+        "progression": {
+        "5": "slash",
+        "10": "quick_shot"
+        }
+    },
+    "sopia": {
+        "role": "support",
+        "faction": "neutral",
+        "max_hp": 95,
+        "stats": {
+        "fuerza": 4,
+        "agilidad": 6,
+        "inteligencia": 10,
+        "suerte": 8
+        },
+        "unique_skill": "sopia_orbital",
+        "progression": {
+        "5": "magic_bolt",
+        "10": "regeneration"
+        }
+    }
+}
