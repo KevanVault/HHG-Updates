@@ -1,6 +1,102 @@
 {
-  "version": "1.3",
+  "version": "1.3.1",
   "files": {
+    "Holo Hunger Games.exe": {
+      "hash": "96618b3506b09dba0a93287984b3e047529fb91b5dd85299da9ecec61919b042",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/Holo%20Hunger%20Games.exe"
+    },
+    "_internal/game_data/data/characters_definitions.json": {
+      "hash": "cc513e7d4796337f34fd6de6790f1c9d9e453d22b1c313fa0bdd00af43674550",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/characters_definitions.json"
+    },
+    "_internal/game_data/data/skills_definitions.json": {
+      "hash": "680cb02d21ce4278aafef2db53c75a96d3bf1ef90224ed6a920e06f4de3ed13d",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/skills_definitions.json"
+    },
+    "_internal/game_data/data/shop_catalog_definitions.json": {
+      "hash": "cb4f03e81cc428b54f1c73265fa805237858809f945f231a2440461de366bac0",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/shop_catalog_definitions.json"
+    },
+    "_internal/game_data/locales/es.json": {
+      "hash": "1a694caa8920f8b9c93cfae4d4388bbcb198bb8a3bbee592606bfa643a070325",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/es.json"
+    },
+    "_internal/game_data/locales/en.json": {
+      "hash": "20643bbc8e1e6a101c4be773051682730b984546040af23a6978a15783a2542c",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/en.json"
+    },
+    "_internal/game_data/locales/jp.json": {
+      "hash": "fa3f9fc0fc7face52d5c5a7e1abafa6039944e277ea9ca6cec09c5aedf341d14",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/main/jp.json"
+    },
+    "_internal/game_data/locales/es/characters.json": {
+      "hash": "e4f7276cbc87d864216d536d59c6bceb2a8b570c1f76a715eec321c0ccc8746d",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/es/characters.json"
+    },
+    "_internal/game_data/locales/en/characters.json": {
+      "hash": "42ddb20520c9245666c6b366d60a20c8596650d263ef1b73e48f53b55ab08360",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/en/characters.json"
+    },
+    "_internal/game_data/locales/jp/characters.json": {
+      "hash": "9a0ed5c5d7cf090a562afbe8d76527510fc18608df3af126cd714761e7309332",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/jp/characters.json"
+    },
+    "_internal/game_data/locales/es/skills.json": {
+      "hash": "993487298291b457f8a8eb2f75afbc5d997a261bc81902bc919b7890e835ebde",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/es/skills.json"
+    },
+    "_internal/game_data/locales/en/skills.json": {
+      "hash": "d36eca135c28d72c6fa645b005ff16840fb62a6e19a1acbeb6a4e03fdea079b5",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/en/skills.json"
+    },
+    "_internal/game_data/locales/jp/skills.json": {
+      "hash": "93f7f4149775e6bc2add2b98f5c0f5c010e70541f203cb6cc58d2e39843bb738",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/jp/skills.json"
+    },
+    "_internal/game_data/locales/es/shop_catalog.json": {
+      "hash": "1f522ca64662fd6a377df89d9a7016441f54da7e0dc22cca3b3e4ed6235cc901",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/es/shop_catalog.json"
+    },
+    "_internal/game_data/locales/en/shop_catalog.json": {
+      "hash": "e2f05e302cf5da431d436dbe1ca0a7f55406f6275af399bf4538dafc476e79a4",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/en/shop_catalog.json"
+    },
+    "_internal/game_data/locales/jp/shop_catalog.json": {
+      "hash": "f2991870c542d690c24b47de423e7899e232f7393d6b50c498e7df2c389fc750",
+      "url": "https://github.com/KevanVault/HHG-Updates/raw/refs/heads/jp/shop_catalog.json"
+    },
+    "_internal/assets/holopedia/Achichi Mela.png": {
+      "hash": "3d5cf1b198f2fd6621c29de5b42b696c08b67d0b637451c85ccf56f5e4809d41",
+      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/Achichi%20Mela.png?raw=true"
+    },
+    "_internal/assets/holopedia/Sorashina Sopia.png": {
+      "hash": "a7aee514c72491a5bcd1715ce0790460eb3af13d702b81d8c11960852e207790",
+      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/Sorashina%20Sopia.png?raw=true"
+    },
+    "_internal/assets/holopedia/Suzuna Tsuzuri.png": {
+      "hash": "196446b8b074c5dfbee781eadbdc61d6c08fdb7778270182c3915246225cc1c2",
+      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/Suzuna%20Tsuzuri.png?raw=true"
+    },
+    "_internal/assets/holopedia/Hyakuto Kyoko.png": {
+      "hash": "7300bf4f9b2baf4dd5452448bb9ec460004e82763a22a2eeecba4057d7b1c1a5",
+      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/Hyakuto%20Kyoko.png?raw=true"
+    },
+    "_internal/assets/sprites/Achichi_Mela.png": {
+      "hash": "0fe3f00f917b47a2a8f64ee07666432b882b4990e57e0fd74d6c4441358095e6",
+      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/Achichi_Mela.png?raw=true"
+    },
+    "_internal/assets/sprites/Sorashina_Sopia.png": {
+      "hash": "7dddeee6deac868a38c4db4291251fc4c6b26fd8a0c639b358ed7fdbff202a40",
+      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/Sorashina_Sopia.png?raw=true"
+    },
+    "_internal/assets/sprites/Suzuna_Tsuzuri.png": {
+      "hash": "b91aca074e0f784c8078a3e8d4b7e8f2f460ab8b1ee4d999d91987d680b3be93",
+      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/Suzuna_Tsuzuri.png?raw=true"
+    },
+    "_internal/assets/sprites/Hyakuto_Kyoko.png": {
+      "hash": "cb747da9cf8cecdf052608f4fd1093c647d5250486f72fed39368e96e9e533a2",
+      "url": "https://github.com/KevanVault/HHG-Updates/blob/main/Hyakuto_Kyoko.png?raw=true"
+    }
   },
   "files_to_remove": [
   ]
